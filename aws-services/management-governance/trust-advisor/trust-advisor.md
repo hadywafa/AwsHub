@@ -1,4 +1,4 @@
-# AWS Trusted Advisor 🧙‍♂️
+# **🧙‍♂️ AWS Trusted Advisor**
 
 AWS Trusted Advisor is an **online tool** designed to help you follow AWS best practices by analyzing your environment and providing **actionable recommendations**. These recommendations span cost savings, performance improvements, security enhancements, fault tolerance, and service limits.
 
@@ -24,37 +24,39 @@ AWS Trusted Advisor inspects your AWS environment and provides real-time guidanc
 
 ## 🔄 **Key Features**
 
-1. **Comprehensive Recommendations**  
-   Trusted Advisor provides insights and suggested actions for:
+### **Comprehensive Recommendations**
 
-   1. **Cost Optimization 💰**
+Trusted Advisor provides insights and suggested actions for:
 
-      - Identify unused resources like idle EC2 instances or underutilized EBS volumes.
-      - Highlight savings opportunities by choosing reserved instances or savings plans.
+1. **💰 Cost Optimization**
 
-   2. **Performance Optimization ⚡**
+   - Identify unused resources like idle EC2 instances or underutilized EBS volumes.
+   - Highlight savings opportunities by choosing reserved instances or savings plans.
 
-      - Detect potential performance bottlenecks in EC2, RDS, or other services.
-      - Recommend improvements to resource configurations for better efficiency.
+2. **⚡ Performance Optimization**
 
-   3. **Security Best Practices 🔒**
+   - Detect potential performance bottlenecks in EC2, RDS, or other services.
+   - Recommend improvements to resource configurations for better efficiency.
 
-      - Flag overly permissive IAM roles or unencrypted S3 buckets.
-      - Highlight compliance risks and suggest remediation steps.
+3. **🔒 Security Best Practices**
 
-   4. **Fault Tolerance 🌐**
+   - Flag overly permissive IAM roles or unencrypted S3 buckets.
+   - Highlight compliance risks and suggest remediation steps.
 
-      - Identify areas to improve system reliability, like enabling Multi-AZ for databases.
-      - Highlight redundant resource configurations to avoid single points of failure.
+4. **🌐 Fault Tolerance**
 
-   5. **Service Limits Monitoring 📈**
+   - Identify areas to improve system reliability, like enabling Multi-AZ for databases.
+   - Highlight redundant resource configurations to avoid single points of failure.
 
-      - Monitor usage of service limits to avoid disruptions in resource provisioning.
-      - Provide alerts when nearing limits for EC2 instances, Elastic IPs, or other services.
+5. **📈 Service Limits Monitoring**
 
-2. **Integration with CloudWatch**
-   - **Monitor Trusted Advisor Checks**: Use **CloudWatch Events** to track changes in check status.
-   - **Set Alarms**: Configure **CloudWatch Alarms** to alert you based on Trusted Advisor metrics.
+   - Monitor usage of service limits to avoid disruptions in resource provisioning.
+   - Provide alerts when nearing limits for EC2 instances, Elastic IPs, or other services.
+
+### **🔔 Integration with CloudWatch**
+
+- **Monitor Trusted Advisor Checks**: Use **CloudWatch Events** to track changes in check status.
+- **Set Alarms**: Configure **CloudWatch Alarms** to alert you based on Trusted Advisor metrics.
 
 ---
 
