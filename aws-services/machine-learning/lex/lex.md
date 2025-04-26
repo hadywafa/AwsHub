@@ -5,7 +5,7 @@ Amazon Lex is a fully managed service that enables developers to create conversa
 ---
 
 <div style="text-align: center;">
-    <img src="images/aws-lex.png" alt="Amazon Lex">
+    <img src="images/aws-lex.png" alt="Amazon Lex" style="border-radius: 10px; width: 80%;">
 </div>
 
 ---
