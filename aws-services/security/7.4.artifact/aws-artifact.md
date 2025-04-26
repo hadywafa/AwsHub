@@ -1,5 +1,11 @@
 # 📖 AWS Artifact: Your Compliance Document Library
 
+<div align="center">
+  <img src="images/aws-artifact.png" style="border-radius: 20px;" alt="AWS Artifact" />
+</div>
+
+---
+
 ## 🛠️ **What is AWS Artifact?**
 
 **AWS Artifact** is a service that provides on-demand access to AWS security and compliance documents. It's like a central library where you can find important documents that show AWS meets various security standards and regulations.

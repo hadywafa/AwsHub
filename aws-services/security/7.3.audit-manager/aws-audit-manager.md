@@ -1,5 +1,11 @@
 # 🧾 AWS Audit Manager: Easy Compliance Checking
 
+<div align="center">
+  <img src="images/aws-audit-manager-overview.png" style="border-radius: 20px; width: 80%;" alt="AWS Audit Manager Overview" />
+</div>
+
+---
+
 ## 🛠️ What is AWS Audit Manager?
 
 **AWS Audit Manager** helps you check if your AWS setup follows rules and standards. It's like having a checklist to make sure everything is done correctly.
@@ -10,6 +16,14 @@
 - **Prebuilt Frameworks:** It gives you ready-made checklists for common standards like GDPR, PCI DSS, and HIPAA.
 - **Custom Checklists:** You can make your own checklists for internal checks.
 - **Continuous Monitoring:** It keeps an eye on your AWS usage and collects evidence continuously.
+
+---
+
+<div align="center">
+  <img src="images/aws-audit-manager.png" style="border-radius: 20px;" alt="AWS Audit Manager" />
+</div>
+
+---
 
 ## 🌟 Why Use AWS Audit Manager
 
