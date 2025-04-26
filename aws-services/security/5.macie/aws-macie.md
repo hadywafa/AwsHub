@@ -1,12 +1,16 @@
 # 🪣🛡️ AWS Macie: Data Security and Privacy
 
-<div align="center">
-  <img src="images/aws-macie.png" alt="AWS Macie" />
-</div>
-
 ## ❓ What is AWS Macie?
 
 **Amazon Macie** is a fully managed data security and data privacy service that helps you discover and protect sensitive data stored in AWS. It uses advanced machine learning and pattern matching techniques to identify and secure your data.
+
+---
+
+<div align="center">
+  <img src="images/aws-macie-overview.png" alt="AWS Macie" style="border-radius: 20px" />
+</div>
+
+---
 
 ## 🛠️ Key Features of AWS Macie
 
