@@ -3,10 +3,10 @@
 **AWS Health Dashboard** offers customers a personalized view into the performance and availability of AWS services that underpin their AWS resources.
 
 <div align="center">
-  <img src="images/health-dashboard.png" alt="AWS Health Dashboard" />
+  <img src="images/health-dashboard.png" alt="AWS Health Dashboard" style="border-radius: 20px; width: 80%;"/>
 </div>
 
-## **Key Features:**
+## **🔑 Key Features:**
 
 ### 🔔 **Real-Time Alerts and Notifications**
 

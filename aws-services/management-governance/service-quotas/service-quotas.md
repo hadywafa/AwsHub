@@ -2,6 +2,14 @@
 
 **AWS Service Quotas** allows you to centrally view and manage the limits (quotas) for the resources you can use in your AWS account. Think of it as the maximum capacity or limits on what you can launch or use within AWS.
 
+---
+
+<div style="text-align: center;">
+  <img src="images/aws-service-quotas.png" alt="AWS Service Quotas" style="border-radius: 20px;">
+</div>
+
+---
+
 ## **Key Features:**
 
 ### 📋 **Understanding Service Quotas**

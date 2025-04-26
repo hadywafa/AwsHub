@@ -2,8 +2,16 @@
 
 **AWS Compute Optimizer** is a service that analyzes the configuration and utilization data of your AWS compute resources and provides optimization recommendations to help reduce costs and enhance performance.
 
+---
+
 <div align="center">
-  <img src="images/compute-optimizer.png" alt="compute-optimizer" />
+  <img src="images/aws-compute-optimizer.png" alt="compute-optimizer" style="border-radius: 40px; width: 80%;"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="images/compute-optimizer.png" alt="compute-optimizer" style="border-radius: 40px; width: 80%;"/>
 </div>
 
 ## **Key Features:**

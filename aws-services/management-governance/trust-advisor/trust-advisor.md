@@ -2,8 +2,10 @@
 
 AWS Trusted Advisor is an **online tool** designed to help you follow AWS best practices by analyzing your environment and providing **actionable recommendations**. These recommendations span cost savings, performance improvements, security enhancements, fault tolerance, and service limits.
 
+---
+
 <div align="center">
-  <img src="images/trust-optimizer.png" alt="AWS Trusted Advisor" />
+  <img src="images/trust-optimizer.png" alt="AWS Trusted Advisor" style="border-radius: 20px; width: 90%;"/>
 </div>
 
 ---
