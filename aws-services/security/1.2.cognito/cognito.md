@@ -1,6 +1,12 @@
-# AWS Cognito 🪪 🔐
+# 🪪 🔐 AWS Cognito
 
 Amazon Cognito provides **authentication**, **authorization**, and **user management** for web and mobile applications. It simplifies identity management by offering two core components: **Cognito User Pools** for authentication and **Cognito Identity Pools** for authorization.
+
+---
+
+<div align="center">
+  <img src="images/aws-cognito-overview.png" alt="aws-cognito-overview" style="border-radius: 20px; width: 80%;" />
+</div>
 
 ---
 
@@ -21,15 +27,19 @@ These components can be used **individually** or **together** based on your appl
 
 ## 🔑 **Cognito User Pools: Authentication**
 
-<div align="center">
-  <img src="images/aws-cognito-user-pools.gif" alt="Cognito User Pools" />
-</div>
-
 Cognito User Pools are primarily used for **user authentication**:
 
 - Enables **sign-up** and **sign-in** functionality for application users.
 - **User Management**: Stores user profiles and manages user directories.
 - **Customizable UI**: Provides a hosted web interface for user authentication flows.
+
+---
+
+<div align="center">
+  <img src="images/aws-cognito-user-pools.gif" alt="Cognito User Pools" style="border-radius: 20px;" />
+</div>
+
+---
 
 ### **Features:**
 
@@ -52,7 +62,7 @@ Cognito User Pools are primarily used for **user authentication**:
 ## 🏠 **Cognito Identity Pools: Authorization**
 
 <div align="center">
-  <img src="images/aws-cognito-identity-pools.gif" alt="Cognito Identity Pools" />
+  <img src="images/aws-cognito-identity-pools.gif" alt="Cognito Identity Pools" style="border-radius: 20px;" />
 </div>
 
 Cognito Identity Pools are designed to handle **authorization**, enabling applications to grant users **temporary AWS credentials** for accessing AWS services.
