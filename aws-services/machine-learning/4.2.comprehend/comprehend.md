@@ -108,6 +108,12 @@
 
 ---
 
+<div align="center" style="padding: 0 20px;">
+   <img src="images/aws-comprehend-medical-use-case.png" alt="Amazon Comprehend Medical Overview" style="border-radius: 16px; width: 75%;" />
+</div>
+
+---
+
 ## 🚀 **Why Choose Amazon Comprehend?**
 
 | Advantage                        | Why It Matters                                                       |
