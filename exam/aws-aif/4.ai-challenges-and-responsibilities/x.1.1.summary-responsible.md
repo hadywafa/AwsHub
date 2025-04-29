@@ -1,6 +1,5 @@
 # 🛡️ Responsible AI: Quick and Easy
 
-
 ## 🧠 Core Dimensions (Just Remember 8 Words)
 
 | Word                  | Meaning                           |
@@ -39,7 +38,7 @@
 
 ## 📜 AWS AI Service Cards
 
-- Mini documents 📜 explaining:
+- Mini documents explaining:
   - What the AI service is good for.
   - Limitations and best practices.
 - Helps you **use AI responsibly**.
@@ -89,10 +88,10 @@
 
 Design AI systems that:
 
-- Help humans make better decisions ✅.
-- Are simple, clear, and usable ✅.
-- Are free from bias ✅.
-- Learn and adapt to human needs ✅.
+- ✅ Help humans make better decisions .
+- ✅ Are simple, clear, and usable .
+- ✅ Are free from bias .
+- ✅ Learn and adapt to human needs .
 
 ✅ **Memory Tip**:
 
