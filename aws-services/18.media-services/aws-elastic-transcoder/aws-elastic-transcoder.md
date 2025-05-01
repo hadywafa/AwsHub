@@ -5,8 +5,13 @@ AWS Elastic Transcoder is a managed service that handles the complexity of media
 ---
 
 <div style="text-align: center;">
-    <img src="images/aws-elastic-transcoder-1.png" alt="AWS Elastic Transcoder 1">
-    <img src="images/aws-elastic-transcoder-2.png" alt="AWS Elastic Transcoder 2">
+    <img src="images/aws-elastic-transcoder.png" style="border-radius: 10px; width: 60%;" alt="AWS Elastic Transcoder">
+</div>
+
+---
+
+<div style="text-align: center;">
+    <img src="images/aws-elastic-transcoder-2.png" alt="AWS Elastic Transcoder 2" style="border-radius: 10px; width: 60%;">
 </div>
 
 ---
