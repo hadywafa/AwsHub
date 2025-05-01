@@ -30,7 +30,7 @@ Trusted Advisor provides insights and suggested actions for:
 
 1. **💰 Cost Optimization**
 
-   - Identify unused resources like idle EC2 instances or underutilized EBS volumes.
+   - Identify unused resources like idle EC2 instances or **underutilized EBS volumes**.
    - Highlight savings opportunities by choosing reserved instances or savings plans.
 
 2. **⚡ Performance Optimization**

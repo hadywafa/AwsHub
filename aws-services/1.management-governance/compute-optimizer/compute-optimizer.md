@@ -5,13 +5,13 @@
 ---
 
 <div align="center">
-  <img src="images/aws-compute-optimizer.png" alt="compute-optimizer" style="border-radius: 40px; width: 80%;"/>
+  <img src="images/aws-compute-optimizer.png" alt="compute-optimizer" style="border-radius: 20px; width: 80%;"/>
 </div>
 
 ---
 
 <div align="center">
-  <img src="images/compute-optimizer.png" alt="compute-optimizer" style="border-radius: 40px; width: 80%;"/>
+  <img src="images/compute-optimizer.png" alt="compute-optimizer" style="border-radius: 20px; width: 80%;"/>
 </div>
 
 ## **Key Features:**
