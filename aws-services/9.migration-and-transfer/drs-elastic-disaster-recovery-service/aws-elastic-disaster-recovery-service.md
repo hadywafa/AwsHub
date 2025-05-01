@@ -9,7 +9,13 @@ It helps you **minimize downtime**, avoid data loss, and **failover to AWS in mi
 ---
 
 <div align="center">
-  <img src="images/aws-drs.png" alt="AWS Elastic Disaster Recovery Overview" style="max-width: 100%; border-radius: 12px;">
+  <img src="images/aws-drs-overview.png" alt="alt text" style="border-radius: 10px; width: 80%;">
+</div>
+
+---
+
+<div align="center">
+  <img src="images/aws-drs.png" alt="AWS Elastic Disaster Recovery Overview" style="width: 80%; border-radius: 10px;">
 </div>
 
 ---

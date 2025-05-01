@@ -6,8 +6,8 @@ Think of AWS Data Exchange like an online store, but instead of buying products,
 ---
 
 <div align="center">
-  <img src="images/aws-data-exchange-1.png" alt="AWS Data Exchange - Providers"/>
-  <img src="images/aws-data-exchange-2.png" alt="AWS Data Exchange - Products"/>
+  <img src="images/aws-data-exchange-1.png" alt="AWS Data Exchange - Providers"  style="border-radius: 10px; width: 80%;"/>
+  <img src="images/aws-data-exchange-2.png" alt="AWS Data Exchange - Products"  style="border-radius: 10px; width: 80%;"/>
 </div>
 
 ---

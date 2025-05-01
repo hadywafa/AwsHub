@@ -5,7 +5,7 @@
 **AWS DataSync** is a secure, managed service that **automates and accelerates** the transfer of large datasets between **on-premises storage** and **AWS storage services** such as **Amazon S3**, **EFS**, or **FSx**.
 
 <div align="center">
-  <img src="images/aws-data-sync.png" alt="AWS DataSync Overview" style="border-radius: 20px; max-width: 90%;">
+  <img src="images/aws-data-sync.png" alt="AWS DataSync Overview" style="border-radius: 20px; width: 80%;">
 </div>
 
 ---
