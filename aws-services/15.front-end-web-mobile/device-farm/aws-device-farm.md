@@ -5,7 +5,13 @@ AWS Device Farm is your one-stop solution for testing iOS, Android, and Fire OS 
 ---
 
 <div style="text-align: center;">
-    <img src="images/aws-device-farm.png" alt="AWS Device Farm">
+    <img src="images/aws-device-farm.png" alt="AWS Device Farm" style="border-radius: 10px; width: 60%;">
+</div>
+
+---
+
+<div style="text-align: center;">
+    <img src="images/aws-device-farm-example.png" alt="AWS Device Farm"  style="border-radius: 10px; width: 60%;">
 </div>
 
 ---
