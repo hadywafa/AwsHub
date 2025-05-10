@@ -124,6 +124,11 @@ export class UploadComponent {
     <img src="images/no-sql-q1.png" alt="no-sql-q1" style="border-radius: 10px;">
 </div>
 
+<h2>Error 2</h2>
+<div align="center">
+    <img src="images/no-sql-q3.png" alt="no-sql-q3" style="border-radius: 10px;">
+</div>
+
 <h1>Analytics</h1>
 
 <h2>Error 1</h2>
