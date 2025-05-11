@@ -245,3 +245,5 @@ The solution assumes:
 </div>
 
 </div>
+
+![s3-stephan-q3](images/s3-stephan-q3.png)
