@@ -117,3 +117,33 @@
 > - So yes, a new snapshot is created in Region B as part of this AMI copy process
 
 ![exam_1_q62](images/exam_1_q62.png)
+
+## Correct Answer
+
+### Q32
+
+![exam_1_q32](images/exam_1_q32.png)
+
+---
+
+### Q35
+
+![exam_1_q35](images/exam_1_q35.png)
+
+---
+
+### Q37
+
+![exam_1_q37](images/exam_1_q37.png)
+
+---
+
+### Q42
+
+![exam_1_q42](images/exam_1_q42.png)
+
+---
+
+### Q57
+
+![exam_1_q57](images/exam_1_q57.png)
