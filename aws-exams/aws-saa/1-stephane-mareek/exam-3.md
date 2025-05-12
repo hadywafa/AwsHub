@@ -170,3 +170,11 @@
 <div style="text-align: center;">
     <img src="images/exam_3_q64.png" alt="exam_3_q64" style="border-radius: 10px; width: 60%;">
 </div>
+
+## Correct Answers
+
+### Q65
+
+<div style="text-align: center;">
+    <img src="images/exam_3_q65.png" alt="exam_3_q65" style="border-radius: 10px; width: 60%;">
+</div>
