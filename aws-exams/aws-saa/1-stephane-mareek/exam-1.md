@@ -4,31 +4,41 @@
 
 ### Q2
 
-![exam_1_q2](images/exam_1_q2.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q2.png" alt="exam_1_q2" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q6
 
-![exam_1_q6](images/exam_1_q6.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q6.png" alt="exam_1_q6" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q11
 
-![exam_1_q11](images/exam_1_q11.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q11.png" alt="exam_1_q11" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q12
 
-![exam_1_q12](images/exam_1_q12.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q12.png" alt="exam_1_q12" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q14
 
-![exam_1_q14](images/exam_1_q14.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q14.png" alt="exam_1_q14" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -38,13 +48,19 @@
 >
 > - Instance Store volumes (a.k.a. ephemeral storage) are physically attached SSDs or NVMe devices, offering very high IOPS and low latency — ideal for high random I/O workloads.
 
-![exam_1_q16](images/exam_1_q16.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/exam_1_q16.png" alt="exam_1_q16" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q20
 
-![exam_1_q20](images/exam_1_q20.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q20.png" alt="exam_1_q20" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -56,7 +72,11 @@
 >
 > - Therefore, not enabling consolidated billing results in each account being charged the full fee, leading to unexpectedly high costs.
 
-![exam_1_q25](images/exam_1_q25.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/exam_1_q25.png" alt="exam_1_q25" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -70,11 +90,17 @@
 | **EFS Standard** | \~\$0.30                       | **\$0.30**                                |
 | **EBS (gp2)**    | \~\$0.10 \* 100 GB provisioned | **\$10.00** (charged on provisioned size) |
 
-![exam_1_q33](images/exam_1_q33.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/exam_1_q33.png" alt="exam_1_q33" style="border-radius: 10px; width: 60%;">
+</div>
 
 ### Q49
 
-![exam_1_q49](images/exam_1_q49.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q49.png" alt="exam_1_q49" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -90,13 +116,19 @@
 >   - S3 One Zone-IA has a 30-day minimum storage duration, so transitioning earlier (e.g., at 7 days) would incur early deletion charges.
 >   - Therefore, waiting 30 days avoids penalties.
 
-![exam_1_q51](images/exam_1_q51.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/exam_1_q51.png" alt="exam_1_q51" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q58 😱
 
-![exam_1_q58](images/exam_1_q58.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q58.png" alt="exam_1_q58" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -104,7 +136,11 @@
 
 > - Minimal application refactoring — which means staying within the same database engine where possible (Aurora)
 
-![exam_1_q60](images/exam_1_q60.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/exam_1_q60.png" alt="exam_1_q60" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -116,34 +152,48 @@
 > - Registers a new AMI in Region B that points to the new snapshot
 > - So yes, a new snapshot is created in Region B as part of this AMI copy process
 
-![exam_1_q62](images/exam_1_q62.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/exam_1_q62.png" alt="exam_1_q62" style="border-radius: 10px; width: 60%;">
+</div>
 
 ## Correct Answer
 
 ### Q32
 
-![exam_1_q32](images/exam_1_q32.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q32.png" alt="exam_1_q32" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q35
 
-![exam_1_q35](images/exam_1_q35.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q35.png" alt="exam_1_q35" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q37
 
-![exam_1_q37](images/exam_1_q37.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q37.png" alt="exam_1_q37" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q42
 
-![exam_1_q42](images/exam_1_q42.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q42.png" alt="exam_1_q42" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
 ### Q57
 
-![exam_1_q57](images/exam_1_q57.png)
+<div style="text-align: center;">
+    <img src="images/exam_1_q57.png" alt="exam_1_q57" style="border-radius: 10px; width: 60%;">
+</div>
