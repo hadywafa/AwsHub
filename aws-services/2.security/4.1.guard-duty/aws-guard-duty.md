@@ -5,7 +5,7 @@
 ---
 
 <div align="center" style="padding: 0 20px;">
-  <img src="images/aws-guard-duty-overview.png" alt="AWS GuardDuty Overview" style="border-radius: 20px; width: 80%;" />
+  <img src="images/aws-guard-duty-overview.png" alt="AWS GuardDuty Overview" style="border-radius: 20px; width: 100%;" />
 </div>
 
 ---
@@ -25,7 +25,7 @@
 ## 🛠️ **How AWS GuardDuty Works**
 
 <div align="center">
-<img src="images/aws-guard-duty.png" alt="AWS GuardDuty" style="border-radius: 20px; width: 80%;" />
+<img src="images/aws-guard-duty.png" alt="AWS GuardDuty" style="border-radius: 20px; width: 100%;" />
 
 ✅ GuardDuty **collects logs**, **analyzes patterns**, **detects anomalies**, and **generates actionable findings**.
 

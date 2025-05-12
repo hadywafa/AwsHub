@@ -1,4 +1,4 @@
-# Course Exam
+# Exam 1
 
 ## Incorrect Answer
 
