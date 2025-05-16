@@ -19,6 +19,16 @@
 
 <h2>Error 2</h2>
 <div align="center">
+    <img src="images/s3-stephan-q4.png" alt="s3-q6" style="border-radius: 10px;">
+</div>
+
+<h2>Error 3</h2>
+<div align="center">
+    <img src="images/s3-stephan-q8.png" alt="s3-q6" style="border-radius: 10px;">
+</div>
+
+<h2>Error 4</h2>
+<div align="center">
     <img src="images/s3-q7.png" alt="s3-q7" style="border-radius: 10px;">
 </div>
 
