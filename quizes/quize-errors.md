@@ -257,3 +257,5 @@ The solution assumes:
 </div>
 
 ![s3-stephan-q3](images/s3-stephan-q3.png)
+
+![cfn-stephan-q1](images/cfn-stephan-q1.png)
