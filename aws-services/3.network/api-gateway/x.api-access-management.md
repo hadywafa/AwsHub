@@ -2,7 +2,11 @@
 
 Amazon API Gateway provides robust mechanisms for controlling access to your APIs, ensuring that only authorized users and services can invoke them. This guide outlines the key authentication and authorization methods available in API Gateway, helping you implement secure and efficient API access management.
 
-![API Gateway Access Management](images/auth-for-private-api-endpoints-in-vpc.png)
+---
+
+<div style="text-align: center;">
+  <img src="images/auth-for-private-api-endpoints-in-vpc.png" alt="API Gateway Access Management" style="border-radius: 10px; width: 60%;" />
+</div>
 
 ---
 
@@ -22,7 +26,14 @@ Amazon API Gateway provides robust mechanisms for controlling access to your API
 **IAM Policies** leverage AWS Identity and Access Management (IAM) to control both authentication and authorization for API access.
 
 - **How It Works:**
-  ![Auth Using IAM Policies](images/auth-using-iam-policies.png)
+
+---
+
+<div style="text-align: left;">
+  <img src="images/auth-using-iam-policies.png" alt="Auth Using IAM Policies" style="border-radius: 10px; width: 60%;" />
+</div>
+
+---
 
 - **Authentication & Authorization:** Uses IAM credentials to authenticate users and define permissions via IAM access policies.
 - **Usage Scenario:** Ideal for internal applications where AWS users and roles manage API access.
@@ -33,7 +44,13 @@ Amazon API Gateway provides robust mechanisms for controlling access to your API
 
 - **How It Works:**
 
-  ![Auth Using Resource-Based Policies](images/auth-using-resource-based-policies.png)
+---
+
+<div style="text-align: left;">
+  <img src="images/auth-using-resource-based-policies.png" alt="Auth Using Resource-Based Policies" style="border-radius: 10px; width: 60%;" />
+</div>
+
+---
 
 - **Principal Specification:** Define which IAM users or roles can invoke the API.
 - **Usage Scenario:** Best suited for scenarios requiring fine-grained access control across different AWS accounts.
@@ -43,12 +60,19 @@ Amazon API Gateway provides robust mechanisms for controlling access to your API
 **Lambda Authorizers** (formerly known as Custom Authorizers) use AWS Lambda functions to implement custom authentication and authorization logic.
 
 - **How It Works:**
-  ![Auth Using Lambda Authorizers](images/auth-using-lambda-authorizers.png)
 
-  1. **Token Validation:** The client obtains a token from an identity provider.
-  2. **Invocation:** The client sends a request with the token to the API Gateway.
-  3. **Authorization:** API Gateway invokes the Lambda authorizer to validate the token and generate an IAM policy.
-  4. **Caching:** The resulting policy can be cached for up to one hour to optimize performance.
+---
+
+<div style="text-align: left;">
+  <img src="images/auth-using-lambda-authorizers.png" alt="Auth Using Lambda Authorizers" style="border-radius: 10px; width: 60%;" />
+</div>
+
+---
+
+1. **Token Validation:** The client obtains a token from an identity provider.
+2. **Invocation:** The client sends a request with the token to the API Gateway.
+3. **Authorization:** API Gateway invokes the Lambda authorizer to validate the token and generate an IAM policy.
+4. **Caching:** The resulting policy can be cached for up to one hour to optimize performance.
 
 - **Usage Scenario:** Suitable for custom authentication mechanisms, such as integrating with third-party identity providers or implementing specific business logic.
 
@@ -58,11 +82,17 @@ Amazon API Gateway provides robust mechanisms for controlling access to your API
 
 - **How It Works:**
 
-  ![Auth Using Cognito User Pools](images/auth-using-cognito-user-pools.png)
+---
 
-  1. **User Sign-In:** Clients authenticate with the Cognito User Pool and receive a JSON Web Token (JWT).
-  2. **API Invocation:** Clients include the JWT in API requests.
-  3. **Token Verification:** API Gateway verifies the JWT with Cognito before granting access.
+<div style="text-align: center;">
+  <img src="images/auth-using-cognito-user-pools.png" alt="Auth Using Cognito User Pools" style="border-radius: 10px; width: 60%;" />
+</div>
+
+---
+
+1. **User Sign-In:** Clients authenticate with the Cognito User Pool and receive a JSON Web Token (JWT).
+2. **API Invocation:** Clients include the JWT in API requests.
+3. **Token Verification:** API Gateway verifies the JWT with Cognito before granting access.
 
 - **Limitations:** Cognito User Pools handle authentication only; for authorization, you need to use Cognito Identity Pools or Lambda Authorizers.
 
@@ -97,7 +127,13 @@ For APIs that need to be accessible only within a Virtual Private Cloud (VPC), *
 
 ### 🛠️ **How It Works:**
 
-![Auth for Private API Endpoints in VPC](images/auth-for-private-api-endpoints-in-vpc.png)
+---
+
+<div style="text-align: center;">
+  <img src="images/auth-for-private-api-endpoints-in-vpc.png" alt="Auth for Private API Endpoints in VPC" style="border-radius: 10px; width: 60%;" />
+</div>
+
+---
 
 - **VPC Interface Endpoints:** API Gateway uses VPC interface endpoints to serve APIs privately within a VPC.
 - **Access Control:** Utilize endpoint policies to control which VPC resources can access the APIs.

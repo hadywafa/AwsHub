@@ -2,7 +2,11 @@
 
 Effective monitoring is crucial for maintaining the performance, reliability, and security of your APIs. Amazon API Gateway integrates seamlessly with various AWS services to provide comprehensive monitoring capabilities. This guide offers a clear and concise overview of API Gateway monitoring, highlighting key tools, features, and best practices.
 
-![API Gateway Monitoring](images/api-gateway.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/api-gateway.png" alt="API Gateway Monitoring" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 

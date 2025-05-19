@@ -2,7 +2,11 @@
 
 Amazon API Gateway is a fully managed service that enables you to create, publish, maintain, monitor, and secure APIs at any scale. Whether you're building REST, HTTP, or WebSocket APIs, API Gateway simplifies the process, allowing you to handle hundreds of thousands of API calls efficiently.
 
-![API Gateway](images/api-gateway.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/api-gateway.png" alt="API Gateway" style="border-radius: 10px; width: 60%;">
+</div>
 
 ---
 
@@ -72,7 +76,13 @@ APIs can be created and managed using multiple methods:
 
 ### 1. **Edge Optimized Endpoint**
 
-![Edge Optimized Endpoint](images/edge-optimized-endpoint.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/edge-optimized-endpoint.png" alt="Edge Optimized Endpoint" style="border-radius: 10px; width: 60%;">
+</div>
+
+---
 
 - **Functionality:** Fronted by CloudFront by default.
 - **Use Case:** Serve public APIs to geographically diverse (global) clients with low latency.
@@ -81,7 +91,13 @@ APIs can be created and managed using multiple methods:
 
 ### 2. **Regional API Endpoint**
 
-![Regional API Endpoint](images/regional-api-endpoint.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/regional-api-endpoint.png" alt="Regional API Endpoint" style="border-radius: 10px; width: 60%;">
+</div>
+
+---
 
 - **Functionality:** Serves API requests within the same AWS region.
 - **Use Case:** Suitable for APIs targeted at regional client bases.
@@ -90,7 +106,13 @@ APIs can be created and managed using multiple methods:
 
 ### 3. **Private API Endpoint**
 
-![Private API Endpoint](images/private-api-endpoint.png)
+---
+
+<div style="text-align: center;">
+    <img src="images/private-api-endpoint.png" alt="Private API Endpoint" style="border-radius: 10px; width: 60%;">
+</div>
+
+---
 
 - **Functionality:** Serves APIs privately within a VPC using API Gateway VPC interface endpoints.
 - **Use Case:** Secure APIs for internal applications without exposing them to the internet.
