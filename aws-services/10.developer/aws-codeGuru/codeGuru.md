@@ -5,14 +5,19 @@ _ML-Powered Code Reviews & Performance Tuning!_
 ---
 
 <div style="text-align: center;">
-    <img src="images/aws-codeGuru.png" alt="aws-codeGuru" style="border-radius: 10px; width: 60%;" />
+    <img src="images/aws-codeGuru.png" alt="aws-codeGuru" style="border-radius: 10px; width: 100%;" />
 </div>
 
 ---
 
-**Amazon CodeGuru** is a developer tool powered by **machine learning** that helps you **automate code reviews** and **optimize application performance**.
+## ⁉️ **What is AWS** **Amazon CodeGuru**
+
+👉 **Amazon CodeGuru** is a developer tool powered by **machine learning** that helps you **automate code reviews** and **optimize application performance**.
 
 It offers **two main components**:
+
+1. 🧠 **CodeGuru Reviewer** (🛠️ Development Phase)
+2. 📊 **CodeGuru Profiler** (🚀 Production Phase)
 
 ---
 
