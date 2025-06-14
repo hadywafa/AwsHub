@@ -7,13 +7,13 @@
 ---
 
 <div align="center">
-  <img src="images/aws-control-tower-2.png" alt="AWS Control Tower Overview" style="max-width: 720px; border-radius: 10px;" />
+  <img src="images/aws-control-tower-2.png" alt="AWS Control Tower Overview" style="width: 100%; border-radius: 10px;" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="images/aws-control-tower-1.png" alt="Control Tower Benefits" style="max-width: 720px; border-radius: 10px;" />
+  <img src="images/aws-control-tower-1.png" alt="Control Tower Benefits" style="width: 100%; border-radius: 10px;" />
 </div>
 
 ---
