@@ -2,6 +2,12 @@
 
 > _Manage approved AWS resources centrally, standardize deployments, and empower teams with self-service — while maintaining full governance._
 
+<div align="center">
+  <img src="images/aws-service-catalog.png" alt="AWS Service Catalog" style="border-radius: 20px; width: 80%;" />
+</div>
+
+---
+
 ## 🧠 **What is AWS Service Catalog?**
 
 **AWS Service Catalog** helps organizations manage and distribute IT services. Think of it like a menu at a restaurant, but instead of food, it's a list of approved IT resources and services you can use. Here’s a breakdown:
@@ -15,13 +21,13 @@
 ---
 
 <div align="center">
-  <img src="images/aws-service-catalog.png" alt="AWS Service Catalog" style="border-radius: 20px; width: 80%;" />
+  <img src="images/service-catalog.png" alt="AWS Service Catalog Lifecycle" style="width: 80%; border-radius: 20px; " />
 </div>
 
 ---
 
 <div align="center">
-  <img src="images/service-catalog-lifecycle.png" alt="AWS Service Catalog Lifecycle" style="width: 40%; border-radius: 20px; " />
+  <img src="images/service-catalog-lifecycle.png" alt="AWS Service Catalog Lifecycle" style="width: 80%; border-radius: 20px; " />
 </div>
 
 ---
