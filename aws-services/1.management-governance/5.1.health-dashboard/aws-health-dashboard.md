@@ -143,3 +143,9 @@ Let’s walk through an example setup:
 | ------------------- | ----------------------------------------------- |
 | **Service History** | Global AWS service status (all users)           |
 | **Account Health**  | Alerts & guidance **for your specific account** |
+
+### 📚 Quiz
+
+<div style="text-align: center;">
+    <img src="images/quiz.png" alt="quiz" style="border-radius: 10px; width: 80%;">
+</div>
