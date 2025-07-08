@@ -1,7 +1,5 @@
 # 🚀 Full Deployment Examples (With Explanations): .NET & Angular → EC2, S3, Amplify
 
----
-
 ## 🖥️ 1. Deploying a .NET API to EC2 with CodeDeploy
 
 ### 📦 `buildspec.yml` (Line-by-Line Explanation)

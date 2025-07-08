@@ -1,7 +1,7 @@
 # 🏗️ Monorepo Deployment with CodePipeline, CodeBuild, and CodeDeploy
 
-> ✅ Use Case: Deploy multiple independent services (like frontend and backend) from a **single monorepo**
-> 🧩 Tools: CodePipeline, CodeBuild, CodeDeploy, buildspec.yml, appspec.yml
+> ✅ Use Case: Deploy multiple independent services (like frontend and backend) from a **single monorepo**  
+> 🧩 Tools: CodePipeline, CodeBuild, CodeDeploy, buildspec.yml, appspec.yml  
 > 🧰 Challenge: Cleanly separate builds, deployments, and scripts for each project in one repo
 
 ---
