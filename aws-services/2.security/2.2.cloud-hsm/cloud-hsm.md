@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/cloud-hsm
+aliases:
+  - "AWS CloudHSM Dedicated Cryptographic Security in the Cloud"
+  - "Cloud Hsm"
+---
+
 # 🔐 **AWS CloudHSM: Dedicated Cryptographic Security in the Cloud**
 
 > _Secure, control, and manage your cryptographic keys with hardware-backed assurance — all within your AWS environment._
@@ -150,3 +161,13 @@
 ## 🔥 **Final Pro Tip**
 
 > 🧠 **Use AWS CloudHSM when you need hardware isolation and regulatory-grade security** — and **pair it with AWS KMS Custom Key Store** when you want to bring this power seamlessly into AWS service integrations like S3, EBS, and RDS.
+---
+
+## Related Notes
+- [[aws-services/2.security/2.2.cloud-hsm/|Index]] - folder map
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions Aws Kms
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions Ebs
+
+---

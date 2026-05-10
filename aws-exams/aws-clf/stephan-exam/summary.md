@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-clf
+  - aws/cert/stephan-exam
+aliases:
+  - "Exam Summary"
+---
+
 # Exam Summary
 
 ## ❌ Q4
@@ -103,3 +113,8 @@ S3 is object storage and it does not support file append operations, so this opt
 ## ❌ Q64
 
 ![alt text](image-18.png)
+---
+
+## Related Notes
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/compute
+  - aws/topic/vmware-cloud-on-aws
+aliases:
+  - "VMware Cloud on AWS Your Data Center Meets the Cloud"
+  - "Vmware Cloud On AWS"
+---
+
 # **☁️ VMware Cloud on AWS: Your Data Center Meets the Cloud**
 
 **VMware Cloud on AWS** is a **joint service from VMware and AWS** that bridges the gap between your on-premises data center and the scalability of AWS. It allows you to **run, migrate, and manage your VMware workloads in the AWS Cloud** using **the same VMware tools you already know and love** — no refactoring needed, no drama.
@@ -120,3 +131,11 @@ Let your VMs talk to AWS services like **RDS**, **S3**, **Lambda**, **CloudWatch
 **VMware Cloud on AWS** is your no-compromise bridge to the cloud. You get the **enterprise-grade tools you trust from VMware**, deployed in the **scalable and global AWS cloud**, with deep integration and unified operations.
 
 > Already running VMware and dreaming of cloud? You don’t need to start over — just stretch into AWS. VMware Cloud on AWS makes it smooth, fast, and powerful.
+---
+
+## Related Notes
+- [[aws-daily/aws-cloud-Concepts/6.disaster-recovery|Disaster Recovery DR in AWS]] - mentions Disaster Recovery
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

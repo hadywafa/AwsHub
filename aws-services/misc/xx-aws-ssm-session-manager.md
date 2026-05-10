@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/topic/misc
+aliases:
+  - "AWS SSM Session Manager Secure and Simplified Instance Management"
+  - "AWS Ssm Session Manager"
+---
+
 # 🔧 AWS SSM Session Manager: Secure and Simplified Instance Management
 
 AWS SSM Session Manager is a fully managed capability of AWS Systems Manager (SSM) that allows secure and seamless management of **EC2 instances**, **on-premises servers**, and **virtual machines (VMs)** without the need to open inbound ports like SSH or RDP.
@@ -38,3 +48,11 @@ AWS SSM Session Manager is a fully managed capability of AWS Systems Manager (SS
 ---
 
 AWS SSM Session Manager simplifies instance management, making it secure, efficient, and ideal for organizations looking to enhance their operational efficiency and security posture.
+---
+
+## Related Notes
+- [[aws-services/misc/xx-aws-cost-explorer|AWS Cost Explorer Visualize and Analyze Your Costs]] - previous lesson
+- [[aws-services/misc/xx-cost-management|Cost Management in AWS]] - next lesson
+- [[aws-services/1.management-governance/4.1.system-manager/2.1.session-manager|AWS SSM Session Manager Secure Shell Access Without SSH]] - mentions Session Manager
+
+---

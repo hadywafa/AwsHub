@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/transcribe
+aliases:
+  - "Amazon Transcribe Turn Speech into Text at Scale"
+  - "Transcribe"
+---
+
 # 🤖 \(📺 🔉 ➔ 🧾\) **Amazon Transcribe: Turn Speech into Text at Scale**
 
 > _Convert audio and video content into accurate, searchable, and actionable text — automatically._
@@ -113,3 +124,10 @@ flowchart LR
 > Turning **speech → text → insights** — **all in one pipeline**!
 
 ✅ Speech + Text + Analysis = 🚀 **Supercharged intelligence workflows**
+---
+
+## Related Notes
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/12.machine-learning/4.2.comprehend/comprehend|Amazon Comprehend Unlock Insights from Text]] - mentions Comprehend
+
+---

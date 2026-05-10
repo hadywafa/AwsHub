@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/secret-manager
+aliases:
+  - "AWS Secrets Manager Secure Secrets Management at Scale"
+  - "Secret Manager"
+---
+
 # 🔐 **AWS Secrets Manager: Secure Secrets Management at Scale**
 
 > _Store, rotate, and manage your credentials and secrets centrally — with fine-grained access control and full auditability._
@@ -175,3 +186,17 @@ aws secretsmanager tag-resource \
 ```
 
 > Helps in tracking, billing, and access control via tag-based IAM policies.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/4.2.secret-manager/|Index]] - folder map
+- [[aws-services/1.management-governance/4.1.system-manager/3.3.parameter_store|AWS SSM Parameter Store]] - mentions Parameter Store
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/1.management-governance/4.1.system-manager/3.1.app-config|AWS AppConfig]] - mentions App Config
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|AWS Cli]] - mentions AWS Cli
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+- [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions ECS
+
+---

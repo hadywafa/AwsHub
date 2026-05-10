@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/quiz
+aliases:
+  - "Quiz Notes"
+  - "Quize Notes"
+---
+
 # Quiz Notes
 
 <div align="center">
@@ -6,3 +15,9 @@
     <h1>Analysis</h1>
     <img src="images/analysis-q6.png" alt="analysis-q6">
 </div>
+---
+
+## Related Notes
+- [[quizes/quize-errors|Quiz Errors]] - previous lesson
+
+---

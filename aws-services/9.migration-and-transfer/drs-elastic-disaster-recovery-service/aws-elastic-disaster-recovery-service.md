@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/migration-and-transfer
+  - aws/topic/drs-elastic-disaster-recovery-service
+aliases:
+  - "AWS Elastic Disaster Recovery DRS"
+  - "AWS Elastic Disaster Recovery Service"
+---
+
 # 🔁♻️❤️‍🩹 **AWS Elastic Disaster Recovery (DRS)**
 
 > _“Your safety net for critical workloads in the cloud.”_
@@ -172,3 +183,11 @@ sequenceDiagram
 **AWS Elastic Disaster Recovery (DRS)** provides a **modern**, **automated**, and **affordable** DR solution for businesses of all sizes. With its **near-zero RPOs**, **fast failover**, and **cost-effective staging**, it’s your go-to service for business continuity in the cloud.
 
 🔐 Be ready for the unexpected. With AWS DRS, your critical workloads are just minutes away from recovery.
+---
+
+## Related Notes
+- [[aws-daily/aws-cloud-Concepts/6.disaster-recovery|Disaster Recovery DR in AWS]] - mentions Disaster Recovery
+- [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+
+---

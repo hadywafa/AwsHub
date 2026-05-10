@@ -1,3 +1,10 @@
+﻿---
+tags:
+  - aws
+aliases:
+  - "AWS Route53"
+---
+
 # AWS Route53
 
 ![alt text](images/route-traffic.png)
@@ -108,3 +115,13 @@ Understanding these record types will help you manage DNS settings effectively a
 - **Use Case**: Controlling access to resources based on IP addresses or routing traffic between different IP address ranges.
 
 These routing policies offer flexibility and control over how traffic is routed within AWS environments, allowing administrators to tailor routing decisions based on various factors such as geographic location, network latency, or application requirements.
+---
+
+## Related Notes
+- [[ا-delete-me/aws-api-getway|AWS API Gateway]] - previous lesson
+- [[ا-delete-me/networking-basics|Virtual Private Cloud]] - next lesson
+- [[aws-daily/aws-cloud-Concepts/1.3.high-availability-and-fault-tolerance|High Availability Fault Tolerance]] - mentions High Availability And Fault Tolerance
+- [[aws-services/3.network/2.1.route53/2.route53|AWS Route 53 Scalable DNS for Public & Private Workloads]] - mentions Route53
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+
+---

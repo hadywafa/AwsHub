@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-aif
+  - aws/cert/prompt-engineering
+aliases:
+  - "Prompt Engineering with Amazon Bedrock"
+  - "AWS Prompt Engineering"
+---
+
 # Prompt Engineering with Amazon Bedrock
 
 ## What is Prompt Engineering?
@@ -66,3 +77,10 @@
     <img src="images/prompt-template-injections.png" alt="prompt-template-injections" style="border-radius: 10px; width: 60%;">
     <img src="images/protect-against-prompt-injections.png" alt="protect-against-prompt-injections" style="border-radius: 10px; width: 60%;">
 </div>
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/2.prompt-engineering/|Index]] - folder map
+- [[aws-services/12.machine-learning/1.2.bedrock/1.bedrock|What is Amazon Bedrock]] - mentions Bedrock
+
+---

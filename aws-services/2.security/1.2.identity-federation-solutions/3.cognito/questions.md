@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/identity-federation-solutions
+  - aws/topic/cognito
+aliases:
+---
+
 # Questions
 
 ## ⁉️ Questions 1
@@ -266,3 +276,13 @@ Since you're building **modular microservices** and targeting **FAANG/German/UAE
 - ❌ Avoid Cognito if you need **external DB auth**, **dynamic role mapping**, or **complex scopes** — go with **Keycloak or IdentityServer4** instead.
 
 Would you like a sample Lambda function to inject roles into Cognito JWTs, or a diagram showing how Cognito integrates with API Gateway and microservices?
+---
+
+## Related Notes
+- [[aws-services/2.security/1.2.identity-federation-solutions/3.cognito/3.cip-coginto-identity-pools|Cognito Identity Pools CIP Federated Access to AWS Services]] - previous lesson
+- [[aws-services/2.security/1.2.identity-federation-solutions/3.cognito/1.1.cognito-overview|AWS Cognito]] - mentions AWS Cognito
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+
+---

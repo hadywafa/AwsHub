@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-security-extra
+aliases:
+  - "Penetration Testing on AWS Cloud What You Can & Cant Do"
+  - "AWS Pentration Testing"
+---
+
 # 🛡️🔍 **Penetration Testing on AWS Cloud: What You Can & Can't Do**
 
 Penetration testing ("pentesting") on AWS helps identify vulnerabilities in your applications and cloud infrastructure **before attackers do**. But when working in AWS, **you can’t just test anything** — there are strict policies to follow.
@@ -171,3 +181,20 @@ These are **never allowed**, even if the system is yours:
 
 Penetration testing on AWS is **permitted, powerful, and safe** — **if done responsibly**.  
 Stick to **allowed services**, avoid abuse (like DoS), and follow **best practices** to secure your apps, APIs, and cloud infrastructure.
+---
+
+## Related Notes
+- [[aws-daily/aws-security-extra/aws-abuse|What Is AWS Abuse]] - previous lesson
+- [[aws-daily/aws-security-extra/root-user-privileges|What Is the AWS Root User]] - next lesson
+- [[aws-services/5.compute/6.3.amazon-lightsail/11.amazon-lightsail|Amazon Lightsail Simplicity Meets Cloud Power]] - mentions Amazon Lightsail
+- [[aws-services/8.database/aurora/1.1.aurora-overview|Amazon Aurora]] - mentions Amazon Aurora
+- [[aws-services/2.security/4.2.inspector/1.1.vulnerability|Understanding Vulnerabilities The Hidden Weaknesses in Systems]] - mentions Vulnerability
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/3.iam-policy|IAM Policies in AWS Control Access with Precision]] - mentions IAM Policy
+- [[aws-services/3.network/1.vpc/1.fundmentals/7.flow-logs|AWS VPC Flow Logs Monitor Analyze Secure Your Network]] - mentions Flow Logs
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/4.storage/1.s3/1.2.basics-of-s3|AWS S3]] - mentions AWS S3
+
+---

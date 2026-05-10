@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/database
+  - aws/topic/memorydb
+aliases:
+  - "Amazon MemoryDB for Redis"
+  - "Memorydb"
+---
+
 # 🧠 **Amazon MemoryDB for Redis**
 
 **Amazon MemoryDB for Redis** is a **Redis-compatible, fully managed, durable, in-memory database** designed for **ultra-low latency** and **high availability**. Unlike traditional in-memory caches, **MemoryDB retains your data durably** across Multi-AZ setups — making it suitable for **primary data stores**, not just caching.
@@ -57,3 +68,9 @@
 **Amazon MemoryDB for Redis** is a purpose-built **durable in-memory database** for **mission-critical applications** where **speed AND durability** are non-negotiable. While it’s more expensive than ElastiCache, it delivers **multi-AZ transactional durability**, making it ideal for real-time applications that can’t afford to lose data.
 
 > 🧠 **ElastiCache for Redis** is still your go-to for **cost-effective caching**, while **MemoryDB** shines when you need **in-memory primary storage with durability guarantees**.
+---
+
+## Related Notes
+- [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
+
+---

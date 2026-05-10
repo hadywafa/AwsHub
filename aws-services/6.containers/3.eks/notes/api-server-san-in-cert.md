@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/containers
+  - aws/topic/eks
+aliases:
+  - "API Server SANs in Cert"
+  - "Api Server San In Cert"
+---
+
 # 🌞 **API Server SANs in Cert**
 
 **In Amazon EKS, the API server is managed by AWS and scaled dynamically across multiple control plane nodes. AWS handles TLS certificates internally, including SANs, without exposing or requiring manual configuration.**
@@ -77,3 +88,9 @@ IP.2 = 38.0.101.76
 IP.3 = 237.84.2.178
 IP.4 = 38.0.101.76
 ```
+---
+
+## Related Notes
+- [[aws-services/6.containers/3.eks/1.1.eks|Amazon EKS Simplifying Kubernetes on AWS]] - mentions Eks
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/migration-and-transfer
+  - aws/topic/sms-server-migration-service
+aliases:
+  - "AWS Server Migration Service SMS"
+  - "AWS Server Migration Service"
+---
+
 # 💻 **AWS Server Migration Service (SMS)**
 
 _Simplify Virtual Machine (VM) Migration to AWS!_
@@ -140,3 +151,13 @@ While AWS SMS is still **available**, it is **no longer recommended for new migr
 > _"AWS MGN is like cloning the VM in real-time, cutting over when you're ready."_
 
 Use the right tool for your migration journey — and **future-proof your cloud**! ☁️🚀
+---
+
+## Related Notes
+- [[aws-services/9.migration-and-transfer/mgn-application-migration-service/2.aws-application-migration-service|AWS MGN Application Migration Service]] - mentions AWS Application Migration Service
+- [[aws-services/5.compute/7.1.aws-outposts/10.aws-outposts|AWS Outposts]] - mentions AWS Outposts
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions AWS Account
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+
+---

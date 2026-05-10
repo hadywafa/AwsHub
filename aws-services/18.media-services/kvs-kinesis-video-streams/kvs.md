@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/media-services
+  - aws/topic/kvs-kinesis-video-streams
+aliases:
+  - "Amazon Kinesis Video Streams KVS"
+---
+
 # 📹🔥 **Amazon Kinesis Video Streams (KVS)**
 
 _Real-Time Video Streaming for ML, Analytics & Playback!_
@@ -189,3 +199,14 @@ flowchart TD
 **Amazon Kinesis Video Streams** is your go-to service for **secure, scalable, and intelligent video streaming**. Whether you're building a smart camera network, doing real-time analytics with AI, or broadcasting live content — KVS offers the tools and scalability to do it all without managing infrastructure.
 
 > 💡 With KVS, you can focus on **what your video means**, not how to manage it.
+---
+
+## Related Notes
+- [[aws-services/11.analytics/kinesis-trash/5.kinesis-video-steams|Amazon Kinesis Video Streams]] - mentions Amazon Kinesis Video Streams
+- [[aws-services/12.machine-learning/4.3.rekognition/rekognition|Amazon Rekognition Simplify Image and Video Analysis]] - mentions Rekognition
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

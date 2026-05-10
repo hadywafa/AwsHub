@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/analytics
+  - aws/topic/quicksight
+aliases:
+  - "AWS QuickSight Cloud-Scale Business Intelligence BI Tool"
+---
+
 # AWS QuickSight: Cloud-Scale Business Intelligence (BI) Tool 📊
 
 AWS QuickSight is a **cloud-based business intelligence (BI) and analytics service** designed to help organizations derive insights from their data using interactive dashboards, visualizations, and ad-hoc analysis.
@@ -133,3 +143,12 @@ QuickSight simplifies the process of creating BI solutions through these steps:
 ## 🧠 **Conclusion**
 
 AWS QuickSight is a powerful, cloud-native alternative to traditional BI tools like Power BI. With its ability to scale, integrate seamlessly with AWS, and support a wide range of data sources, QuickSight is a perfect fit for organizations looking to harness the power of data for decision-making. Whether you're analyzing sales, tracking KPIs, or building operational dashboards, QuickSight provides a **cost-effective**, **scalable**, and **easy-to-use** solution for business intelligence.
+---
+
+## Related Notes
+- [[aws-services/11.analytics/quicksight/2.1.quicksight-with-athena|Amazon Athena + QuickSight Integration]] - previous lesson
+- [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
+- [[aws-services/11.analytics/redshift/1.redshift|Amazon Redshift]] - mentions Redshift
+- [[aws-services/11.analytics/athena/1.2.athena|AWS Athena Your Serverless SQL Tool for S3 Analytics Made Simple]] - mentions Athena
+
+---

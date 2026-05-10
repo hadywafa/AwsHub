@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/media-services
+  - aws/topic/aws-elastic-transcoder
+aliases:
+  - "AWS Elastic Transcoder Simplify Media Conversion"
+  - "AWS Elastic Transcoder"
+---
+
 # 🎥 AWS Elastic Transcoder: Simplify Media Conversion
 
 AWS Elastic Transcoder is a managed service that handles the complexity of media transcoding at scale. It allows you to convert video and audio files stored in **Amazon S3** into formats compatible with a wide range of devices.
@@ -44,3 +55,8 @@ AWS Elastic Transcoder is a managed service that handles the complexity of media
 ---
 
 AWS Elastic Transcoder is an ideal solution for businesses looking to streamline media processing while ensuring compatibility and scalability. Whether you're serving video-on-demand or audio streaming, Elastic Transcoder makes media conversion simple and efficient.
+---
+
+## Related Notes
+
+---

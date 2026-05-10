@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/migration-and-transfer
+  - aws/topic/dms-database-migration-service
+aliases:
+  - "AWS Database Migration Service DMS"
+  - "AWS Database Migration Service"
+---
+
 # 📂 **AWS Database Migration Service (DMS)**
 
 _🚀 Migrate Databases Easily, Securely, and at Scale!_
@@ -155,3 +166,17 @@ For **heterogeneous migrations**, where schema objects differ between database e
 Whether you're **modernizing** legacy systems, **moving to fully managed databases**, or enabling **ongoing cross-region sync**, **AWS DMS** is your reliable companion in the cloud migration journey.
 
 👉 **Don't wait!** [Start your migration today](https://aws.amazon.com/dms/) and unlock the power of AWS DMS for your database migration needs!
+---
+
+## Related Notes
+- [[aws-daily/aws-pricing/2.2.pricing-calculator|AWS Pricing Calculator]] - mentions AWS Pricing Calculator
+- [[aws-services/8.database/aurora/1.1.aurora-overview|Amazon Aurora]] - mentions Amazon Aurora
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+- [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
+- [[aws-services/11.analytics/redshift/1.redshift|Amazon Redshift]] - mentions Redshift
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

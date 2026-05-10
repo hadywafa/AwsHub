@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/mechanical-truk
+aliases:
+  - "Amazon Mechanical Turk MTurk Human Intelligence at Scale"
+  - "Mtruk"
+---
+
 # 🤖 Amazon Mechanical Turk (MTurk): Human Intelligence at Scale
 
 **Amazon Mechanical Turk (MTurk)** is a **crowdsourcing marketplace** that allows businesses and developers to outsource tasks that require **human intelligence** to a large, global workforce.
@@ -54,3 +65,9 @@
 - **Flexible Workforce**: Workers are available 24/7 globally.
 - **Scalable**: Scale up or down based on your task volume instantly.
 - **Simple Management**: AWS Console and APIs make it easy to create, monitor, and collect results.
+---
+
+## Related Notes
+- [[aws-services/12.machine-learning/5.2.translate/translate|Amazon Translate Break Language Barriers with AI]] - mentions Translate
+
+---

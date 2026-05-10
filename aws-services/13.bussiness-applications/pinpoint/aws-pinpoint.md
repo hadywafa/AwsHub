@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/business-applications
+  - aws/topic/pinpoint
+aliases:
+  - "AWS Pinpoint Engage Your Customers Effectively"
+  - "AWS Pinpoint"
+---
+
 # 📧 AWS Pinpoint: Engage Your Customers Effectively
 
 AWS Pinpoint is a versatile and scalable service that enables businesses to communicate with their customers through multiple channels, including **email**, **SMS**, **voice messages**, and **push notifications**. Designed for both marketing campaigns and transactional messages, Pinpoint makes customer engagement seamless and efficient.
@@ -71,3 +82,9 @@ AWS Pinpoint is a versatile and scalable service that enables businesses to comm
 ---
 
 AWS Pinpoint is the go-to service for businesses looking to enhance customer engagement through personalized, data-driven communication. Whether it’s running a marketing campaign or sending a transactional message, Pinpoint ensures your message gets delivered efficiently.
+---
+
+## Related Notes
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+
+---

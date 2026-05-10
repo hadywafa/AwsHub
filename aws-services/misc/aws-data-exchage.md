@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/topic/misc
+aliases:
+  - "AWS Data Exchange"
+  - "AWS Data Exchage"
+---
+
 # **AWS Data Exchange**
 
 **What is it?**
@@ -45,3 +55,10 @@ Think of AWS Data Exchange like an online store, but instead of buying products,
 ## **Simple Analogy**
 
 Imagine you run a bakery. You need high-quality flour (data) to make the best cakes (business decisions). AWS Data Exchange is like a marketplace where you can find the best flour suppliers. Once you find a supplier (data provider), you subscribe to get regular deliveries. You then use this flour (data) to bake your delicious cakes (make informed business decisions).
+---
+
+## Related Notes
+- [[aws-services/misc/aws-infrastructure-composer|AWS Infrastructure Composer]] - next lesson
+- [[aws-services/11.analytics/data-exchange/data-exchange|AWS Data Exchange The Marketplace for Third-Party Data]] - mentions Data Exchange
+
+---

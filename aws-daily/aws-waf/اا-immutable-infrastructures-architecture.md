@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-waf
+aliases:
+  - "Immutable Infrastructures Architecture"
+  - "اا Immutable Infrastructures Architecture"
+---
+
 # Immutable Infrastructures Architecture
 
 `Immutable means - not capable of or susceptible to change`
@@ -40,3 +50,10 @@ This concept extends to security, storage, instances, data and other services.
 - Consistent testing and debugging environments.
 - Increased security.
 - We can be sure about the state of the deployed system.
+---
+
+## Related Notes
+- [[aws-daily/aws-waf/ا-best-practices|AWS Best Practices - Architecture For The Cloud]] - previous lesson
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+
+---

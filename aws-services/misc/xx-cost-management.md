@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/topic/misc
+aliases:
+  - "Cost Management in AWS"
+  - "Cost Management"
+---
+
 # Cost Management in AWS
 
 Managing costs effectively in AWS is crucial for optimizing cloud spending and ensuring resources are used efficiently. AWS provides several tools and strategies to track, allocate, and control costs.
@@ -113,3 +123,20 @@ Managing costs effectively in AWS is crucial for optimizing cloud spending and e
 ## 📚 **Conclusion**
 
 AWS Cost Management tools, like **Cost Explorer**, **Budgets**, and **Trusted Advisor**, provide powerful capabilities to monitor, control, and optimize your cloud spending. By following best practices such as **tagging resources**, **rightsizing**, and **using Savings Plans**, you can ensure cost efficiency while maintaining high performance and scalability in your cloud environment.
+---
+
+## Related Notes
+- [[aws-services/misc/xx-aws-ssm-session-manager|AWS SSM Session Manager Secure and Simplified Instance Management]] - previous lesson
+- [[aws-services/misc/xx-pricing-tools|Pricing Tools in AWS]] - next lesson
+- [[aws-daily/aws-pricing/5.1.cost-allocation-tags|Cost allocation tags]] - mentions Cost Allocation Tags
+- [[aws-services/1.management-governance/4.4.trust-advisor/aws-trust-advisor|AWS Trusted Advisor]] - mentions AWS Trusted Advisor
+- [[aws-services/misc/xx-aws-cost-explorer|AWS Cost Explorer Visualize and Analyze Your Costs]] - mentions AWS Cost Explorer
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/5.compute/1.1.ec2/5.4.spot-instances|EC2 Spot Instances Maximum Savings Minimal Waste]] - mentions Spot Instances
+- [[aws-services/5.compute/1.1.ec2/2.3.instance-types|Amazon EC2 Instance Types Explained Clearly]] - mentions Instance Types
+- [[aws-daily/aws-pricing/3.cost-explorer|AWS Cost Explorer Visualize Analyze Forecast Your AWS Costs]] - mentions Cost Explorer
+- [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
+- [[aws-services/11.analytics/athena/1.2.athena|AWS Athena Your Serverless SQL Tool for S3 Analytics Made Simple]] - mentions Athena
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

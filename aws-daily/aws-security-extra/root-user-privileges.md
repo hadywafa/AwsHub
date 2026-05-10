@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-security-extra
+aliases:
+  - "What Is the AWS Root User"
+  - "Root User Privileges"
+---
+
 # 👑 What Is the **AWS Root User**?
 
 The **root user** in AWS is the **original account owner** — the person who created the AWS account using an email address and password.  
@@ -87,3 +97,12 @@ Using the root user casually is **very risky**. If compromised, attackers can:
 ---
 
 Would you like a **visual flowchart or checklist** for securing the root user and creating proper IAM roles afterward?
+---
+
+## Related Notes
+- [[aws-daily/aws-security-extra/aws-pentration-testing|Penetration Testing on AWS Cloud What You Can & Cant Do]] - previous lesson
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions Aws Account
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/2.1.access-keys|Programmatic Access to AWS Services]] - mentions Access Keys
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions Iam
+
+---

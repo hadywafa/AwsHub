@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/compute-optimizer
+aliases:
+  - "AWS Compute Optimizer"
+---
+
 # 🚀 AWS Compute Optimizer
 
 **AWS Compute Optimizer** is a service that analyzes the configuration and utilization data of your AWS compute resources and provides optimization recommendations to help reduce costs and enhance performance.
@@ -40,3 +50,11 @@ Can be used across AWS organizations to find recommendations for management and 
 ### 📋 Opt-In Requirement
 
 Customers must opt into the service to use it.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/5.compute/1.3.ec2-auto-scaling/1.1.ec2-auto-scaling|EC2 Auto Scaling]] - mentions EC2 Auto Scaling
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+
+---

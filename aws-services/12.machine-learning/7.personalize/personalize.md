@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/personalize
+aliases:
+  - "Amazon Personalize Deliver Tailored User Experiences"
+  - "Personalize"
+---
+
 # 🎯 **Amazon Personalize: Deliver Tailored User Experiences**
 
 > _Create real-time, dynamic, and highly relevant recommendations — without needing ML expertise._
@@ -96,3 +107,8 @@ flowchart LR
 > This allows the service to **retrain incrementally** and **keep recommendations fresh and context-aware**.
 
 ✅ **Dynamic personalization = higher conversions + happier users**!
+---
+
+## Related Notes
+
+---

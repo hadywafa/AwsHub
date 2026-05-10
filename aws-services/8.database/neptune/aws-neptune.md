@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/database
+  - aws/topic/neptune
+aliases:
+  - "AWS Neptune like aurora architecture but with Graph Database"
+  - "AWS Neptune"
+---
+
 # AWS Neptune (like `aurora` architecture but with Graph Database) 📉
 
 Amazon Neptune is a **fully managed graph database service** that simplifies building and running applications requiring fast and efficient navigation of complex relationships. It supports popular graph query languages, making it ideal for applications like recommendation systems, fraud detection, and social networks.
@@ -72,3 +83,9 @@ Amazon Neptune is a **fully managed graph database service** that simplifies bui
 ## ✅ **Conclusion**
 
 Amazon Neptune is a robust solution for building and managing graph-based applications. Its support for **Gremlin** and **SPARQL**, combined with high availability and durability, makes it ideal for handling complex relationships in real-time. Whether you’re building recommendation engines, detecting fraud, or powering social networks, Neptune delivers high performance and reliability, helping businesses derive value from connected data.
+---
+
+## Related Notes
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+
+---

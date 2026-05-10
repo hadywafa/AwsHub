@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/hw-fundamentals
+aliases:
+  - "Linux Problems"
+---
+
 # VIP Notes
 
 ## SSH Files Must be owned by one user
@@ -63,3 +72,9 @@ ubuntu@your-instance-public-ip: Permission denied (publickey).
 ## How AWS Create Public IP
 
 - AWS manages the allocation and assignment of public IP addresses from its own pool of IP addresses
+---
+
+## Related Notes
+- [[aws-daily/hw-fundmenals/api-cors|CORS Explained for Devs Angular + .NET Core]] - previous lesson
+
+---

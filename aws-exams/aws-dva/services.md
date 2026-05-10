@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-dva
+aliases:
+  - "AWS Developer Courses"
+---
+
 # AWS Developer Courses
 
 ## 1. AWS Lambda
@@ -86,3 +95,20 @@ Great question! While both AWS CDK and AWS SDK are powerful tools for interactin
 3. **Scope**:
    - AWS CDK focuses on infrastructure as code (IaC).
    - AWS SDK is used for building applications that interact with AWS services.
+---
+
+## Related Notes
+- [[aws-exams/aws-dva/aws-dva|AWS DVA-CO2]] - previous lesson
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+- [[aws-services/7.application-integration/step-functions/1.step-functions|AWS Step Functions Orchestrate Your Serverless Workflows with Ease]] - mentions Step Functions
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions AWS DynamoDB
+- [[aws-services/15.front-end-web-mobile/app-sync/2.1.appsync-step-by-step|AWS AppSync]] - mentions AWS AppSync
+- [[aws-services/15.front-end-web-mobile/amplify/1.aws-amplify|AWS Amplify Build Full-Stack Cloud Apps Faster]] - mentions AWS Amplify
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/10.developer/1.3.aws-cdk/1.aws-cdk|AWS CDK Cloud Development Kit]] - mentions AWS Cdk
+- [[aws-services/10.developer/1.2.aws-sdk/aws-sdk|AWS Sdk]] - mentions AWS Sdk
+- [[aws-services/10.developer/1.4.aws-sam/2.1.aws-sam|AWS SAM Serverless Application Model]] - mentions AWS Sam
+
+---

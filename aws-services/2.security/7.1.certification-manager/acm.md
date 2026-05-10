@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/certification-manager
+aliases:
+  - "AWS Certificate Manager ACM Simplifying SSL/TLS Certificate Management"
+---
+
 # 📜 **AWS Certificate Manager (ACM): Simplifying SSL/TLS Certificate Management**
 
 > _Secure your web apps, APIs, and services easily — without manual certificate headaches._
@@ -160,3 +170,13 @@ aws acm list-certificates
 - **Secure fast** (1 click)
 - **Renew automatically** (no expiry downtime)
 - **No private key handling** (safer security model)
+---
+
+## Related Notes
+- [[aws-services/2.security/7.1.certification-manager/|Index]] - folder map
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/5.compute/6.2.app-runner/1.app-runner|AWS App Runner]] - mentions App Runner
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+
+---

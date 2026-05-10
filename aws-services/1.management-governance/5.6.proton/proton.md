@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/proton
+aliases:
+  - "AWS Proton Simplifying Modern Application Delivery"
+  - "Proton"
+---
+
 # ⚛️ **AWS Proton: Simplifying Modern Application Delivery**
 
 > _Platform engineers use AWS Proton to define, vend and maintain self-service infrastructure templates._  
@@ -201,3 +212,15 @@ Would you like next a full practical guide like:
 
 - "How to Create Your First Proton Environment and Service Templates" (with CLI + Terraform)?  
   It'll make you fully hands-on in 10 minutes! 🎯
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline|AWS CodePipeline]] - mentions AWS CodePipeline
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/6.containers/3.eks/1.1.eks|Amazon EKS Simplifying Kubernetes on AWS]] - mentions EKS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+- [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions ECS
+
+---

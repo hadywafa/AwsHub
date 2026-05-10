@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-caf
+aliases:
+  - "AWS Cloud Adoption Framework AWS CAF Made Simple"
+  - "AWS Caf"
+---
+
 # 🧠 AWS Cloud Adoption Framework (AWS CAF) — Made Simple
 
 ## 🚀 What is AWS CAF?
@@ -126,3 +136,10 @@ When a company starts its cloud journey, here’s the path they usually take:
   - (💡BPG-PSO — memorize like a rhythm)\*
 - **4 Domains** = Technology, Organization, Process, Product _(💡TOPP)_
 - **4 Phases** = Envision, Align, Launch, Scale _(💡EALS)_
+---
+
+## Related Notes
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/11.analytics/open-search/1.2.battle|Elasticsearch and OpenSearch]] - mentions Battle
+
+---

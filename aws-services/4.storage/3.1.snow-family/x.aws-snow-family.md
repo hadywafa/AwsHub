@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/storage
+  - aws/topic/snow-family
+aliases:
+  - "Amazon Snow Family"
+  - "AWS Snow Family"
+---
+
 # 🚚 **Amazon Snow Family**
 
 The **Amazon Snow Family** is a suite of physical devices and services designed to help organizations **migrate large volumes of data** `offline` to and from AWS `S3`, and to **perform edge computing** in environments with limited or unreliable internet connectivity.
@@ -253,3 +264,18 @@ AWS Snow Family pricing varies based on usage duration and scale. Understanding 
 ## 🏁 **Conclusion**
 
 The **AWS Snow Family** offers versatile solutions for data transfer and edge computing, catering to a wide range of needs from small-scale data migrations to massive exabyte transfers. By understanding the specific capabilities and use cases of each Snow device, you can effectively choose the right tool to optimize your data operations, ensuring efficiency, security, and cost-effectiveness.
+---
+
+## Related Notes
+- [[aws-services/4.storage/3.1.snow-family/1.aws-snow-family|AWS Snow Family 2025 Edition]] - previous lesson
+- [[aws-services/4.storage/1.s3/2.4.lifecycle-policies|Amazon S3 Storage Classes Lifecycle Policies Made Easy]] - mentions Lifecycle Policies
+- [[aws-daily/aws-cloud-Concepts/6.disaster-recovery|Disaster Recovery DR in AWS]] - mentions Disaster Recovery
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/4.storage/1.s3/2.3.s3-glacier|Amazon S3 Glacier Deep Archive for Long-Term Storage]] - mentions S3 Glacier
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/5.compute/1.1.ec2/6.ec2-ami|Amazon EC2 AMIs Amazon Machine Images]] - mentions EC2 Ami
+- [[aws-services/4.storage/1.s3/1.2.basics-of-s3|AWS S3]] - mentions AWS S3
+
+---

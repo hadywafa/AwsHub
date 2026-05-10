@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/macie
+aliases:
+  - "AWS Macie Data Security and Privacy"
+  - "AWS Macie"
+---
+
 # 🪣🛡️ AWS Macie: Data Security and Privacy
 
 ## ❓ What is AWS Macie?
@@ -32,3 +43,10 @@
 - **Automated Data Protection:** Automatically scans and protects your data without manual intervention.
 - **Multi-Account Support:** Can be used across multiple accounts or an entire AWS organization from a single Macie account.
 - **Enhanced Security:** Helps you maintain data security and compliance by identifying risks in your AWS environment.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/7.application-integration/step-functions/1.step-functions|AWS Step Functions Orchestrate Your Serverless Workflows with Ease]] - mentions Step Functions
+
+---

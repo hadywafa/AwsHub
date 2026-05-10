@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/business-applications
+  - aws/topic/connect
+aliases:
+  - "AWS Connect Cloud Contact Center Made Easy"
+  - "AWS Connect"
+---
+
 # ☎️ AWS Connect: Cloud Contact Center Made Easy
 
 <div style="text-align: center;">
@@ -56,3 +67,9 @@ AWS Connect integrates seamlessly with **Amazon Lex** to automate customer inter
 ---
 
 AWS Connect empowers businesses to create dynamic and engaging customer experiences. Whether you’re running a small business or a global enterprise, it provides the tools you need to deliver exceptional customer support.
+---
+
+## Related Notes
+- [[aws-services/12.machine-learning/3.5.connect/amazon-connect|Amazon Connect Cloud-Based Contact Center Service]] - mentions Amazon Connect
+
+---

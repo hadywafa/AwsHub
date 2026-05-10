@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/topic/misc
+aliases:
+  - "AWS Cost Explorer Visualize and Analyze Your Costs"
+  - "AWS Cost Explorer"
+---
+
 # 📊 AWS Cost Explorer: Visualize and Analyze Your Costs
 
 AWS Cost Explorer is a tool that provides insights into your AWS spending. It allows you to visualize, analyze, and manage your costs effectively, helping you identify trends and optimize your cloud expenses.
@@ -47,3 +57,12 @@ AWS Cost Explorer is a tool that provides insights into your AWS spending. It al
 ---
 
 AWS Cost Explorer is an essential tool for businesses looking to manage their AWS expenses effectively. With its visualizations and detailed insights, you can take control of your cloud costs with confidence.
+---
+
+## Related Notes
+- [[aws-services/misc/xx-aws-budget|AWS Budgets Manage Your Costs Effectively]] - previous lesson
+- [[aws-services/misc/xx-aws-ssm-session-manager|AWS SSM Session Manager Secure and Simplified Instance Management]] - next lesson
+- [[aws-daily/aws-pricing/3.cost-explorer|AWS Cost Explorer Visualize Analyze Forecast Your AWS Costs]] - mentions Cost Explorer
+- [[aws-daily/aws-pricing/6.1.budget|AWS Budgets Track Alert and Optimize Your AWS Spending]] - mentions Budget
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/end-user-computing
+  - aws/topic/app-stream-2-0
+aliases:
+  - "Amazon AppStream 2.0"
+  - "App Steam 2.0"
+---
+
 # 🎮 **Amazon AppStream 2.0**
 
 _Stream Desktop Applications to Any Device, Anywhere!_
@@ -61,3 +72,9 @@ _Stream Desktop Applications to Any Device, Anywhere!_
 | Browser-based access          | ✅ Yes                   |
 | Manage desktop infrastructure | ❌ No                    |
 | Custom instance types         | ✅ CPU/GPU per app needs |
+---
+
+## Related Notes
+- [[aws-services/5.compute/1.1.ec2/2.3.instance-types|Amazon EC2 Instance Types Explained Clearly]] - mentions Instance Types
+
+---

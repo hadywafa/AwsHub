@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/code-deploy
+aliases:
+  - "AWS CodeDeploy appspec.yml Full Syntax & Usage Guide"
+  - "Appspec"
+---
+
 # 📘 **AWS CodeDeploy `appspec.yml` – Full Syntax & Usage Guide**
 
 > The `appspec.yml` file is the core of AWS CodeDeploy. It defines **how your application should be deployed**, **where files go**, and **which scripts run at each stage** of the deployment lifecycle.
@@ -275,3 +286,15 @@ The AppSpec file does not exist within the deployment's application revision.
 | Required      | For EC2 and on-premises deployments               |
 | Scripts       | Must be executable, properly pathed, and tested   |
 | Lifecycle     | Follows: Before → Copy → After → Start → Validate |
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.3.code-deploy/|AWS CodeDeploy Deployment Strategies EC2 Lambda and ECS]] - folder map
+- [[aws-services/10.developer/2.3.code-deploy/7.integration-with-cfn|Using CloudFormation in CodePipeline to Create & Destroy Staging Environments]] - previous lesson
+- [[aws-services/10.developer/2.3.code-deploy/x.2.2.codedeploy-examples|Full Deployment Examples With Explanations .NET & Angular EC2 S3 Amplify]] - next lesson
+- [[aws-services/10.developer/2.3.code-deploy/6.ecs-deployments|Ecs Deployments]] - mentions Ecs Deployments
+- [[aws-services/10.developer/2.3.code-deploy/1.1.codedeploy|Introduction to AWS CodeDeploy]] - mentions Codedeploy
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions Ecs
+
+---

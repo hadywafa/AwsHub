@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/code-deploy
+aliases:
+  - "Monorepo Deployment with CodePipeline CodeBuild and CodeDeploy"
+  - "Monorepo Deployment"
+---
+
 # 🏗️ Monorepo Deployment with CodePipeline, CodeBuild, and CodeDeploy
 
 > ✅ Use Case: Deploy multiple independent services (like frontend and backend) from a **single monorepo**  
@@ -236,3 +247,16 @@ hooks:
 | One appspec per deployment  | ✅ Copy into artifact in `post_build`  |
 | CodeDeploy file requirement | `appspec.yml` must be in artifact root |
 | CodePipeline flexibility    | Can set custom buildspec paths         |
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.3.code-deploy/|AWS CodeDeploy Deployment Strategies EC2 Lambda and ECS]] - folder map
+- [[aws-services/10.developer/2.3.code-deploy/x.2.2.codedeploy-examples|Full Deployment Examples With Explanations .NET & Angular EC2 S3 Amplify]] - previous lesson
+- [[aws-services/10.developer/2.3.code-deploy/x.3.2.multi-environment-deployment|Monorepo Deployment with Multiple Projects and Environments in AWS]] - next lesson
+- [[aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline|AWS CodePipeline]] - mentions AWS CodePipeline
+- [[aws-services/10.developer/2.2.code-build/2.1.buildspec.yml|AWS CodeBuild buildspec.yml]] - mentions Buildspec.Yml
+- [[aws-services/10.developer/2.3.code-deploy/1.1.codedeploy|Introduction to AWS CodeDeploy]] - mentions Codedeploy
+- [[aws-services/10.developer/2.2.code-build/1.1.codebuild|How AWS CodeBuild Works Internally]] - mentions Codebuild
+- [[aws-services/10.developer/2.3.code-deploy/x.2.1.appspec|AWS CodeDeploy appspec.yml Full Syntax & Usage Guide]] - mentions Appspec
+
+---

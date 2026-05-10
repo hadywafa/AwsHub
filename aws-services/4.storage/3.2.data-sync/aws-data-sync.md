@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/storage
+  - aws/topic/data-sync
+aliases:
+  - "AWS DataSync Fast & Automated Data Transfers to AWS"
+  - "AWS Data Sync"
+---
+
 # 🔄 **AWS DataSync: Fast & Automated Data Transfers to AWS**
 
 > _“Need to move massive data to AWS without losing time or sleep? This is your best friend.”_
@@ -145,3 +156,16 @@ flowchart TD
 - ✅ Maintain **security**, **speed**, and **simplicity**.
 
 It's fast, scalable, scriptable, and works across **on-prem**, **multi-region**, and **hybrid** architectures.
+---
+
+## Related Notes
+- [[aws-services/4.storage/3.1.snow-family/x.aws-snow-family|Amazon Snow Family]] - mentions AWS Snow Family
+- [[aws-services/4.storage/3.1.snow-family/1.aws-snow-family|AWS Snow Family 2025 Edition]] - mentions AWS Snow Family
+- [[aws-services/1.management-governance/3.1.cloud-watch/3.1.cw-logs|Amazon CloudWatch Logs]] - mentions CloudWatch Logs
+- [[aws-daily/aws-pricing/3.cost-explorer|AWS Cost Explorer Visualize Analyze Forecast Your AWS Costs]] - mentions Cost Explorer
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+- [[aws-services/4.storage/2.1.efs/2.1.efs|Amazon Elastic File System EFS]] - mentions EFS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

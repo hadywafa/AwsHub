@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-aif
+  - aws/cert/ai-challenges-and-responsibilities
+aliases:
+  - "AI Generative Capabilities and Challenges Quick Summary"
+  - "Summary Genai Challenges"
+---
+
 # ⚡ AI Generative: Capabilities and Challenges Quick Summary
 
 ## 🧠 Generative AI Superpowers (Capabilities)
@@ -81,3 +92,13 @@
 ✅ **Simple Rule**:
 
 > "**Love GenAI powers, but control GenAI risks.**" 🧠💬
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/|Index]] - folder map
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.1.1.summary-responsible|Responsible AI Quick and Easy]] - previous lesson
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.2.summary-ai-compliance|AI Compliance Quick and Easy Summary]] - next lesson
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/2.3.training-data|Training Data Foundation of Machine Learning Success]] - mentions Training Data
+- [[aws-services/12.machine-learning/7.personalize/personalize|Amazon Personalize Deliver Tailored User Experiences]] - mentions Personalize
+
+---

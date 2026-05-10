@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/service-catalog
+aliases:
+  - "AWS Service Catalog Organize Control and Accelerate IT Service Delivery"
+  - "Service Catalog"
+---
+
 # 📚 **AWS Service Catalog: Organize, Control, and Accelerate IT Service Delivery**
 
 > _Manage approved AWS resources centrally, standardize deployments, and empower teams with self-service — while maintaining full governance._
@@ -191,3 +202,14 @@ flowchart TD
 
 > 🧠 **Use AWS Service Catalog when you want to blend the speed of cloud self-service with the control and governance your organization demands.**  
 > It's like giving your developers a "**safe AWS playground**" built exactly to your enterprise's security and compliance standards.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/5.2.service-catalog/|Index]] - folder map
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+- [[aws-services/5.compute/1.1.ec2/2.3.instance-types|Amazon EC2 Instance Types Explained Clearly]] - mentions Instance Types
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

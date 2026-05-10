@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/networking
+  - aws/topic/api-gateway
+aliases:
+  - "Amazon API Gateway Streamlining API Management"
+  - "API Gateway"
+---
+
 # 🌐 **Amazon API Gateway: Streamlining API Management**
 
 Amazon API Gateway is a fully managed service that enables you to create, publish, maintain, monitor, and secure APIs at any scale. Whether you're building REST, HTTP, or WebSocket APIs, API Gateway simplifies the process, allowing you to handle hundreds of thousands of API calls efficiently.
@@ -124,3 +135,17 @@ APIs can be created and managed using multiple methods:
 ## 🏁 **Conclusion**
 
 Amazon API Gateway provides a robust, scalable, and secure platform for managing APIs of all types. Whether you're deploying globally with Edge Optimized Endpoints, regionally within a specific AWS region, or privately within your VPC, API Gateway offers the flexibility and tools necessary to meet diverse application needs. By leveraging its integration with various AWS services and supporting multiple API types, API Gateway simplifies the process of building and maintaining efficient APIs that enhance your application's performance and user experience.
+---
+
+## Related Notes
+- [[aws-services/3.network/4.api-gateway/x.api-access-management|API Gateway API Access Management Securing Your APIs]] - previous lesson
+- [[aws-services/3.network/4.api-gateway/x.api-monitoring|API Gateway Monitoring Ensuring Optimal Performance and Security]] - next lesson
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions AWS CloudFormation
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+- [[aws-services/2.security/3.2.waf/2.1.aws-waf|AWS WAF Web Application Firewall global]] - mentions AWS Waf
+- [[aws-services/7.application-integration/sqs/1.1.sqs|Amazon SQS Mastering Serverless Message Queues]] - mentions SQS
+- [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions ECS
+
+---

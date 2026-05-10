@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/analytics
+  - aws/topic/prerequisite
+aliases:
+  - "AWS Services by Data Pipeline"
+  - "AWS Data Services"
+---
+
 # **🧺 AWS Services by Data Pipeline**
 
 Below is a breakdown of **AWS services used in each stage of a data pipeline**, along with their **Apache & Azure alternatives**.
@@ -80,3 +91,20 @@ Ensuring **data security, compliance, and role-based access control**.
 ✔ Many organizations use **a hybrid approach** (e.g., AWS Redshift for storage + Apache Spark for processing).
 
 Would you like a **detailed architecture comparison** between **AWS, Azure, and Apache ecosystems**? 😊
+---
+
+## Related Notes
+- [[aws-services/11.analytics/_prequesite/_design|Design]] - previous lesson
+- [[aws-services/9.migration-and-transfer/dms-database-migration-service/aws-database-migration-service|AWS Database Migration Service DMS]] - mentions AWS Database Migration Service
+- [[aws-services/11.analytics/glue/2.glue-data-catalog|AWS Glue Data Catalog]] - mentions AWS Glue Data Catalog
+- [[aws-services/11.analytics/kds/1.1.kds|Amazon Kinesis Data Streams KDS - Real-Time Streaming Storage]] - mentions Kinesis Data Streams
+- [[aws-services/11.analytics/kinesis-trash/2.kinesis-data-streams|Amazon Kinesis Data Streams Real-Time Data Processing]] - mentions Kinesis Data Streams
+- [[aws-services/11.analytics/lake-formation/2.1.aws-lake-formation|What is AWS Lake Formation]] - mentions AWS Lake Formation
+- [[aws-services/11.analytics/redshift/2.redshift-spectrum|AWS Redshift Spectrum The Complete Guide]] - mentions Redshift Spectrum
+- [[aws-services/11.analytics/redshift/1.redshift|Amazon Redshift]] - mentions Amazon Redshift
+- [[aws-daily/aws-architectures/4.1.streaming-data|Streaming Data The Power of Real-Time Data Processing]] - mentions Streaming Data
+- [[aws-services/11.analytics/open-search/1.1.elastic-search|Elasticsearch]] - mentions Elasticsearch
+- [[aws-services/17.internet-of-things/aws-iot-core/aws-iot-core|AWS IOT Core]] - mentions AWS Iot Core
+- [[aws-services/11.analytics/msk/1.1.apache-kafka|What is Apache Kafka]] - mentions Apache Kafka
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/code-deploy
+aliases:
+  - "Full Deployment Examples With Explanations .NET & Angular EC2 S3 Amplify"
+  - "Codedeploy Examples"
+---
+
 # 🚀 Full Deployment Examples (With Explanations): .NET & Angular → EC2, S3, Amplify
 
 ## 🖥️ 1. Deploying a .NET API to EC2 with CodeDeploy
@@ -143,3 +154,14 @@ phases:
 | .NET to EC2    | Zip + AppSpec | CodeDeploy | Fully controlled deployment |
 | Angular to EC2 | Build + nginx | CodeDeploy | Serve via Nginx             |
 | Angular to S3  | Direct sync   | AWS CLI    | Fast & simple               |
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.3.code-deploy/|AWS CodeDeploy Deployment Strategies EC2 Lambda and ECS]] - folder map
+- [[aws-services/10.developer/2.3.code-deploy/x.2.1.appspec|AWS CodeDeploy appspec.yml Full Syntax & Usage Guide]] - previous lesson
+- [[aws-services/10.developer/2.3.code-deploy/x.3.1.monorepo-deployment|Monorepo Deployment with CodePipeline CodeBuild and CodeDeploy]] - next lesson
+- [[aws-services/10.developer/2.2.code-build/2.1.buildspec.yml|AWS CodeBuild buildspec.yml]] - mentions Buildspec.Yml
+- [[aws-services/10.developer/2.3.code-deploy/1.1.codedeploy|Introduction to AWS CodeDeploy]] - mentions Codedeploy
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|Aws Cli]] - mentions Aws Cli
+
+---

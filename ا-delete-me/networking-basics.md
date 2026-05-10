@@ -1,3 +1,11 @@
+﻿---
+tags:
+  - aws
+aliases:
+  - "Virtual Private Cloud"
+  - "Networking Basics"
+---
+
 # Virtual Private Cloud
 
 ## Components
@@ -130,3 +138,12 @@
 - **NAT Gateway**: Outbound internet access for private subnet instances.
 
 These gateways and connections help create a robust, scalable, and secure network infrastructure within AWS, catering to different connectivity needs.
+---
+
+## Related Notes
+- [[ا-delete-me/aws-route53|AWS Route53]] - previous lesson
+- [[aws-services/3.network/1.vpc/5.1.vpn/3.aws-direct-connect|AWS Direct Connect]] - mentions AWS Direct Connect
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions Aws Account
+- [[aws-services/3.network/1.vpc/1.fundmentals/2.1.nat-gateway|NAT Gateway]] - mentions Nat Gateway
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/kendra
+aliases:
+  - "Amazon Kendra Intelligent Enterprise Search"
+  - "Kendra"
+---
+
 # 🔍 **Amazon Kendra: Intelligent Enterprise Search**
 
 > _Transform unstructured documents into accessible, actionable knowledge using AI-powered search._
@@ -98,3 +109,10 @@ flowchart LR
 > Amazon Kendra will leverage these fields to dramatically **improve search precision** and **answer quality**.
 
 ✅ Great search = **Great input + Great metadata**!
+---
+
+## Related Notes
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

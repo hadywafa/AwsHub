@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/lex
+aliases:
+  - "Amazon Lex Build Conversational Interfaces with Ease"
+---
+
 # 🤖 **Amazon Lex: Build Conversational Interfaces with Ease**
 
 > _Create intelligent chatbots and virtual assistants using voice and text, powered by Amazon’s AI._
@@ -84,3 +94,14 @@
 > Example: Use Lex to handle conversations ➔ use Lambda to fetch user data, process transactions, or integrate with third-party APIs.
 
 ✅ This combo unlocks **dynamic, personalized, real-world conversational apps**!
+---
+
+## Related Notes
+- [[aws-services/12.machine-learning/3.3.lex/|Index]] - folder map
+- [[aws-services/12.machine-learning/3.5.connect/amazon-connect|Amazon Connect Cloud-Based Contact Center Service]] - mentions Amazon Connect
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/12.machine-learning/4.2.comprehend/comprehend|Amazon Comprehend Unlock Insights from Text]] - mentions Comprehend
+- [[aws-services/12.machine-learning/6.kendra/kendra|Amazon Kendra Intelligent Enterprise Search]] - mentions Kendra
+- [[aws-services/12.machine-learning/3.4.alexa/alexa|Amazon Alexa Your Intelligent Voice Assistant]] - mentions Alexa
+
+---

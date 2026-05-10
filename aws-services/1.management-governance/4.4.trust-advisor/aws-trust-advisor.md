@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/trust-advisor
+aliases:
+  - "AWS Trusted Advisor"
+  - "AWS Trust Advisor"
+---
+
 # **🧙‍♂️ AWS Trusted Advisor**
 
 AWS Trusted Advisor is an **online tool** designed to help you follow AWS best practices by analyzing your environment and providing **actionable recommendations**. These recommendations span cost savings, performance improvements, security enhancements, fault tolerance, and service limits.
@@ -68,3 +79,12 @@ Access to AWS Trusted Advisor checks depends on your **AWS Support Plan**:
 - **Developer**: Full access to all Trusted Advisor checks.
 - **Business**: Full access to all Trusted Advisor checks.
 - **Enterprise**: Full access to all Trusted Advisor checks.
+---
+
+## Related Notes
+- [[aws-daily/aws-waf/5.1.cost-optimization|Cost Optimization]] - mentions Cost Optimization
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

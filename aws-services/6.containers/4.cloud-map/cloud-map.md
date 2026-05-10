@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/containers
+  - aws/topic/cloud-map
+aliases:
+  - "AWS Cloud Map The Missing Map for Modern Microservices"
+  - "Cloud Map"
+---
+
 # 🗺️ AWS Cloud Map: The Missing Map for Modern Microservices
 
 > “DNS that thinks in services, not just IPs.”
@@ -238,3 +249,13 @@ ECS services can **auto-register and auto-deregister** from Cloud Map:
 
 - [AWS Cloud Map Features](https://aws.amazon.com/cloud-map/)
 - [AWS Cloud Map Documentation](https://docs.aws.amazon.com/cloud-map/)
+---
+
+## Related Notes
+- [[aws-services/10.developer/1.2.aws-sdk/aws-sdk|AWS Sdk]] - mentions AWS Sdk
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+- [[aws-services/6.containers/3.eks/1.1.eks|Amazon EKS Simplifying Kubernetes on AWS]] - mentions EKS
+- [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions ECS
+
+---

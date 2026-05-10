@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-aif
+  - aws/cert/ai-challenges-and-responsibilities
+aliases:
+  - "AI Security Quick and Easy Summary"
+  - "Summary Ai Security"
+---
+
 # 🛡️ AI Security: Quick and Easy Summary
 
 ## 🧠 What is AI Security?
@@ -105,3 +116,19 @@
 ✅ **Simple Rule**:
 
 > "**Secure AI = Safer Data + Stronger Trust.**" 🛡️✅
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/|Index]] - folder map
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.3.summary-ai-governance|AI Governance Quick and Easy Summary]] - previous lesson
+- [[aws-daily/aws-cloud-Concepts/7.3.shared-responsibility-model|AWS Shared Responsibility Model]] - mentions AWS Shared Responsibility Model
+- [[aws-services/2.security/4.2.inspector/1.1.vulnerability|Understanding Vulnerabilities The Hidden Weaknesses in Systems]] - mentions Vulnerability
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/2.ai-compliance|AI Compliance Full Guide to Doing AI the Right Way Legally & Ethically]] - mentions Ai Compliance
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/4.ai-security|AI Security Full Smart and Easy Guide]] - mentions Ai Security
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/1.1.what-is-ai|What is Artificial Intelligence AI Full Beginner Guide]] - mentions What Is Ai
+- [[aws-services/12.machine-learning/1.1.sagemaker/1.2.sagemaker|1. Introduction to Amazon SageMaker]] - mentions Sagemaker
+- [[aws-services/12.machine-learning/1.2.bedrock/1.bedrock|What is Amazon Bedrock]] - mentions Bedrock
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+
+---

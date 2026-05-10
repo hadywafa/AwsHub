@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/rekognition
+aliases:
+  - "Amazon Rekognition Simplify Image and Video Analysis"
+  - "Rekognition"
+---
+
 # 📷 **Amazon Rekognition: Simplify Image and Video Analysis**
 
 > _Add powerful image and video analysis to your apps without needing machine learning expertise._
@@ -132,3 +143,11 @@ Amazon Rekognition can automatically detect and classify:
 
 ✅ Garbage in = Garbage out.  
 ✅ Good media = Outstanding results!
+---
+
+## Related Notes
+- [[aws-services/12.machine-learning/4.3.rekognition/|Index]] - folder map
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+
+---

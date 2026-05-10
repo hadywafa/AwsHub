@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-notes
+aliases:
+  - "EC2 CPU Optimization & vCPU"
+  - "Cpu Vs Vcpu In AWS"
+---
+
 # 💻 EC2 CPU Optimization & vCPU
 
 Optimizing CPU configurations in **Amazon EC2** helps you fine-tune performance, reduce costs, and align your compute resources with workload needs. This guide combines **multi-threading concepts**, **vCPU vs CPU understanding**, and **custom EC2 CPU options** to give you full visibility into EC2 compute optimization.
@@ -99,3 +109,10 @@ Amazon EC2 allows you to fine-tune CPU settings **at launch time**.
   - Performance tuning
   - Licensing
   - HPC/NUMA alignment
+---
+
+## Related Notes
+- [[aws-daily/aws-notes/aws-dva-quota-limits|AWS Limits Quotas]] - previous lesson
+- [[aws-daily/aws-notes/sigv4|AWS Signature Version 4 SigV4 How It Works & Where Its Used]] - next lesson
+
+---

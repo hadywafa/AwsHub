@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/audit-manager
+aliases:
+  - "AWS Audit Manager Easy Compliance Checking"
+  - "AWS Audit Manager"
+---
+
 # 🧾 AWS Audit Manager: Easy Compliance Checking
 
 <div align="center">
@@ -42,3 +53,13 @@ AWS Audit Manager integrates with several other AWS services to provide comprehe
 - **AWS CloudTrail:** Provides logs of user activities and API calls, which are used as evidence in Audit Manager.
 - **Amazon S3:** Stores evidence collected by Audit Manager.
 - **AWS IAM (Identity and Access Management):** Manages access to Audit Manager and related services.
+---
+
+## Related Notes
+- [[aws-services/2.security/7.3.audit-manager/|Index]] - folder map
+- [[aws-services/2.security/6.security-hub/aws-security-hub|AWS Security Hub Your Centralized Cloud Security Command Center]] - mentions AWS Security Hub
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-waf
+aliases:
+  - "AWS Best Practices - Architecture For The Cloud"
+  - "ا Best Practices"
+---
+
 # AWS Best Practices - Architecture For The Cloud
 
 ## 1.Use Higher Level Managed Resources
@@ -40,3 +50,14 @@
 ## 10.Security
 
 - VPC security, IAM, WAF, Encryption, Least privilege access, logging and Auditing.
+---
+
+## Related Notes
+- [[aws-daily/aws-waf/6.1.sustainability|Sustainability]] - previous lesson
+- [[aws-daily/aws-waf/اا-immutable-infrastructures-architecture|Immutable Infrastructures Architecture]] - next lesson
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

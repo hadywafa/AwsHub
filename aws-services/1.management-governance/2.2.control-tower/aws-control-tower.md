@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/control-tower
+aliases:
+  - "AWS Control Tower The Kingdom of Multi-Account Governance"
+  - "AWS Control Tower"
+---
+
 # 🏰 **AWS Control Tower: The Kingdom of Multi-Account Governance**
 
 **AWS Control Tower** is a fully managed service that automates the setup and governance of a secure, compliant, and scalable **multi-account AWS environment** — all based on AWS **best practices**.
@@ -265,3 +276,15 @@ It’s the **gold standard** for managing multi-account AWS environments securel
 <div align="center">
   <img src="images/account-factory.png" alt="Account Factory" style="max-width: 720px; border-radius: 10px;" />
 </div>
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/2.2.control-tower/|Index]] - folder map
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/code-deploy
+aliases:
+  - "Monorepo Deployment with Multiple Projects and Environments in AWS"
+  - "Multi Environment Deployment"
+---
+
 # 🏗️ Monorepo Deployment with Multiple Projects and Environments in AWS
 
 > ✅ Use Case: Deploy multiple independent projects (e.g., **frontend**, **backend**) from a **single monorepo**  
@@ -160,3 +171,14 @@ flowchart LR
 - ✅ Use CodePipeline variables to avoid hardcoding environment logic
 - ✅ Validate your `buildspec.yml` locally using `codebuild-agent`
 - ✅ Log into EC2 and check `/opt/codedeploy-agent/deployment-root` for deploy issues
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.3.code-deploy/|AWS CodeDeploy Deployment Strategies EC2 Lambda and ECS]] - folder map
+- [[aws-services/10.developer/2.3.code-deploy/x.3.1.monorepo-deployment|Monorepo Deployment with CodePipeline CodeBuild and CodeDeploy]] - previous lesson
+- [[aws-services/10.developer/2.2.code-build/2.1.buildspec.yml|AWS CodeBuild buildspec.yml]] - mentions Buildspec.Yml
+- [[aws-services/10.developer/2.3.code-deploy/1.1.codedeploy|Introduction to AWS CodeDeploy]] - mentions Codedeploy
+- [[aws-services/10.developer/2.2.code-build/1.1.codebuild|How AWS CodeBuild Works Internally]] - mentions Codebuild
+- [[aws-services/10.developer/2.3.code-deploy/x.2.1.appspec|AWS CodeDeploy appspec.yml Full Syntax & Usage Guide]] - mentions Appspec
+
+---

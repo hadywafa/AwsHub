@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-aif
+  - aws/cert/ai-challenges-and-responsibilities
+aliases:
+  - "Responsible AI Quick and Easy"
+  - "Summary Responsible"
+---
+
 # 🛡️ Responsible AI: Quick and Easy
 
 ## 🧠 Core Dimensions (Just Remember 8 Words)
@@ -111,3 +122,15 @@ Design AI systems that:
 | Decision Trees        | Simple and human-readable                          |
 | PDP                   | Single feature effect 📈                           |
 | Human-Centered Design | Humans before tech ❤️                              |
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/|Index]] - folder map
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/5.mlops|MLOps Quick and Smart Summary]] - previous lesson
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.1.2.summary-genai-challenges|AI Generative Capabilities and Challenges Quick Summary]] - next lesson
+- [[aws-services/12.machine-learning/1.1.sagemaker/3.2.sagemaker-data-wrangler|7. Data Preparation with SageMaker Data Wrangler]] - mentions Sagemaker Data Wrangler
+- [[aws-services/12.machine-learning/1.1.sagemaker/3.4.sagemaker-clarify|9. SageMaker Clarify Bias and Explainability]] - mentions Sagemaker Clarify
+- [[aws-services/12.machine-learning/1.1.sagemaker/1.2.sagemaker|1. Introduction to Amazon SageMaker]] - mentions Sagemaker
+- [[aws-services/12.machine-learning/1.2.bedrock/1.bedrock|What is Amazon Bedrock]] - mentions Bedrock
+
+---

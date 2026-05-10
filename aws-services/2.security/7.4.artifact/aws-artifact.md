@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/artifact
+aliases:
+  - "AWS Artifact Your Compliance Document Library"
+  - "AWS Artifact"
+---
+
 # 📖 AWS Artifact: Your Compliance Document Library
 
 <div align="center">
@@ -31,3 +42,8 @@ Even though the compliance documents available in AWS Artifact are the same for 
 ---
 
 By using AWS Artifact, organizations can quickly and securely access the compliance documents they need, ensuring they meet regulatory requirements and demonstrating their commitment to security and compliance.
+---
+
+## Related Notes
+
+---

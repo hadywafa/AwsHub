@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/security-hub
+aliases:
+  - "AWS Security Hub Your Centralized Cloud Security Command Center"
+  - "AWS Security Hub"
+---
+
 # 🛡️ **AWS Security Hub: Your Centralized Cloud Security Command Center**
 
 > _Collect, prioritize, and act on security findings — across your entire AWS environment — from one place._
@@ -138,3 +149,13 @@ whether you have **1 account or 100 accounts**!
 ## 🧠 **One-Sentence Memory Trick**
 
 > 🛡️ **AWS Security Hub = Your Centralized Control Room for Security Findings + Compliance + Automation.**
+---
+
+## Related Notes
+- [[aws-services/2.security/6.security-hub/|Index]] - folder map
+- [[aws-services/2.security/4.2.inspector/1.1.vulnerability|Understanding Vulnerabilities The Hidden Weaknesses in Systems]] - mentions Vulnerability
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

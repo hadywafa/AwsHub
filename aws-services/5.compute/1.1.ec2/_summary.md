@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/compute
+  - aws/topic/ec2
+aliases:
+  - "Amazon EC2 Elastic Compute Cloud"
+---
+
 # 💻 **Amazon EC2 (Elastic Compute Cloud)**
 
 ## 📝 **1. Overview**
@@ -131,3 +141,20 @@
 - **🔧 Hands-On Practice:** Launch, configure, and manage EC2 instances using the AWS Management Console and AWS CLI to gain practical experience.
 - **📚 Understand Use Cases:** Be able to determine when to use specific EC2 features based on different architectural scenarios.
 - **🆕 Stay Updated:** AWS services evolve continuously. Regularly refer to the [official AWS EC2 documentation](https://docs.aws.amazon.com/ec2/) for the latest information and best practices.
+---
+
+## Related Notes
+- [[aws-services/5.compute/1.1.ec2/|Index]] - folder map
+- [[aws-services/5.compute/1.1.ec2/1.1.hypervisor|Hypervisors in AWS Xen vs Nitro Deep & Clear]] - next lesson
+- [[ا-delete-me/networking-basics|Virtual Private Cloud]] - mentions Virtual Private Cloud
+- [[aws-services/5.compute/1.1.ec2/8.1.instance-lifecycle|Amazon EC2 Instance Lifecycle Explained Visually & Simply]] - mentions Instance Lifecycle
+- [[aws-daily/aws-waf/5.1.cost-optimization|Cost Optimization]] - mentions Cost Optimization
+- [[aws-services/5.compute/1.1.ec2/5.4.spot-instances|EC2 Spot Instances Maximum Savings Minimal Waste]] - mentions Spot Instances
+- [[aws-services/5.compute/1.1.ec2/2.2.instance-store|Amazon EC2 Instance Store Ephemeral Storage]] - mentions Instance Store
+- [[aws-services/5.compute/1.1.ec2/2.3.instance-types|Amazon EC2 Instance Types Explained Clearly]] - mentions Instance Types
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|AWS Cli]] - mentions AWS Cli
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+
+---

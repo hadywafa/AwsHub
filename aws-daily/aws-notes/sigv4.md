@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-notes
+aliases:
+  - "AWS Signature Version 4 SigV4 How It Works & Where Its Used"
+  - "Sigv4"
+---
+
 # 🔐 **AWS Signature Version 4 (SigV4) – How It Works & Where It’s Used**
 
 > _SigV4 is the standard authentication method used across AWS APIs to verify identity, integrity, and permissions — all through cryptographic signing._
@@ -229,3 +239,15 @@ sequenceDiagram
 | S3             | Presigned URLs for secure access to private objects |
 | CloudFront     | OAC signs origin requests to S3 using SigV4         |
 | API Gateway    | Authenticated client requests (IAM-based auth)      |
+---
+
+## Related Notes
+- [[aws-daily/aws-notes/cpu-vs-vcpu-in-aws|EC2 CPU Optimization & vCPU]] - previous lesson
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|AWS Cli]] - mentions AWS Cli
+- [[aws-services/10.developer/1.2.aws-sdk/aws-sdk|AWS Sdk]] - mentions AWS Sdk
+- [[aws-services/4.storage/1.s3/1.2.basics-of-s3|AWS S3]] - mentions AWS S3
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

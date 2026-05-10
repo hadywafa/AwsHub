@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-notes
+aliases:
+  - "AWS Limits Quotas"
+  - "AWS Dva Quota Limits"
+---
+
 # 🚦 **AWS Limits (Quotas)**
 
 ## 🧭 **1. API Rate Limits (Per-Second Quotas)**
@@ -94,3 +104,10 @@ for attempt in range(1, MAX_RETRIES + 1):
 | Service Quotas   | EC2 vCPUs = 1152 by default                                  |
 | Increase Quotas  | Use **Service Quotas Console or API**                        |
 | Retry only on    | `5xx` errors and `ThrottlingException`                       |
+---
+
+## Related Notes
+- [[aws-daily/aws-notes/cpu-vs-vcpu-in-aws|EC2 CPU Optimization & vCPU]] - next lesson
+- [[aws-services/1.management-governance/5.3.service-quotas/service-quotas|AWS Service Quotas & Monitoring Stay Ahead of Your Limits]] - mentions Service Quotas
+
+---

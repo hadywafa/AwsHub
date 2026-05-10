@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/topic/misc
+aliases:
+  - "Pricing Tools in AWS"
+  - "Pricing Tools"
+---
+
 # 💵 Pricing Tools in AWS
 
 AWS offers a range of tools to help businesses estimate, plan, and manage their costs effectively, ensuring optimal use of resources and better cost control compared to traditional on-premises setups.
@@ -71,3 +81,18 @@ AWS offers a range of tools to help businesses estimate, plan, and manage their 
 ---
 
 AWS Pricing Tools are essential for businesses aiming to stay in control of their cloud spending. From planning new deployments to monitoring and optimizing costs, these tools provide the insights and control needed to make informed financial decisions.
+---
+
+## Related Notes
+- [[aws-services/misc/xx-cost-management|Cost Management in AWS]] - previous lesson
+- [[aws-daily/aws-pricing/2.2.pricing-calculator|AWS Pricing Calculator]] - mentions AWS Pricing Calculator
+- [[aws-services/misc/xx-aws-cost-explorer|AWS Cost Explorer Visualize and Analyze Your Costs]] - mentions AWS Cost Explorer
+- [[aws-daily/aws-waf/5.1.cost-optimization|Cost Optimization]] - mentions Cost Optimization
+- [[aws-daily/aws-pricing/3.cost-explorer|AWS Cost Explorer Visualize Analyze Forecast Your AWS Costs]] - mentions Cost Explorer
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions AWS Account
+- [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
+- [[aws-daily/aws-pricing/6.1.budget|AWS Budgets Track Alert and Optimize Your AWS Spending]] - mentions Budget
+- [[aws-services/11.analytics/athena/1.2.athena|AWS Athena Your Serverless SQL Tool for S3 Analytics Made Simple]] - mentions Athena
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+
+---

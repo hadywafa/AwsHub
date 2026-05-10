@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/networking
+  - aws/topic/api-gateway
+aliases:
+  - "API Gateway API Access Management Securing Your APIs"
+  - "API Access Management"
+---
+
 # 🔒 **API Gateway – API Access Management: Securing Your APIs**
 
 Amazon API Gateway provides robust mechanisms for controlling access to your APIs, ensuring that only authorized users and services can invoke them. This guide outlines the key authentication and authorization methods available in API Gateway, helping you implement secure and efficient API access management.
@@ -150,3 +161,15 @@ For APIs that need to be accessible only within a Virtual Private Cloud (VPC), *
 ## 🏁 **Conclusion**
 
 Amazon API Gateway offers comprehensive access management capabilities to secure your APIs effectively. By leveraging IAM Policies, API Resource-Based Policies, Lambda Authorizers, and Cognito User Pools, you can implement robust authentication and authorization strategies tailored to your application's needs. Additionally, Private API Endpoints provide enhanced security for APIs that must remain within a VPC. Choosing the right combination of these methods ensures that your APIs are both secure and accessible to the appropriate users and services.
+---
+
+## Related Notes
+- [[aws-services/3.network/4.api-gateway/6.2.agw-web-socket-in-depth|Agw Web Socket In Depth]] - previous lesson
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - next lesson
+- [[ا-delete-me/networking-basics|Virtual Private Cloud]] - mentions Virtual Private Cloud
+- [[aws-services/4.storage/1.s3/3.1.access-policies|Amazon S3 Access Policies]] - mentions Access Policies
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/3.iam-policy|IAM Policies in AWS Control Access with Precision]] - mentions IAM Policy
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

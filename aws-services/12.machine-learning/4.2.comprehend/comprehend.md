@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/comprehend
+aliases:
+  - "Amazon Comprehend Unlock Insights from Text"
+  - "Comprehend"
+---
+
 # 🧠 **Amazon Comprehend: Unlock Insights from Text**
 
 > _Transform unstructured text into actionable intelligence — no machine learning expertise required._
@@ -136,3 +147,12 @@
 > - Combine extracted clinical conditions + dates = **trend prediction for better healthcare outcomes**!
 
 ✅ The **real power** comes from **contextualizing** what Comprehend extracts.
+---
+
+## Related Notes
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

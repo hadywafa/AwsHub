@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/cloud9
+aliases:
+  - "AWS Cloud9 Your Cloud-Powered IDE for Development Anywhere"
+  - "Cloud9"
+---
+
 # 🧠 **AWS Cloud9 – Your Cloud-Powered IDE for Development Anywhere**
 
 > **AWS Cloud9** is a **browser-based Integrated Development Environment (IDE)** that lets you **write, run, and debug code** with nothing but a browser — no local installs, no setup chaos.
@@ -169,3 +180,15 @@ sequenceDiagram
 2. Click **Create environment**
 3. Choose EC2 instance type, name your env
 4. Start coding in seconds!
+---
+
+## Related Notes
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|AWS Cli]] - mentions AWS Cli
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

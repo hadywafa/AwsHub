@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/system-manager
+aliases:
+  - "AWS Systems Manager SSM"
+  - "Summary Cantriel"
+---
+
 # 🛠️ **AWS Systems Manager (SSM)**
 
 > _Manage, automate, and control infrastructure across AWS and on-premises environments — all from a single interface._
@@ -73,3 +84,15 @@
 - Connect to **EC2 instances**, even in **private VPCs**, **without needing SSH or bastion hosts**.
 - Access is controlled via **IAM roles** and **logged via CloudTrail**.
 - Great for regulated environments (HIPAA, PCI, etc).
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/4.1.system-manager/|Index]] - folder map
+- [[aws-services/1.management-governance/4.1.system-manager/3.3.parameter_store|AWS SSM Parameter Store]] - previous lesson
+- [[aws-services/1.management-governance/4.1.system-manager/2.1.session-manager|AWS SSM Session Manager Secure Shell Access Without SSH]] - mentions Session Manager
+- [[aws-services/1.management-governance/4.1.system-manager/2.2.run-command|AWS SSM Run Command]] - mentions Run Command
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions Aws Kms
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions Iam
+
+---

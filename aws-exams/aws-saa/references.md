@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-saa
+aliases:
+  - "AWS SAA-CO3 Exams References"
+---
+
 # AWS SAA-CO3 Exams References
 
 ## 1-5960930-exams
@@ -15,3 +24,8 @@
 ## 3-4726080-exams
 
 [Stephane Maarek](https://www.udemy.com/course/practice-exams-aws-certified-solutions-architect-associate/learn/quiz/4726080#overview)
+---
+
+## Related Notes
+
+---

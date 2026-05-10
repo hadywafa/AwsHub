@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-dva
+  - aws/cert/stephane-mareek
+aliases:
+---
+
 # Exam 1
 
 ## **📌 Q4 ❌**
@@ -209,5 +218,18 @@ This ensures the functions are **warm and responsive before traffic spikes**.
 
 1. Enable **provisioned concurrency** for the Lambda alias or version
 2. Use **Application Auto Scaling** to create **scheduled actions** or **target tracking policies**
+
+---
+---
+
+## Related Notes
+- [[aws-exams/aws-dva/1-stephane-mareek/exam-0|Course Exam]] - previous lesson
+- [[aws-services/5.compute/4.1.lambda/6.3.lambda-provisioned-concurrency|AWS Lambda Provisioned Concurrency Say Goodbye to Cold Starts]] - mentions Lambda Provisioned Concurrency
+- [[aws-services/5.compute/4.1.lambda/5.2.lambda-environment-variables|AWS Lambda Environment Variables]] - mentions Lambda Environment Variables
+- [[aws-services/2.security/2.1.kms/1.2.envelope-encryption|There are two uses of asymmetric + symmetric encryption but they are not the same thing]] - mentions Envelope Encryption
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
 
 ---

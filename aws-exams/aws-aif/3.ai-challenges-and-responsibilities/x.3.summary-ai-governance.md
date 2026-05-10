@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-aif
+  - aws/cert/ai-challenges-and-responsibilities
+aliases:
+  - "AI Governance Quick and Easy Summary"
+  - "Summary Ai Governance"
+---
+
 # 🏛️ AI Governance: Quick and Easy Summary
 
 ## 🧠 What is AI Governance?
@@ -124,3 +135,18 @@
 ✅ **Simple Rule**:
 
 > "**Govern AI = Safer, Fairer, and More Trusted AI.**" 🧠✅
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/|Index]] - folder map
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.2.summary-ai-compliance|AI Compliance Quick and Easy Summary]] - previous lesson
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.4.summary-ai-security|AI Security Quick and Easy Summary]] - next lesson
+- [[aws-services/1.management-governance/4.4.trust-advisor/aws-trust-advisor|AWS Trusted Advisor]] - mentions AWS Trusted Advisor
+- [[aws-services/2.security/7.3.audit-manager/aws-audit-manager|AWS Audit Manager Easy Compliance Checking]] - mentions AWS Audit Manager
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/3.ai-governance|AI Governance Full Detailed and Memorable Guide]] - mentions Ai Governance
+- [[aws-services/2.security/7.4.artifact/aws-artifact|AWS Artifact Your Compliance Document Library]] - mentions AWS Artifact
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/1.1.what-is-ai|What is Artificial Intelligence AI Full Beginner Guide]] - mentions What Is Ai
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+
+---

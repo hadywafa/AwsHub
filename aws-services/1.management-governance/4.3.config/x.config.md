@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/config
+aliases:
+  - "AWS Config Track Manage and Secure Your AWS Resources"
+  - "Config"
+---
+
 # 🛡️ **AWS Config: Track, Manage, and Secure Your AWS Resources**
 
 > _Real-time visibility into your AWS infrastructure, ensuring compliance, security, and operational excellence._
@@ -173,3 +184,18 @@ With AWS Config:
 > It's much easier (and cheaper) to maintain compliance **continuously** than to fix issues during audits or incidents later.
 
 ✅ Think of AWS Config as your **always-on auditor, security guard, and historian** — all in one!
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/4.3.config/|Index]] - folder map
+- [[aws-services/1.management-governance/4.3.config/4.cloud_watch-vs-cloud_trail-vs-aws_config|CloudWatch vs CloudTrail vs AWS Config]] - previous lesson
+- [[aws-daily/aws-waf/1.1.operational-excellence|Operational Excellence]] - mentions Operational Excellence
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-daily/aws-waf/5.1.cost-optimization|Cost Optimization]] - mentions Cost Optimization
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

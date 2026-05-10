@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/cloud-shell
+aliases:
+  - "AWS CloudShell The Browser-Based Dev Terminal for AWS"
+  - "Cloud Shell"
+---
+
 # 🖥️ **AWS CloudShell – The Browser-Based Dev Terminal for AWS**
 
 **AWS CloudShell** is a **browser-based, pre-authenticated shell** available right from the AWS Console. It provides developers and admins with a **secure, ready-to-use terminal** that includes the **AWS CLI**, popular tools, and even **persistent storage** — all without needing to configure your own local setup.
@@ -146,3 +157,13 @@ aws codebuild start-build --project-name my-build
 
 > ☁️ All you need is your browser.  
 > 🚀 The cloud terminal is already waiting.
+---
+
+## Related Notes
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/2.1.access-keys|Programmatic Access to AWS Services]] - mentions Access Keys
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/3.iam-policy|IAM Policies in AWS Control Access with Precision]] - mentions Iam Policy
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|Aws Cli]] - mentions Aws Cli
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions Iam
+
+---

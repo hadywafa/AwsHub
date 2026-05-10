@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/migration-and-transfer
+  - aws/topic/aws-migration-hub
+aliases:
+  - "AWS Migration Hub Your Central Command for Cloud Migrations"
+  - "AWS Migration Hub"
+---
+
 # 🌐 **AWS Migration Hub: Your Central Command for Cloud Migrations**
 
 **AWS Migration Hub** is a **centralized dashboard** that helps you **discover**, **plan**, **execute**, and **track** your application and infrastructure migrations to AWS. It acts as your mission control, giving visibility into every stage of the migration—whether you're using AWS-native tools or trusted third-party solutions.
@@ -117,3 +128,9 @@ Manage migrations to **multiple AWS regions** under one dashboard.
 > AWS Migration Hub is like your **migration mission control tower**—offering you a clear line of sight across your entire migration fleet.
 
 Whether you're lifting-and-shifting legacy workloads or planning a multi-region enterprise migration, **Migration Hub makes the process smoother, smarter, and more transparent**. It's the best way to **migrate with clarity and confidence**.
+---
+
+## Related Notes
+- [[aws-services/10.developer/1.1.aws-cli/aws-cli|AWS Cli]] - mentions AWS Cli
+
+---

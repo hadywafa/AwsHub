@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/translate
+aliases:
+  - "Amazon Translate Break Language Barriers with AI"
+  - "Translate"
+---
+
 # 🌍 **Amazon Translate: Break Language Barriers with AI**
 
 > _Expand globally, communicate locally — fast, affordable, and accurate translations at scale._
@@ -102,3 +113,10 @@ flowchart LR
 > This ensures **brand voice and consistency** across all languages!
 
 ✅ Custom terminologies = **Professional, polished translations** that fit your industry.
+---
+
+## Related Notes
+- [[aws-services/12.machine-learning/4.2.comprehend/comprehend|Amazon Comprehend Unlock Insights from Text]] - mentions Comprehend
+- [[aws-daily/aws-pricing/6.1.budget|AWS Budgets Track Alert and Optimize Your AWS Spending]] - mentions Budget
+
+---

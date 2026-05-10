@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-ecosystem
+aliases:
+  - "AWS Ecosystem Simplified for Humans and Exams"
+  - "AWS Eycosystem"
+---
+
 # 🌐 AWS Ecosystem — Simplified for Humans (and Exams)
 
 Think of the **AWS Ecosystem** as a **giant toolbox + expert team + support hub** that helps you **learn, build, manage, and grow** in the cloud.
@@ -117,3 +127,8 @@ A **freelance platform** for AWS pros. Think “Upwork for AWS,” but inside AW
 | Marketplace | **Buy & Sell Cloud Software**               |
 | Pro Help    | **AWS Pro Services, APN, AWS IQ**           |
 | Managed Ops | **AMS = AWS manages your infra for you**    |
+---
+
+## Related Notes
+
+---

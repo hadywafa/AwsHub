@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/code-guru
+aliases:
+  - "Amazon CodeGuru"
+  - "Codeguru"
+---
+
 # 🤖 **Amazon CodeGuru**
 
 _ML-Powered Code Reviews & Performance Tuning!_
@@ -90,3 +101,8 @@ Helps analyze **runtime behavior** of your applications to:
 | -------- | --------------------------------------------------------------- |
 | Reviewer | Automated code reviews with ML-backed suggestions               |
 | Profiler | Real-time performance profiling with cost and CPU optimizations |
+---
+
+## Related Notes
+
+---

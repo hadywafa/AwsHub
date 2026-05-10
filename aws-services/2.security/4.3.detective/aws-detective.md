@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/detective
+aliases:
+  - "AWS Detective Investigate and Analyze Security Incidents Easily"
+  - "AWS Detective"
+---
+
 # 👮‍♂️ **AWS Detective: Investigate and Analyze Security Incidents Easily**
 
 > _Find out what really happened inside your AWS environment — with automatic graphs, timelines, and deep security insights._
@@ -135,3 +146,13 @@ flowchart LR
 | Seamless integration with GuardDuty, CloudTrail, and Security Hub | Streamlined threat detection to investigation workflow |
 | No manual correlation of logs needed                              | Saves critical time during incidents                   |
 | Pay-as-you-go with no infrastructure management                   | Focus on security, not backend maintenance             |
+---
+
+## Related Notes
+- [[aws-services/2.security/4.3.detective/|Index]] - folder map
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/3.network/1.vpc/1.fundmentals/7.flow-logs|AWS VPC Flow Logs Monitor Analyze Secure Your Network]] - mentions Flow Logs
+- [[aws-services/6.containers/3.eks/1.1.eks|Amazon EKS Simplifying Kubernetes on AWS]] - mentions EKS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

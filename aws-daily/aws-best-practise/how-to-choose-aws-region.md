@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-best-practise
+aliases:
+  - "How to Choose an AWS Region"
+  - "How To Choose AWS Region"
+---
+
 # 🌍 How to Choose an AWS Region
 
 When selecting an AWS Region to launch your application, consider:
@@ -23,3 +33,8 @@ When selecting an AWS Region to launch your application, consider:
 ---
 
 ✅ **Tip**: For a new app, prioritize **compliance**, then check **service availability**, followed by **latency** and **cost**.
+---
+
+## Related Notes
+
+---

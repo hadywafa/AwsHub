@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/compute
+  - aws/topic/lambda
+aliases:
+  - "AWS Lambda Notes"
+---
+
 # 📖 AWS Lambda Notes
 
 ## 📌 Notes Related To Lambda Containers
@@ -70,3 +80,16 @@ Understanding these limits is essential for designing **efficient, scalable, and
 ### 🚫 Avoid recursion
 
 - Never allow a Lambda function to **invoke itself** recursively—it can lead to runaway costs and infinite loops
+---
+
+## Related Notes
+- [[aws-services/5.compute/4.1.lambda/|Index]] - folder map
+- [[aws-services/5.compute/4.1.lambda/1.1.lambda-overview|AWS Lambda A Complete Guide with Components & Examples]] - next lesson
+- [[aws-services/1.management-governance/4.1.system-manager/3.3.parameter_store|AWS SSM Parameter Store]] - mentions Parameter Store
+- [[aws-services/5.compute/4.1.lambda/4.2.lambda-layers|AWS Lambda Layers]] - mentions Lambda Layers
+- [[aws-services/10.developer/1.2.aws-sdk/aws-sdk|AWS Sdk]] - mentions AWS Sdk
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+- [[aws-services/4.storage/2.1.efs/2.1.efs|Amazon Elastic File System EFS]] - mentions EFS
+
+---

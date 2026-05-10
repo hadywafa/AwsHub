@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/guard-duty
+aliases:
+  - "AWS GuardDuty Intelligent Threat Detection for Your AWS Cloud"
+  - "AWS Guard Duty"
+---
+
 # 🤖🫸 **AWS GuardDuty: Intelligent Threat Detection for Your AWS Cloud**
 
 > _Your always-on security detective — continuously monitoring AWS environments for threats and suspicious behavior._
@@ -142,3 +153,17 @@ If GuardDuty finds a compromised EC2 talking to a malicious server, you can trig
 | Intelligent, adaptive detection         | Catches both known and unknown threats            |
 | Multi-layer threat monitoring           | Accounts, workloads, data, networking, Kubernetes |
 | Integrates with automation and alerting | Fast response to threats                          |
+---
+
+## Related Notes
+- [[aws-services/2.security/4.1.guard-duty/|Index]] - folder map
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/2.security/6.security-hub/aws-security-hub|AWS Security Hub Your Centralized Cloud Security Command Center]] - mentions AWS Security Hub
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/3.network/1.vpc/1.fundmentals/7.flow-logs|AWS VPC Flow Logs Monitor Analyze Secure Your Network]] - mentions Flow Logs
+- [[aws-services/6.containers/3.eks/1.1.eks|Amazon EKS Simplifying Kubernetes on AWS]] - mentions EKS
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

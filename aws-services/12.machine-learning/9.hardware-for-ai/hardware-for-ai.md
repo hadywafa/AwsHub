@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/hardware-for-ai
+aliases:
+  - "Hardware for AI on AWS"
+  - "Hardware For Ai"
+---
+
 # 🖥️ Hardware for AI on AWS
 
 ## 🧠 Why Specialized Hardware for AI?
@@ -130,3 +141,10 @@ perfect for **training large deep learning models**.
 📌 **Simple Rule**:
 
 > "**GPUs for flexibility, Trainium for massive training, Inferentia for lightning-fast inference.**" 🎯
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/1.4.4.what-is-transformer-model|Transformer Model]] - mentions Transformer Model
+- [[aws-daily/aws-waf/6.1.sustainability|Sustainability]] - mentions Sustainability
+
+---

@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-saa
+  - aws/cert/stephane-mareek
+aliases:
+---
+
 # Exam 1
 
 ## Incorrect Answer
@@ -197,3 +206,15 @@
 <div style="text-align: center;">
     <img src="images/exam_1_q57.png" alt="exam_1_q57" style="border-radius: 10px; width: 60%;">
 </div>
+---
+
+## Related Notes
+- [[aws-exams/aws-saa/1-stephane-mareek/exam-0|Course Exam]] - previous lesson
+- [[aws-exams/aws-saa/1-stephane-mareek/exam-2|Exam 2]] - next lesson
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/5.compute/1.1.ec2/2.2.instance-store|Amazon EC2 Instance Store Ephemeral Storage]] - mentions Instance Store
+- [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/4.storage/2.1.efs/2.1.efs|Amazon Elastic File System EFS]] - mentions EFS
+
+---

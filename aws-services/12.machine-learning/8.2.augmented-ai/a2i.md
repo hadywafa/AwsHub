@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/augmented-ai
+aliases:
+  - "Amazon Augmented AI A2I Human Review for AI Predictions"
+---
+
 # 🤖 Amazon Augmented AI (A2I): Human Review for AI Predictions
 
 <div align="center" style="padding: 0 20px;">
@@ -52,3 +62,11 @@
 - **Faster Time-to-Market**: Avoid building your own review system from scratch.
 - **Flexible and Scalable**: Handle human reviews on-demand, at any scale.
 - **Cost-Effective**: Only pay for what you review.
+---
+
+## Related Notes
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/12.machine-learning/4.3.rekognition/rekognition|Amazon Rekognition Simplify Image and Video Analysis]] - mentions Rekognition
+- [[aws-services/12.machine-learning/5.1.textract/textract|Amazon Textract Intelligent Document Processing]] - mentions Textract
+
+---

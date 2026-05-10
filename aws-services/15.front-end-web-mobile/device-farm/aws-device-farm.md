@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/front-end-web-mobile
+  - aws/topic/device-farm
+aliases:
+  - "AWS Device Farm Simplified App Testing"
+  - "AWS Device Farm"
+---
+
 # 📱 AWS Device Farm: Simplified App Testing
 
 AWS Device Farm is your one-stop solution for testing iOS, Android, and Fire OS apps on **real devices** hosted in the AWS cloud. Forget about managing hardware or juggling emulators—this service lets you focus on building quality apps while AWS handles the heavy lifting.
@@ -72,3 +83,9 @@ Combine AWS Device Farm with **AWS CodePipeline** to ensure that every build is 
 ---
 
 AWS Device Farm simplifies app testing with its robust features and integrations. Whether you’re new to app development or a seasoned pro, it’s the perfect tool to ensure your app’s success on every device.
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline|AWS CodePipeline]] - mentions AWS CodePipeline
+
+---

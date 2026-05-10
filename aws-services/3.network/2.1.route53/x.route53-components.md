@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/networking
+  - aws/topic/route53
+aliases:
+  - "Comprehensive Guide to Amazon Route 53"
+  - "Route53 Components"
+---
+
 # 🌐 **Comprehensive Guide to Amazon Route 53**
 
 > _A powerful, scalable DNS and domain management service for public and private workloads._
@@ -181,3 +192,14 @@ Amazon Route 53 gives you:
 - Use **Private Hosted Zones** for DNS resolution inside your VPCs.
 - Set TTLs thoughtfully to balance performance and update responsiveness.
 - Use **Alias records** when pointing to AWS resources — they’re free, fast, and smart.
+---
+
+## Related Notes
+- [[aws-services/3.network/2.1.route53/5.route53-resolver|Amazon Route 53 Resolver Simple & Deep Hybrid DNS]] - previous lesson
+- [[aws-services/3.network/2.2.global-accelerator/1.2.global-accelerator|AWS Global Accelerator Enhancing Application Availability and Performance]] - mentions Global Accelerator
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+
+---

@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/storage
+  - aws/topic/aws-backup
+aliases:
+  - "AWS Backup"
+---
+
 # 🛡️ **AWS Backup**
 
 **AWS Backup** is a fully managed backup service that centralizes and automates backup activities across various AWS services and on-premises environments. It ensures your data is securely backed up, easily recoverable, and compliant with your organizational policies.
@@ -71,3 +81,17 @@
 - **📈 Monitoring:** Use AWS CloudWatch and AWS Backup reports to monitor backup job statuses and performance.
 - **🔄 Replication:** AWS Backup supports cross-region backup replication, enhancing data durability and disaster recovery capabilities.
 - **💡 Best Practices:** Regularly review and update your backup plans to align with evolving data protection needs and organizational policies.
+---
+
+## Related Notes
+- [[aws-services/4.storage/1.s3/2.4.lifecycle-policies|Amazon S3 Storage Classes Lifecycle Policies Made Easy]] - mentions Lifecycle Policies
+- [[aws-daily/aws-cloud-Concepts/6.disaster-recovery|Disaster Recovery DR in AWS]] - mentions Disaster Recovery
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+- [[aws-services/4.storage/2.1.efs/2.1.efs|Amazon Elastic File System EFS]] - mentions EFS
+
+---

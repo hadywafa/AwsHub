@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/security
+  - aws/topic/firewall-manager
+aliases:
+  - "AWS Firewall Manager Centralized Security Management Across AWS"
+  - "AWS Firewall Manager"
+---
+
 # 🏛️ **AWS Firewall Manager: Centralized Security Management Across AWS**
 
 > _Secure multiple AWS accounts and resources from a single place — automatically, consistently, and smartly._
@@ -151,3 +162,15 @@ flowchart LR
 | Inconsistent WAF and Shield setups across teams | ✅ Centralized security policies                 |
 | Manual setup for every new ALB or CloudFront    | ✅ Auto-enforcement on new resources             |
 | Security compliance headaches                   | ✅ Real-time visibility and compliance reporting |
+---
+
+## Related Notes
+- [[aws-services/2.security/3.4.firewall-manager/|Index]] - folder map
+- [[aws-services/2.security/3.3.network-firewall/1.aws-network-firewall|AWS Network Firewall Deep Network-Level Protection for Your VPCs]] - mentions AWS Network Firewall
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions AWS Account
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
+- [[aws-services/2.security/3.2.waf/2.1.aws-waf|AWS WAF Web Application Firewall global]] - mentions AWS Waf
+
+---

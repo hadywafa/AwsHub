@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/database
+  - aws/topic/documentdb
+aliases:
+  - "AWS DocumentDB like aurora architecture but with MongoDB"
+  - "AWS Documentdb"
+---
+
 # 📄 AWS DocumentDB (like `aurora` architecture but with MongoDB)
 
 Amazon DocumentDB is a **fully managed document database service** designed to be compatible with **MongoDB**, a popular NoSQL database. It enables organizations to run scalable, high-performance document-based applications without worrying about the operational complexities of managing infrastructure.
@@ -120,3 +131,9 @@ Amazon DocumentDB is a fully managed service that offers **MongoDB compatibility
 ## ✅ **Conclusion**
 
 Amazon DocumentDB simplifies the deployment and management of **MongoDB-compatible databases** in the cloud. With features like **high availability**, **scalability**, and **fault tolerance**, it is a robust solution for building modern, document-based applications. By reducing operational overhead, DocumentDB allows developers to focus on innovation while ensuring their data is secure, durable, and highly available.
+---
+
+## Related Notes
+- [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup
+
+---

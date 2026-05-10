@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/database
+  - aws/topic/timestream
+aliases:
+  - "AWS TimeStream Purpose-Built Time-Series Database"
+  - "AWS Timestream"
+---
+
 # AWS TimeStream: Purpose-Built Time-Series Database ⏳
 
 Amazon TimeStream is a **fully managed, serverless time-series database** designed to handle massive volumes of time-stamped data. It enables businesses to efficiently store, analyze, and query time-series data, making it ideal for applications like monitoring metrics, IoT sensor data, and user behavior tracking.
@@ -110,3 +121,13 @@ Amazon TimeStream is a **fast, scalable, serverless database** optimized for tim
 ## ✅ **Conclusion**
 
 Amazon TimeStream is an essential tool for modern applications requiring fast and efficient processing of time-series data. Its **serverless architecture**, **scalable design**, and built-in analytics make it perfect for monitoring, IoT, and industrial applications. By simplifying time-series data storage and analysis, TimeStream empowers businesses to gain actionable insights in real time, enhancing decision-making and operational efficiency.
+---
+
+## Related Notes
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/12.machine-learning/1.1.sagemaker/1.2.sagemaker|1. Introduction to Amazon SageMaker]] - mentions Sagemaker
+
+---

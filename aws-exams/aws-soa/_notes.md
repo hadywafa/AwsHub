@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-soa
+aliases:
+  - "Hady Wafa Notes"
+---
+
 # Hady Wafa Notes
 
 ## 📌 1. AWS RAM is used to **share resources** (e.g., VPCs, subnets, Transit Gateways), **not for deploying IAM roles** or managing permissions.
@@ -55,3 +64,15 @@ Perfect for:
 - Real-time analytics
 - AI/ML training pipelines
 - Financial modeling or genomics
+---
+
+## Related Notes
+- [[aws-exams/aws-soa/1.ex1|Exam 1]] - next lesson
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+- [[aws-services/3.network/1.vpc/1.fundmentals/4.1.vpc-peering|VPC Peering]] - mentions VPC Peering
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
+- [[aws-services/2.security/7.2.resource-access-manager/2.aws-ram|AWS Resource Access Manager RAM]] - mentions AWS Ram
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions Iam
+
+---

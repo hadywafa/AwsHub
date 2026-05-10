@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/connect
+aliases:
+  - "Amazon Connect Cloud-Based Contact Center Service"
+  - "Amazon Connect"
+---
+
 # ☎️ **Amazon Connect: Cloud-Based Contact Center Service**
 
 > _Deliver better customer service with an easy-to-use, scalable, and AI-powered cloud contact center._
@@ -128,3 +139,10 @@ Amazon Connect **fits any size**.
 
 ✅ Smart routing =  
 **Lower wait times + Better customer satisfaction + Happier agents**.
+---
+
+## Related Notes
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/4.storage/1.s3/1.2.basics-of-s3|AWS S3]] - mentions AWS S3
+
+---

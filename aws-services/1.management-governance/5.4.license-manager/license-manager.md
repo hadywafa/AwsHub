@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/license-manager
+aliases:
+  - "AWS License Manager Simplified License Management in the Cloud"
+  - "License Manager"
+---
+
 # 🧾 **AWS License Manager: Simplified License Management in the Cloud**
 
 > _Track, manage, and control software licenses across AWS and on-premises — with ease and automation._
@@ -180,3 +191,15 @@ flowchart LR
 ## 🎯 **Final Pro Tip**
 
 > 🧠 **Always combine License Manager with IAM permissions, tagging policies, and AWS Config compliance rules** to get a **full license governance** solution — especially for enterprise-scale AWS setups.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/2.1.organizations/1.aws-organizations|AWS Organizations The Smart Way to Manage Multiple AWS Accounts]] - mentions AWS Organizations
+- [[aws-services/5.compute/1.2.ec2-ami/3.2.ec2-image-builder|Amazon EC2 Image Builder Automate Your Golden AMIs]] - mentions EC2 Image Builder
+- [[aws-services/4.storage/2.2.fsx/1.1.windows-server|What is Windows Server]] - mentions Windows Server
+- [[aws-services/1.management-governance/4.3.config/1.aws-config|AWS Config Track Audit and Enforce Your AWS Resource Compliance]] - mentions AWS Config
+- [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+- [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions ECS
+
+---

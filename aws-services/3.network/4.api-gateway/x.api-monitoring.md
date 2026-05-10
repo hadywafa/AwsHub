@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/networking
+  - aws/topic/api-gateway
+aliases:
+  - "API Gateway Monitoring Ensuring Optimal Performance and Security"
+  - "Api Monitoring"
+---
+
 # 📊 **API Gateway – Monitoring: Ensuring Optimal Performance and Security**
 
 Effective monitoring is crucial for maintaining the performance, reliability, and security of your APIs. Amazon API Gateway integrates seamlessly with various AWS services to provide comprehensive monitoring capabilities. This guide offers a clear and concise overview of API Gateway monitoring, highlighting key tools, features, and best practices.
@@ -93,3 +104,16 @@ Effective monitoring is crucial for maintaining the performance, reliability, an
 ## 🏁 **Conclusion**
 
 Monitoring your APIs with Amazon API Gateway ensures they operate efficiently, securely, and reliably. By leveraging tools like CloudWatch Metrics, CloudWatch Logs, Kinesis Data Firehose, and AWS X-Ray, you gain comprehensive visibility into your API performance and security. Integrating these monitoring solutions with API Gateway’s scalable and secure infrastructure helps maintain optimal API functionality and enhances the overall user experience.
+---
+
+## Related Notes
+- [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - previous lesson
+- [[aws-services/3.network/4.api-gateway/x.why-api-gateway|HW Questions]] - next lesson
+- [[aws-services/1.management-governance/3.1.cloud-watch/3.1.cw-logs|Amazon CloudWatch Logs]] - mentions Amazon CloudWatch Logs
+- [[aws-services/11.analytics/kinesis-trash/3.kinesis-data-firehose|Amazon Kinesis Data Firehose]] - mentions Kinesis Data Firehose
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions Api Gateway
+- [[aws-services/11.analytics/firehose/1.1.firehose|Amazon Data Firehose The Pipeline That Never Sleeps]] - mentions Firehose
+- [[aws-services/2.security/3.2.waf/2.1.aws-waf|AWS WAF Web Application Firewall global]] - mentions AWS Waf
+
+---

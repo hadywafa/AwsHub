@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/hw-fundamentals
+aliases:
+  - "CORS Explained for Devs Angular + .NET Core"
+  - "API Cors"
+---
+
 # 🧭 **CORS Explained for Devs (Angular + .NET Core)**
 
 <div style="text-align: center;">
@@ -207,3 +217,9 @@ Access-Control-Allow-Headers: Content-Type, Authorization
 | Fix on API      | Add correct CORS headers in the response                                         |
 | Cache Preflight | `Access-Control-Max-Age` avoids repeated preflight requests                      |
 | Dev Tip         | Avoid preflight by using only safe headers/methods (if performance is a concern) |
+---
+
+## Related Notes
+- [[aws-daily/hw-fundmenals/linux-problems|VIP Notes]] - next lesson
+
+---

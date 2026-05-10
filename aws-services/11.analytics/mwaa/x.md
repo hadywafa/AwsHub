@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/analytics
+  - aws/topic/mwaa
+aliases:
+  - "AWS Data Pipeline Simplifying Data Workflow Automation"
+---
+
 # AWS Data Pipeline: Simplifying Data Workflow Automation 🚀
 
 AWS Data Pipeline is a **fully managed web service** designed to automate the **movement**, **transformation**, and **processing of data** across AWS services and on-premises systems. It provides a **scalable** and **flexible** way to build workflows for handling data efficiently.
@@ -120,3 +130,13 @@ AWS Data Pipeline seamlessly integrates with:
 ## 📚 **Conclusion**
 
 AWS Data Pipeline is a versatile tool for automating and managing data workflows across AWS services and on-premises systems. Whether you’re migrating data, running ETL processes, or synchronizing data between sources, AWS Data Pipeline simplifies the process with **automation**, **scalability**, and **flexibility**. It’s an excellent choice for organizations looking to streamline their data handling processes and focus on deriving insights.
+---
+
+## Related Notes
+- [[aws-services/11.analytics/mwaa/1.2.mwaa|Amazon MWAA Managed Workflows for Apache Airflow]] - previous lesson
+- [[aws-services/11.analytics/redshift/1.redshift|Amazon Redshift]] - mentions Amazon Redshift
+- [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/migration-and-transfer
+  - aws/topic/ads-application-discovery-service
+aliases:
+  - "AWS Application Discovery Service ADS Plan Your Migration with Confidence"
+  - "AWS Application Discovery Service"
+---
+
 # 🧭 **AWS Application Discovery Service (ADS): Plan Your Migration with Confidence**
 
 > Migrating workloads to the cloud isn't just about "moving stuff" — it's about **understanding what you have first**. That's where **AWS Application Discovery Service (ADS)** shines.
@@ -134,3 +145,13 @@ This type of data helps architects decide **which workloads go to EC2**, **which
 - 🧩 Choose the right migration strategy per workload
 
 🎯 **Plan smart, migrate confidently.**
+---
+
+## Related Notes
+- [[aws-services/9.migration-and-transfer/mgn-application-migration-service/2.aws-application-migration-service|AWS MGN Application Migration Service]] - mentions AWS Application Migration Service
+- [[aws-services/9.migration-and-transfer/xxxx-sms-server-migration-service/xxxx-aws-server-migration-service|AWS Server Migration Service SMS]] - mentions AWS Server Migration Service
+- [[aws-services/9.migration-and-transfer/aws-migration-hub/aws-migration-hub|AWS Migration Hub Your Central Command for Cloud Migrations]] - mentions AWS Migration Hub
+- [[aws-services/5.compute/1.1.ec2/2.3.instance-types|Amazon EC2 Instance Types Explained Clearly]] - mentions Instance Types
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+
+---

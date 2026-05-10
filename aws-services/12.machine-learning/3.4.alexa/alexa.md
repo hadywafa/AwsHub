@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/alexa
+aliases:
+  - "Amazon Alexa Your Intelligent Voice Assistant"
+  - "Alexa"
+---
+
 # 🗣️👧 **Amazon Alexa: Your Intelligent Voice Assistant**
 
 > _Empowering users to interact with technology naturally through voice._
@@ -82,5 +93,10 @@ You can **extend Alexa’s functionality** by creating **Custom Skills**:
 > When building Alexa Skills, design interactions that feel **natural**, **contextual**, and **personalized** to users.
 
 ✅ Great skills = **simple intents**, **rich responses**, and **smooth dialogs**.
+
+---
+---
+
+## Related Notes
 
 ---

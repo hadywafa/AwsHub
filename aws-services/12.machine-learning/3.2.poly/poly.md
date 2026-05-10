@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/poly
+aliases:
+  - "to Amazon Polly Turn Text into Lifelike Speech"
+  - "Poly"
+---
+
 # 🧾 to 🗣️ = **Amazon Polly: Turn Text into Lifelike Speech**
 
 > _Bring your applications to life with natural, dynamic, and engaging voice experiences._
@@ -107,3 +118,11 @@ SSML lets you control:
 - **Translate** for language switching
 - **Polly** to speak the translated responses
 - ➔ **Your app talks, understands, and adapts to any language!**
+---
+
+## Related Notes
+- [[aws-services/12.machine-learning/3.2.poly/|Index]] - folder map
+- [[aws-services/12.machine-learning/3.2.poly/questions|AWS Polly Questions]] - next lesson
+- [[aws-services/12.machine-learning/5.2.translate/translate|Amazon Translate Break Language Barriers with AI]] - mentions Translate
+
+---

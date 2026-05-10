@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/analytics
+  - aws/topic/data-exchange
+aliases:
+  - "AWS Data Exchange The Marketplace for Third-Party Data"
+  - "Data Exchange"
+---
+
 # 📦 AWS Data Exchange — The Marketplace for Third-Party Data
 
 <div style="text-align: center;">
@@ -231,3 +242,18 @@ sequenceDiagram
 ---
 
 Want the next topic on **Amazon AppFlow** simplified like this?
+---
+
+## Related Notes
+- [[aws-services/misc/aws-data-exchage|AWS Data Exchange]] - mentions AWS Data Exchange
+- [[aws-services/11.analytics/redshift/1.redshift|Amazon Redshift]] - mentions Amazon Redshift
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
+- [[aws-services/12.machine-learning/1.1.sagemaker/1.2.sagemaker|1. Introduction to Amazon SageMaker]] - mentions Sagemaker
+- [[aws-services/7.application-integration/appflow/appflow|Amazon AppFlow Simplifying SaaS-to-AWS Data Integration]] - mentions Appflow
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+- [[aws-services/11.analytics/athena/1.2.athena|AWS Athena Your Serverless SQL Tool for S3 Analytics Made Simple]] - mentions Athena
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

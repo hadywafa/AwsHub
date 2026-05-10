@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/fraud-detector
+aliases:
+  - "Amazon Fraud Detector Safeguard Against Online Fraud"
+  - "Fraud Detector"
+---
+
 # 🤖🛡️ **Amazon Fraud Detector: Safeguard Against Online Fraud**
 
 > _Detect and prevent fraud in real-time using Amazon’s machine learning expertise._
@@ -96,5 +107,10 @@ flowchart LR
 > ➔ for higher fraud detection accuracy and lower false positives.
 
 ✅ The more **context** you provide, the smarter and sharper Fraud Detector gets!
+
+---
+---
+
+## Related Notes
 
 ---

@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/quiz
+aliases:
+  - "Quiz Errors"
+  - "Quize Errors"
+---
+
 # Quiz Errors
 
 <div align="center">
@@ -259,3 +268,12 @@ The solution assumes:
 ![s3-stephan-q3](images/s3-stephan-q3.png)
 
 ![cfn-stephan-q1](images/cfn-stephan-q1.png)
+---
+
+## Related Notes
+- [[quizes/hw|Notes]] - previous lesson
+- [[quizes/quize-notes|Quiz Notes]] - next lesson
+- [[aws-services/2.security/1.2.identity-federation-solutions/.core/1.what-is-identity-federation|Identity Federation]] - mentions Identity Federation
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions Ebs
+
+---

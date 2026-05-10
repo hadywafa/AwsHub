@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/database
+  - aws/topic/quantum-ledger-db
+aliases:
+  - "Amazon Quantum Ledger Database QLDB A Transparent and Immutable Ledger Database"
+  - "AWS Qldb"
+---
+
 # Amazon Quantum Ledger Database (QLDB): A Transparent and Immutable Ledger Database 📜
 
 Amazon Quantum Ledger Database (QLDB) is a **fully managed, serverless ledger database** that provides a **transparent, immutable**, and **cryptographically verifiable transaction log**. It is purpose-built to help organizations easily build ledger-like applications that maintain a complete and trustworthy history of changes to their data.
@@ -244,3 +255,19 @@ QLDB is a **purpose-built ledger database** that simplifies building application
 ## ✅ **Conclusion**
 
 Amazon QLDB is a revolutionary service for organizations that require **immutable, trustworthy, and transparent data recording**. With features like **cryptographic verification**, **serverless scalability**, and support for SQL-compatible queries, QLDB simplifies building ledger-based applications for various industries. Whether for financial transactions, supply chain tracking, or compliance reporting, QLDB provides a robust foundation for securely managing and analyzing historical data.
+---
+
+## Related Notes
+- [[aws-services/9.migration-and-transfer/dms-database-migration-service/aws-database-migration-service|AWS Database Migration Service DMS]] - mentions AWS Database Migration Service
+- [[aws-services/16.blockchain/aws-managed-blockchain|Amazon Managed Blockchain]] - mentions Amazon Managed Blockchain
+- [[aws-services/2.security/7.3.audit-manager/aws-audit-manager|AWS Audit Manager Easy Compliance Checking]] - mentions AWS Audit Manager
+- [[aws-services/8.database/dynamodb/ddb-in-depth/11.1.ddb-streams|DynamoDB Streams CDC in Real-Time]] - mentions DynamoDB Streams
+- [[aws-services/8.database/aurora/1.1.aurora-overview|Amazon Aurora]] - mentions Amazon Aurora
+- [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
+- [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
+- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+- [[aws-services/2.security/2.1.kms/2.aws-kms|AWS KMS Centralized Key Management for Secure Cloud Encryption]] - mentions AWS KMS
+
+---

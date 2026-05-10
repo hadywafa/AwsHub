@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/opsworks
+aliases:
+  - "AWS OpsWorks Basics"
+  - "Opsworks"
+---
+
 # AWS OpsWorks Basics 🛠️
 
 AWS OpsWorks is a **deprecated service** that provided configuration management for automating server configurations, deployments, and scaling. While no longer supported, a basic understanding can be useful for historical context or certification preparation.
@@ -76,3 +87,10 @@ AWS OpsWorks was deprecated on **May 26, 2024**, as AWS shifted focus to more mo
 - AWS OpsWorks was primarily used for automating configuration and deployment using Chef/Puppet.
 - The service has been discontinued, and **AWS Systems Manager** is the modern alternative.
 - Understanding OpsWorks basics helps you appreciate the evolution of AWS's approach to infrastructure management.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions AWS CloudFormation
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions Ebs
+
+---

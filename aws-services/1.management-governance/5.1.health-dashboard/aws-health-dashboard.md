@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/health-dashboard
+aliases:
+  - "AWS Health Dashboard Monitor AWS Service & Account Impact"
+  - "AWS Health Dashboard"
+---
+
 # 🩺 **AWS Health Dashboard: Monitor AWS Service & Account Impact**
 
 The **AWS Health Dashboard** helps you stay informed about **AWS service status** and how outages or events may **personally impact your account**.
@@ -149,3 +160,13 @@ Let’s walk through an example setup:
 <div style="text-align: center;">
     <img src="images/quiz.png" alt="quiz" style="border-radius: 10px; width: 80%;">
 </div>
+---
+
+## Related Notes
+- [[aws-services/2.security/2.1.kms/1.3.key-rotation|Key Rotation]] - mentions Key Rotation
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/2.1.access-keys|Programmatic Access to AWS Services]] - mentions Access Keys
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

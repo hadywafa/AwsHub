@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/service-quotas
+aliases:
+  - "AWS Service Quotas & Monitoring Stay Ahead of Your Limits"
+  - "Service Quotas"
+---
+
 # 🚦 AWS Service Quotas & Monitoring: Stay Ahead of Your Limits
 
 AWS imposes **service quotas** (a.k.a. limits) to ensure fair use and account stability. Whether you're scaling Lambda, launching EC2s, or provisioning RDS databases—these limits can impact your architecture and uptime.
@@ -125,3 +136,15 @@ Combine **CloudWatch Dashboards** and **Service Quotas** metrics to build a **re
 ## 🧠 Pro Tip
 
 Always set alarms **below the quota threshold** (e.g., 80–90%) to give you time to act before reaching a limit.
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/5.3.service-quotas/|Index]] - folder map
+- [[aws-services/1.management-governance/3.1.cloud-watch/2.3.cw-dashboards|Amazon CloudWatch Dashboards]] - mentions CloudWatch Dashboards
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions AWS Account
+- [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
+- [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions EBS
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions SNS
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-aif
+  - aws/cert/ai-challenges-and-responsibilities
+aliases:
+  - "AI Compliance Quick and Easy Summary"
+  - "Summary Ai Compliance"
+---
+
 # 🛡️ AI Compliance: Quick and Easy Summary
 
 ## 🧠 What is AI Compliance?
@@ -114,3 +125,14 @@
 ✅ **Simple Rule**:
 
 > "**Trustworthy AI = Secure + Explainable + Compliant.**" 🧠✅
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/|Index]] - folder map
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.1.2.summary-genai-challenges|AI Generative Capabilities and Challenges Quick Summary]] - previous lesson
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/x.3.summary-ai-governance|AI Governance Quick and Easy Summary]] - next lesson
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/2.3.training-data|Training Data Foundation of Machine Learning Success]] - mentions Training Data
+- [[aws-exams/aws-aif/3.ai-challenges-and-responsibilities/2.ai-compliance|AI Compliance Full Guide to Doing AI the Right Way Legally & Ethically]] - mentions Ai Compliance
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/1.1.what-is-ai|What is Artificial Intelligence AI Full Beginner Guide]] - mentions What Is Ai
+
+---

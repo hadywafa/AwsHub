@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/application-integration
+  - aws/topic/appflow
+aliases:
+  - "Amazon AppFlow Simplifying SaaS-to-AWS Data Integration"
+  - "Appflow"
+---
+
 # 🚢 Amazon AppFlow: Simplifying SaaS-to-AWS Data Integration
 
 Amazon **AppFlow** is a **fully managed integration service** that makes it easy to **securely transfer data between SaaS applications and AWS services**—with no code or low-code efforts. Whether you're syncing marketing data from Salesforce or pulling analytics into Redshift, AppFlow is your bridge between **data silos and actionable insights**.
@@ -135,3 +146,12 @@ AppFlow is **built with security in mind**:
 - 🔗 [Official Amazon AppFlow Docs](https://docs.aws.amazon.com/appflow/)
 - 🎥 [AWS AppFlow Video Demos](https://aws.amazon.com/appflow/getting-started/)
 - 🛠️ [Pricing](https://aws.amazon.com/appflow/pricing/)
+---
+
+## Related Notes
+- [[aws-services/11.analytics/redshift/1.redshift|Amazon Redshift]] - mentions Amazon Redshift
+- [[aws-services/11.analytics/mwaa/1.2.mwaa|Amazon MWAA Managed Workflows for Apache Airflow]] - mentions Mwaa
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
+
+---

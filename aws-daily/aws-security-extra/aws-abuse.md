@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/daily
+  - aws/topic/aws-security-extra
+aliases:
+  - "What Is AWS Abuse"
+  - "AWS Abuse"
+---
+
 # 🚨 What Is **AWS Abuse**?
 
 **AWS abuse** refers to **any activity on AWS infrastructure that violates AWS’s Acceptable Use Policy (AUP)** — especially when it:
@@ -81,3 +91,11 @@ If you **receive abuse** (e.g., attacks from AWS IPs), or want to report a custo
 ---
 
 Would you like a **visual flowchart of what’s allowed vs. abuse** in AWS testing environments?
+---
+
+## Related Notes
+- [[aws-daily/aws-security-extra/aws-pentration-testing|Penetration Testing on AWS Cloud What You Can & Cant Do]] - next lesson
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions AWS Account
+- [[aws-services/1.management-governance/1.cloudformation/.docs|CND Useful References]] - mentions Docs
+
+---

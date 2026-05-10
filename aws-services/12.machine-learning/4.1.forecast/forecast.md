@@ -1,3 +1,14 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/machine-learning
+  - aws/topic/forecast
+aliases:
+  - "AWS Forecast Accurate Time-Series Predictions Made Easy"
+  - "Forecast"
+---
+
 # 🤖📊 **AWS Forecast: Accurate Time-Series Predictions Made Easy**
 
 > _Predict the future with the power of machine learning — no ML expertise required!_
@@ -107,3 +118,9 @@ flowchart LR
 ✅ Example:
 
 - Predict sales → Add “Black Friday” or “Discount Event” metadata ➔ Model learns sales spikes!
+---
+
+## Related Notes
+- [[aws-exams/aws-aif/1.ai-ml-dp-genai-basics/2.1.ml-algorithms|Introduction to Machine Learning ML Algorithms]] - mentions Ml Algorithms
+
+---

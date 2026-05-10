@@ -1,3 +1,12 @@
+﻿---
+tags:
+  - aws
+  - aws/exam
+  - aws/cert/aws-saa
+  - aws/cert/stephane-mareek
+aliases:
+---
+
 # Exam 3
 
 ## Incorrect Answer
@@ -178,3 +187,15 @@
 <div style="text-align: center;">
     <img src="images/exam_3_q65.png" alt="exam_3_q65" style="border-radius: 10px; width: 60%;">
 </div>
+---
+
+## Related Notes
+- [[aws-exams/aws-saa/1-stephane-mareek/exam-2|Exam 2]] - previous lesson
+- [[aws-exams/aws-saa/1-stephane-mareek/exam-4|Exam 4]] - next lesson
+- [[aws-services/2.security/1.3.directory-service/2.3.aws-directory-service-conclusion|AWS Directory Service]] - mentions AWS Directory Service
+- [[aws-services/2.security/1.3.directory-service/2.1.aws-directory-service|AWS Directory Service]] - mentions AWS Directory Service
+- [[aws-services/5.compute/1.1.ec2/5.4.spot-instances|EC2 Spot Instances Maximum Savings Minimal Waste]] - mentions Spot Instances
+- [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
+- [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
+
+---

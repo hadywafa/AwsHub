@@ -1,3 +1,13 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/management-and-governance
+  - aws/topic/cloud-watch
+aliases:
+  - "AWS Cloud Watch"
+---
+
 # AWS Cloud Watch
 
 ![cloudwatch-metrics](images/cloudwatch-metrics.png)
@@ -158,3 +168,16 @@ CloudWatch Alarms can be created to watch a single CloudWatch metric (or a custo
 - EC2 (recover, start, reboot, terminate) or
 - Send notifications to an SNS topic.
   > Note ⚠️: `CloudWatch alarms cannot invoke a Lambda function directly.`
+---
+
+## Related Notes
+- [[aws-services/1.management-governance/3.1.cloud-watch/|Index]] - folder map
+- [[aws-services/1.management-governance/3.1.cloud-watch/7.cw-questions|Questions]] - previous lesson
+- [[aws-services/1.management-governance/3.1.cloud-watch/3.1.cw-logs|Amazon CloudWatch Logs]] - mentions Amazon CloudWatch Logs
+- [[aws-services/1.management-governance/3.1.cloud-watch/2.3.cw-dashboards|Amazon CloudWatch Dashboards]] - mentions CloudWatch Dashboards
+- [[aws-daily/aws-pricing/6.2.billing-alarms|Billing Alarms in CloudWatch]] - mentions Billing Alarms
+- [[aws-services/1.management-governance/3.1.cloud-watch/2.1.cloud-watch|AWS CloudWatch Metrics Monitor Everything Smarter]] - mentions Cloud Watch
+- [[aws-services/2.security/1.1.iam/1.fundmmentals/1.1.aws-account|AWS Account Your Gateway to the AWS Cloud]] - mentions Aws Account
+- [[aws-services/7.application-integration/sns/1.sns|Amazon SNS The Clouds Pub/Sub Notification Engine]] - mentions Sns
+
+---
