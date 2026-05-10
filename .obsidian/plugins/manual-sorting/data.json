@@ -2,6 +2,9 @@
   "customOrder": {
     "/": {
       "children": [
+        "TaskNotes",
+        "tools",
+        "AWS Knowledge Hub.md",
         "aws-daily",
         "aws-exams",
         "aws-services",
@@ -567,7 +570,6 @@
     "aws-exams/aws-saa": {
       "children": [
         "aws-exams/aws-saa/1-stephane-mareek",
-        "aws-exams/aws-saa/stephan-notes",
         "aws-exams/aws-saa/references.md"
       ],
       "sortOrder": "custom"
@@ -625,10 +627,6 @@
         "aws-exams/aws-saa/1-stephane-mareek/images/exam_3_q64.png",
         "aws-exams/aws-saa/1-stephane-mareek/images/exam_3_q65.png"
       ],
-      "sortOrder": "custom"
-    },
-    "aws-exams/aws-saa/stephan-notes": {
-      "children": [],
       "sortOrder": "custom"
     },
     "aws-exams/aws-sap": {
@@ -4715,6 +4713,29 @@
         "quizes/images/s3-stephan-q4.png",
         "quizes/images/s3-stephan-q8.png",
         "quizes/images/security-q6.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "TaskNotes": {
+      "children": [
+        "TaskNotes/Views"
+      ],
+      "sortOrder": "custom"
+    },
+    "TaskNotes/Views": {
+      "children": [
+        "TaskNotes/Views/agenda-default.base",
+        "TaskNotes/Views/calendar-default.base",
+        "TaskNotes/Views/kanban-default.base",
+        "TaskNotes/Views/mini-calendar-default.base",
+        "TaskNotes/Views/relationships.base",
+        "TaskNotes/Views/tasks-default.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "tools": {
+      "children": [
+        "tools/Update-ObsidianGraph.ps1"
       ],
       "sortOrder": "custom"
     },
