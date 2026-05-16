@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Knowledge Hub.md",
+                "file": "aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Knowledge Hub"
-            }
-          },
-          {
-            "id": "2d63a7c7e841182e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2.iam"
+              "title": "1.1.what-is-aws-code-pipeline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,13 +214,36 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "2d63a7c7e841182e",
+  "active": "6649c23603210e80",
   "lastOpenFiles": [
-    "AWS Knowledge Hub.md",
+    "aws-services/10.developer/2.3.code-deploy/1.1.codedeploy.md",
+    "aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline.md",
+    "aws-services/10.developer/2.1.code-pipeline/1.2.code-pipeline-supported-deploy-providers.md",
+    "aws-services/6.containers/2.ecs/2.2.ecs-anywhere.md",
+    "aws-services/6.containers/2.ecs/2.1.ecr-cluster.md",
+    "aws-services/6.containers/2.ecs/1.3.ecs-use-cases.md",
+    "aws-services/6.containers/2.ecs/1.2.ecs-components.md",
+    "aws-services/6.containers/2.ecs/1.1.ecs.md",
+    "aws-services/6.containers/1.ecr/1.2.ecr.md",
+    "aws-services/1.management-governance/1.cloudformation/1.13.cfn-cli.md",
+    "aws-services/1.management-governance/1.cloudformation/1.12.cfn-rollbacks.md",
+    "aws-services/1.management-governance/1.cloudformation/1.11.stack-drifts.md",
+    "aws-services/1.management-governance/1.cloudformation/1.10.change-set.md",
+    "aws-services/1.management-governance/1.cloudformation/1.9.cfn-outputs.md",
+    "aws-services/1.management-governance/1.cloudformation/1.8.cfn-conditions.md",
+    "aws-services/1.management-governance/1.cloudformation/1.7.cfn-mapping.md",
+    "aws-services/1.management-governance/1.cloudformation/1.6.cfn-metadata.md",
+    "aws-services/1.management-governance/1.cloudformation/1.5.cfn-parameters.md",
+    "aws-services/1.management-governance/1.cloudformation/1.4.cfn-resources-replacement.md",
+    "aws-services/1.management-governance/1.cloudformation/1.3.cfn-dependencies.md",
+    "aws-services/1.management-governance/1.cloudformation/1.2.cfn-template-structure.md",
+    "aws-services/1.management-governance/1.cloudformation/1.1.cfn.md",
+    "aws-services/1.management-governance/1.cloudformation/3.cfn-stack-set.md",
+    "aws-services/1.management-governance/1.cloudformation/2.3.cfn-cross-stack-reference.md",
+    "aws-services/1.management-governance/1.cloudformation/2.1.cfn-nested-stacks.md",
+    "aws-services/3.network/1.vpc/1.fundmentals/1.1.vpc-basics.md",
     "tools/Update-ObsidianGraph.ps1",
     "tools",
-    "aws-services/1.management-governance/1.cloudformation/1.8.cfn-conditions.md",
-    "aws-services/1.management-governance/1.cloudformation/1.1.cfn.md",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
@@ -244,40 +252,17 @@
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "azure/1.management-governance/2.1.arm/1.arm.md",
     "Certificates/Nvidia/NCA-AIIO/assets/summary.canvas",
     "Certificates/Nvidia/NCA-AIIO/assets/images/DGX SuperPOD-1776367486077.webp",
     "Certificates/Nvidia/NCA-AIIO/assets/images/nvidia innovation-1776113908177.webp",
-    "Certificates/Nvidia/NCA-AIIO/3.NVIDIA Technology Stack/1. physical layer/ConnectX.md",
-    "Certificates/Nvidia/NCA-AIIO/3.NVIDIA Technology Stack/1. physical layer/DGX SuperPOD.md",
-    "Certificates/Nvidia/NCA-AIIO/3.NVIDIA Technology Stack/1. physical layer/DGX Platform.md",
-    "Certificates/Nvidia/NCA-AIIO/3.NVIDIA Technology Stack/1. physical layer/Nvidia Innovation.md",
-    "Certificates/Nvidia/NCA-AIIO/3.NVIDIA Technology Stack/1. physical layer/Nvidia RTX Series.md",
     "Certificates/Nvidia/NCA-AIIO/assets/images/DGX Platform-1776366255412.webp",
-    "2.AI Infrastructure & Operation/2.GPU Architecture/Ray Tracing.md",
-    "Certificates/Nvidia/NCA-AIIO/3.NVIDIA Technology Stack/1. physical layer/BlueField DPU.md",
     "Certificates/Nvidia/NCA-AIIO/assets/images/DGX Platform-1776365517613.webp",
     "Certificates/Nvidia/NCA-AIIO/assets/images/Nvidia RTX Series-1776365348063.webp",
-    "2.AI Infrastructure & Operation/2.GPU Architecture/Tensor Core.md",
-    "2.AI Infrastructure & Operation/2.GPU Architecture/RT Core.md",
-    "2.AI Infrastructure & Operation/2.GPU Architecture/CUDA.md",
     "Certificates/Nvidia/NCA-AIIO/assets/images/nvidia innovation-1776112762533.webp",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/Storage inside an AI centric Data Center.md",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/ai_datacenter_storage_layers.md",
     "Certificates/Nvidia/NCA-AIIO/assets/images/Network inside an AI centric Data Center-1775986053098.webp",
     "Certificates/Nvidia/NCA-AIIO/assets/images/Network Types-1775991727925.webp",
     "Certificates/Nvidia/NCA-AIIO/assets/images/Moore's law-1775981970451.webp",
     "Certificates/Nvidia/NCA-AIIO/assets/images/CPU vs GPU vs DPU-1775981689028.webp",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/RoCE vs InfiniBand.md",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/Network inside an AI centric Data Center.md",
-    "Certificates/Nvidia/NCA-AIIO/1.Fundmentals/DPU.md",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/Power Usage Effectiveness (PUE).md",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/Moore's law.md",
-    "Certificates/Nvidia/NCA-AIIO/2.Inside Data Center/AI Centric Data Center.md",
-    "Dictionary/ai-dictionary.md",
-    "Certificates/Nvidia/NCA-AIIO/1.Fundmentals/CPU vs GPU vs DPU.md",
-    "Certificates/Nvidia/NCA-AIIO/1.Fundmentals/CPU Server Systems.md",
-    "Certificates/Nvidia/NCA-AIIO/1.Fundmentals/CPU & GPU Integration.md",
     "Canvas/Canvas-1.canvas",
     "Canvas/Canvas-2.canvas",
     "Obsidian/Untitled.canvas",
