@@ -6,8 +6,7 @@ aliases:
 ---
 
 # AWS Route53
-
-![alt text](images/route-traffic.png)
+![alt text](route-traffic.png))
 
 ## Functions
 
@@ -16,10 +15,7 @@ aliases:
 1. Health Check
 
 ## Records Types
-
-![alt text](images/zone-master-file.png)
-![alt text](images/all-records-types.png)
-![alt text](images/popular-records-types.png)
+![alt text](zone-master-file.png))![alt text](all-records-types.png))![alt text](popular-records-types.png))
 
 - **`TTL` (Time to Live)**: determines how long DNS information is cached, influencing the speed of DNS updates and the frequency of DNS queries.
 - **`@` Keyword** : In DNS records, the **@** symbol is a shorthand notation used to represent the root domain, or the domain name itself, without any subdomains. For example, if your domain is **example.com**, the **@** symbol refers to **example.com**.
@@ -118,8 +114,8 @@ These routing policies offer flexibility and control over how traffic is routed 
 ---
 
 ## Related Notes
-- [[ا-delete-me/aws-api-getway|AWS API Gateway]] - previous lesson
-- [[ا-delete-me/networking-basics|Virtual Private Cloud]] - next lesson
+-[[aws-api-getway|AWS API Gateway]]] - previous lesson
+-[[networking-basics|Virtual Private Cloud]]] - next lesson
 - [[aws-daily/aws-cloud-Concepts/1.3.high-availability-and-fault-tolerance|High Availability Fault Tolerance]] - mentions High Availability And Fault Tolerance
 - [[aws-services/3.network/2.1.route53/2.route53|AWS Route 53 Scalable DNS for Public & Private Workloads]] - mentions Route53
 - [[aws-services/8.database/dynamodb/1.4.backup|AWS DynamoDB Backup]] - mentions Backup

@@ -37,7 +37,7 @@ API Gateway can indeed serve as a central hub that manages and routes requests t
 ## Related Notes
 - [[aws-services/3.network/4.api-gateway/x.api-monitoring|API Gateway Monitoring Ensuring Optimal Performance and Security]] - previous lesson
 - [[aws-daily/aws-architectures/1.1.microservices-architecture|The Ultimate Guide to Microservices Architecture]] - mentions Microservices Architecture
-- [[ا-delete-me/aws-api-getway|AWS API Gateway]] - mentions AWS API Gateway
+-[[aws-api-getway|AWS API Gateway]]] - mentions AWS API Gateway
 - [[aws-services/3.network/4.api-gateway/2.1.agw-rest-api|AWS API Gateway]] - mentions AWS API Gateway
 - [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - mentions API Gateway
 - [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway

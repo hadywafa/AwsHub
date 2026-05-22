@@ -166,7 +166,7 @@ Amazon API Gateway offers comprehensive access management capabilities to secure
 ## Related Notes
 - [[aws-services/3.network/4.api-gateway/6.2.agw-web-socket-in-depth|Agw Web Socket In Depth]] - previous lesson
 - [[aws-services/3.network/4.api-gateway/x.api-gateway|Amazon API Gateway Streamlining API Management]] - next lesson
-- [[ا-delete-me/networking-basics|Virtual Private Cloud]] - mentions Virtual Private Cloud
+-[[networking-basics|Virtual Private Cloud]]] - mentions Virtual Private Cloud
 - [[aws-services/4.storage/1.s3/3.1.access-policies|Amazon S3 Access Policies]] - mentions Access Policies
 - [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
 - [[aws-services/2.security/1.1.iam/1.fundmmentals/3.iam-policy|IAM Policies in AWS Control Access with Precision]] - mentions IAM Policy

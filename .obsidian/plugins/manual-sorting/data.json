@@ -2,11 +2,14 @@
   "customOrder": {
     "/": {
       "children": [
+        "TaskNotes",
+        "tools",
         "aws-daily",
         "aws-exams",
         "aws-services",
         "quizes",
-        "ا-delete-me"
+        "x",
+        "AWS Knowledge Hub.md"
       ],
       "sortOrder": "custom"
     },
@@ -513,7 +516,18 @@
     },
     "aws-exams/aws-dop/1.SDLC Automation": {
       "children": [
-        "aws-exams/aws-dop/1.SDLC Automation/README.md"
+        "aws-exams/aws-dop/1.SDLC Automation/images",
+        "aws-exams/aws-dop/1.SDLC Automation/Notes.md",
+        "aws-exams/aws-dop/1.SDLC Automation/CodePipeline – CloudFormation Integration.md",
+        "aws-exams/aws-dop/1.SDLC Automation/CodePipeline – Action types.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-exams/aws-dop/1.SDLC Automation/images": {
+      "children": [
+        "aws-exams/aws-dop/1.SDLC Automation/images/CodePipeline – CloudFormation Integration-1778939039680.webp",
+        "aws-exams/aws-dop/1.SDLC Automation/images/README-1778930304669.webp",
+        "aws-exams/aws-dop/1.SDLC Automation/images/README-1778929213268.webp"
       ],
       "sortOrder": "custom"
     },
@@ -4718,59 +4732,82 @@
       ],
       "sortOrder": "custom"
     },
-    "ا-delete-me": {
+    "TaskNotes": {
       "children": [
-        "ا-delete-me/images",
-        "ا-delete-me/aws-api-getway.md",
-        "ا-delete-me/aws-route53.md",
-        "ا-delete-me/networking-basics.md"
+        "TaskNotes/Views"
       ],
       "sortOrder": "custom"
     },
-    "ا-delete-me/images": {
+    "TaskNotes/Views": {
       "children": [
-        "ا-delete-me/images/all-records-types.png",
-        "ا-delete-me/images/api-gateway-0.png",
-        "ا-delete-me/images/api-gateway-1.png",
-        "ا-delete-me/images/api-gateway-2.png",
-        "ا-delete-me/images/api-gateway-3.png",
-        "ا-delete-me/images/api-gateway-4.png",
-        "ا-delete-me/images/api-gateway-5.png",
-        "ا-delete-me/images/api-gateway-6.png",
-        "ا-delete-me/images/api-gateway-7.png",
-        "ا-delete-me/images/api-gateway-8.png",
-        "ا-delete-me/images/calc-subnets-ex1-1.png",
-        "ا-delete-me/images/calc-subnets-ex1-2.png",
-        "ا-delete-me/images/calc-subnets-ex2-1.png",
-        "ا-delete-me/images/calc-subnets-ex2-2.png",
-        "ا-delete-me/images/calc-subnets-ex3.png",
-        "ا-delete-me/images/calc-subnets-note.png",
-        "ا-delete-me/images/cdn.png",
-        "ا-delete-me/images/cidr-1.png",
-        "ا-delete-me/images/cidr-2.png",
-        "ا-delete-me/images/cidr-3.png",
-        "ا-delete-me/images/cidr-4.png",
-        "ا-delete-me/images/cidr-5.png",
-        "ا-delete-me/images/cidr-6.png",
-        "ا-delete-me/images/cidr-7.png",
-        "ا-delete-me/images/classfull-addressing-1.png",
-        "ا-delete-me/images/classfull-addressing-2.png",
-        "ا-delete-me/images/each-byte-can-contain-255-possible-numbers.png",
-        "ا-delete-me/images/example-design-vpc-subnets-in-aws.png",
-        "ا-delete-me/images/ip-form.png",
-        "ا-delete-me/images/network-connection-getway.png",
-        "ا-delete-me/images/network-devices-working-with-binary-data.png",
-        "ا-delete-me/images/network-to-create-subnets-from-it.png",
-        "ا-delete-me/images/popular-records-types.png",
-        "ا-delete-me/images/private-ips-considrations.png",
-        "ا-delete-me/images/private-ips-from-iana.png",
-        "ا-delete-me/images/reserved-ips-for-any-subnets.png",
-        "ا-delete-me/images/route-traffic.png",
-        "ا-delete-me/images/subnets-from-host-id-1.png",
-        "ا-delete-me/images/subnets-from-host-id-2.png",
-        "ا-delete-me/images/understanding-ip-in-aws.png",
-        "ا-delete-me/images/vpc-classification.png",
-        "ا-delete-me/images/zone-master-file.png"
+        "TaskNotes/Views/agenda-default.base",
+        "TaskNotes/Views/calendar-default.base",
+        "TaskNotes/Views/kanban-default.base",
+        "TaskNotes/Views/mini-calendar-default.base",
+        "TaskNotes/Views/relationships.base",
+        "TaskNotes/Views/tasks-default.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "tools": {
+      "children": [
+        "tools/Update-ObsidianGraph.ps1"
+      ],
+      "sortOrder": "custom"
+    },
+    "x": {
+      "children": [
+        "x/images",
+        "x/aws-api-getway.md",
+        "x/aws-route53.md",
+        "x/networking-basics.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "x/images": {
+      "children": [
+        "x/images/all-records-types.png",
+        "x/images/api-gateway-0.png",
+        "x/images/api-gateway-1.png",
+        "x/images/api-gateway-2.png",
+        "x/images/api-gateway-3.png",
+        "x/images/api-gateway-4.png",
+        "x/images/api-gateway-5.png",
+        "x/images/api-gateway-6.png",
+        "x/images/api-gateway-7.png",
+        "x/images/api-gateway-8.png",
+        "x/images/calc-subnets-ex1-1.png",
+        "x/images/calc-subnets-ex1-2.png",
+        "x/images/calc-subnets-ex2-1.png",
+        "x/images/calc-subnets-ex2-2.png",
+        "x/images/calc-subnets-ex3.png",
+        "x/images/calc-subnets-note.png",
+        "x/images/cdn.png",
+        "x/images/cidr-1.png",
+        "x/images/cidr-2.png",
+        "x/images/cidr-3.png",
+        "x/images/cidr-4.png",
+        "x/images/cidr-5.png",
+        "x/images/cidr-6.png",
+        "x/images/cidr-7.png",
+        "x/images/classfull-addressing-1.png",
+        "x/images/classfull-addressing-2.png",
+        "x/images/each-byte-can-contain-255-possible-numbers.png",
+        "x/images/example-design-vpc-subnets-in-aws.png",
+        "x/images/ip-form.png",
+        "x/images/network-connection-getway.png",
+        "x/images/network-devices-working-with-binary-data.png",
+        "x/images/network-to-create-subnets-from-it.png",
+        "x/images/popular-records-types.png",
+        "x/images/private-ips-considrations.png",
+        "x/images/private-ips-from-iana.png",
+        "x/images/reserved-ips-for-any-subnets.png",
+        "x/images/route-traffic.png",
+        "x/images/subnets-from-host-id-1.png",
+        "x/images/subnets-from-host-id-2.png",
+        "x/images/understanding-ip-in-aws.png",
+        "x/images/vpc-classification.png",
+        "x/images/zone-master-file.png"
       ],
       "sortOrder": "custom"
     }

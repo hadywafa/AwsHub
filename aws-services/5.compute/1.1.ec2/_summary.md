@@ -146,7 +146,7 @@ aliases:
 ## Related Notes
 - [[aws-services/5.compute/1.1.ec2/|Index]] - folder map
 - [[aws-services/5.compute/1.1.ec2/1.1.hypervisor|Hypervisors in AWS Xen vs Nitro Deep & Clear]] - next lesson
-- [[ا-delete-me/networking-basics|Virtual Private Cloud]] - mentions Virtual Private Cloud
+-[[networking-basics|Virtual Private Cloud]]] - mentions Virtual Private Cloud
 - [[aws-services/5.compute/1.1.ec2/8.1.instance-lifecycle|Amazon EC2 Instance Lifecycle Explained Visually & Simply]] - mentions Instance Lifecycle
 - [[aws-daily/aws-waf/5.1.cost-optimization|Cost Optimization]] - mentions Cost Optimization
 - [[aws-services/5.compute/1.1.ec2/5.4.spot-instances|EC2 Spot Instances Maximum Savings Minimal Waste]] - mentions Spot Instances
