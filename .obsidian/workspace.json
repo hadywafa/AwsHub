@@ -216,6 +216,8 @@
   },
   "active": "fc7e321c07a48c53",
   "lastOpenFiles": [
+    "aws-services/10.developer/2.1.cloudformation/1.12.cfn-rollbacks.md",
+    "aws-services/10.developer/2.1.cloudformation/1.13.cfn-cli.md",
     "aws-services/10.developer/4.x-ray/2.2.x-ray-sampling-rules.md",
     "aws-services/10.developer/4.x-ray/2.1.x-ray-how-to-enable-it.md",
     "aws-services/10.developer/4.x-ray/1.x-ray.md",
@@ -247,8 +249,6 @@
     "aws-services/10.developer/3.4.code-pipeline/1.2.code-pipeline-supported-deploy-providers.md",
     "aws-services/10.developer/3.4.code-pipeline/1.1.what-is-aws-code-pipeline.md",
     "aws-services/2.security/1.1.iam/1.fundmmentals/2.1.access-keys.md",
-    "aws-services/10.developer/1.1.aws-cli/aws-cli.md",
-    "aws-services/10.developer/1.2.aws-sdk/aws-sdk-chaining-credentials.md",
     "aws-services/10.developer/1.2.aws-sdk/images/aws-sdk-chaining-credentials.png",
     "aws-exams/aws-dop/1.SDLC Automation/images/README-1778929213268.webp",
     "aws-exams/aws-dop/1.SDLC Automation/images/CodePipeline – CloudFormation Integration-1778939039680.webp",
