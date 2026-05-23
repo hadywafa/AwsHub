@@ -1,0 +1,262 @@
+﻿---
+tags:
+  - aws
+  - aws/service
+  - aws/domain/developer-tools
+  - aws/topic/code-deploy
+aliases:
+  - "Monorepo Deployment with CodePipeline CodeBuild and CodeDeploy"
+  - "Monorepo Deployment"
+---
+
+# 🏗️ Monorepo Deployment with CodePipeline, CodeBuild, and CodeDeploy
+
+> ✅ Use Case: Deploy multiple independent services (like frontend and backend) from a **single monorepo**  
+> 🧩 Tools: CodePipeline, CodeBuild, CodeDeploy, buildspec.yml, appspec.yml  
+> 🧰 Challenge: Cleanly separate builds, deployments, and scripts for each project in one repo
+
+---
+
+## 📁 Typical Monorepo Structure
+
+```ini
+/repo-root
+  /frontend
+    /src
+    /dist
+    /scripts
+    appspec.yml
+    buildspec.yml
+  /backend
+    /src
+    /publish
+    /scripts
+    appspec.yml
+    buildspec.yml
+```
+
+> 🎯 Goal: Set up **two independent pipelines** to build and deploy `frontend` and `backend` from this single repository.
+
+---
+
+## 🔍 Problem
+
+AWS CodePipeline expects:
+
+- A `buildspec.yml` (default path: root)
+- A `appspec.yml` (must be in the **root of deployment artifact**)
+
+But you need:
+
+- Separate build commands per project
+- Different deploy logic
+- No interference between components
+
+---
+
+## ✅ Solution Overview
+
+| Component        | Frontend                             | Backend                             |
+| ---------------- | ------------------------------------ | ----------------------------------- |
+| Buildspec path   | `frontend/buildspec.yml`             | `backend/buildspec.yml`             |
+| AppSpec location | `frontend/appspec.yml` (in artifact) | `backend/appspec.yml` (in artifact) |
+| Pipeline         | `frontend-pipeline`                  | `backend-pipeline`                  |
+| Deployment group | `FrontendDeployGroup`                | `BackendDeployGroup`                |
+
+---
+
+## 🧪 Step-by-Step Implementation
+
+### 1️⃣ Keep `buildspec.yml` Inside Each Project
+
+#### 🔧 `frontend/buildspec.yml`
+
+```yaml
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm ci
+  build:
+    commands:
+      - npm run build
+
+artifacts:
+  files:
+    - "**/*"
+  base-directory: frontend/dist
+```
+
+#### 🔧 `backend/buildspec.yml`
+
+```yaml
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - dotnet restore
+  build:
+    commands:
+      - dotnet publish -c Release -o publish
+
+artifacts:
+  files:
+    - "**/*"
+  base-directory: backend/publish
+```
+
+> ✅ Each `buildspec.yml` builds only its own project and outputs the build artifacts separately.
+
+---
+
+### 2️⃣ Use Custom Buildspec Paths in CodePipeline
+
+In each CodePipeline's **build stage**:
+
+- Select **“Use a buildspec file”**
+- Set the path:
+
+  - Frontend: `frontend/buildspec.yml`
+  - Backend: `backend/buildspec.yml`
+
+---
+
+### 3️⃣ Package `appspec.yml` Into Each Build Artifact
+
+> CodeDeploy **requires** `appspec.yml` to be in the **root of the deployment artifact**, not the root of your repo.
+
+Update `buildspec.yml` to **copy it into the artifact root**:
+
+#### 🛠 Example: backend/buildspec.yml
+
+```yaml
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - dotnet restore
+  build:
+    commands:
+      - dotnet publish -c Release -o publish
+  post_build:
+    commands:
+      - cp backend/appspec.yml publish/
+
+artifacts:
+  files:
+    - "**/*"
+  base-directory: backend/publish
+```
+
+> ✅ Do the same for frontend.
+
+---
+
+### 4️⃣ Use Separate CodeDeploy Apps + Deployment Groups
+
+Create two **CodeDeploy Applications** and **Deployment Groups**:
+
+| App Name      | Target Platform |
+| ------------- | --------------- |
+| `FrontendApp` | EC2 / on-prem   |
+| `BackendApp`  | EC2 / on-prem   |
+
+Each pipeline should deploy to its own app + group.
+
+---
+
+### 5️⃣ Each Project Has Its Own `appspec.yml`
+
+#### Example: `frontend/appspec.yml`
+
+```yaml
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /var/www/frontend
+
+hooks:
+  BeforeInstall:
+    - location: scripts/clean.sh
+  ApplicationStart:
+    - location: scripts/start.sh
+```
+
+#### Example: `backend/appspec.yml`
+
+```yaml
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /var/www/backend
+
+hooks:
+  BeforeInstall:
+    - location: scripts/stop.sh
+  AfterInstall:
+    - location: scripts/install_dependencies.sh
+  ApplicationStart:
+    - location: scripts/start_api.sh
+```
+
+---
+
+## 🔐 Bonus Tips for Secure & Clean Monorepos
+
+| ✅ Best Practice                          | Why It Matters                        |
+| ----------------------------------------- | ------------------------------------- |
+| Use one pipeline per project              | Avoid coupling builds + deployments   |
+| Use one `appspec.yml` per artifact        | Keeps deployments modular             |
+| Use `runas: ec2-user` in hooks            | Avoid root permission issues          |
+| Run `chmod +x` on all scripts             | Ensures CodeDeploy can execute them   |
+| Watch logs in `/opt/codedeploy-agent/...` | Crucial for debugging deploy failures |
+
+---
+
+## 🔁 Summary: Monorepo Pipeline Architecture
+
+```plaintext
+[ Repo Root ]
+├── frontend/
+│   ├── buildspec.yml       ← used by frontend-pipeline
+│   ├── appspec.yml         ← copied into deployment artifact
+│   └── scripts/
+├── backend/
+│   ├── buildspec.yml       ← used by backend-pipeline
+│   ├── appspec.yml         ← copied into deployment artifact
+│   └── scripts/
+```
+
+> Each folder is **self-contained**, and **each pipeline only touches its own directory**.
+
+---
+
+## 🧠 TL;DR
+
+| Task                        | Recommendation                         |
+| --------------------------- | -------------------------------------- |
+| Multiple projects in repo   | ✅ Yes – use one folder per project    |
+| One buildspec per project   | ✅ Place it in `project/buildspec.yml` |
+| One appspec per deployment  | ✅ Copy into artifact in `post_build`  |
+| CodeDeploy file requirement | `appspec.yml` must be in artifact root |
+| CodePipeline flexibility    | Can set custom buildspec paths         |
+---
+
+## Related Notes
+- [[aws-services/10.developer/2.3.code-deploy/|AWS CodeDeploy Deployment Strategies EC2 Lambda and ECS]] - folder map
+-[[x.2.2.codedeploy-examples|Full Deployment Examples With Explanations .NET & Angular EC2 S3 Amplify]]] - previous lesson
+-[[x.3.2.multi-environment-deployment|Monorepo Deployment with Multiple Projects and Environments in AWS]]] - next lesson
+-[[1.1.what-is-aws-code-pipeline|AWS CodePipeline]]] - mentions AWS CodePipeline
+-[[2.1.buildspec.yml|AWS CodeBuild buildspec.yml]]] - mentions Buildspec.Yml
+-[[1.1.codedeploy|Introduction to AWS CodeDeploy]]] - mentions Codedeploy
+-[[1.1.codebuild|How AWS CodeBuild Works Internally]]] - mentions Codebuild
+-[[x.2.1.appspec|AWS CodeDeploy appspec.yml Full Syntax & Usage Guide]]] - mentions Appspec
+
+---

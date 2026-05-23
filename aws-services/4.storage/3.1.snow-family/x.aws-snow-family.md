@@ -274,7 +274,7 @@ The **AWS Snow Family** offers versatile solutions for data transfer and edge co
 - [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
 - [[aws-services/4.storage/1.s3/2.3.s3-glacier|Amazon S3 Glacier Deep Archive for Long-Term Storage]] - mentions S3 Glacier
 - [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
-- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+-[[1.serverless|The Ultimate Guide to Serverless Computing & Tools]]] - mentions Serverless
 - [[aws-services/5.compute/1.1.ec2/6.ec2-ami|Amazon EC2 AMIs Amazon Machine Images]] - mentions EC2 Ami
 - [[aws-services/4.storage/1.s3/1.2.basics-of-s3|AWS S3]] - mentions AWS S3
 

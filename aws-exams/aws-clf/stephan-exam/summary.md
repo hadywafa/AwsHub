@@ -23,36 +23,29 @@ How to enable the U2F Security Key for your own IAM user:
 ```
 
 ## ❌ Q8
-
-![alt text](image.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image.png))
 
 ## ❌ Q13
-
-![alt text](image-1.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image-1.png))
 
 ## ❌ Q14
-
-![alt text](image-2.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image-2.png))
 
 ```md
 The Acceptable Use Policy describes prohibited uses of the web services offered by Amazon Web Services, Inc. and its affiliates (the “Services”) and the website located at http://aws.amazon.com (the “AWS Site”). This policy is present at https://aws.amazon.com/aup/ and is updated on a need basis by AWS.
 ```
 
 ## ❌ Q17
-
-![alt text](image-3.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image-3.png))
 
 ## ❌ Q19
-
-![alt text](image-4.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image-4.png))
 
 ## ❌ Q20
-
-![alt text](image-5.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image-5.png))
 
 ## ❌ Q22
-
-![alt text](image-6.png)
+![alt text](aws-exams/aws-clf/stephan-exam/image-6.png))
 
 ```md
 Configuration Management is the responsibility of the customer - Configuration management is a shared responsibility. AWS maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications

@@ -92,7 +92,7 @@ That’s it! Copilot creates:
 ---
 
 ## Related Notes
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions CloudFormation
 - [[aws-services/5.compute/6.2.app-runner/1.app-runner|AWS App Runner]] - mentions App Runner
 - [[aws-services/6.containers/1.ecr/1.2.ecr|Amazon ECR Your Secure Container Image Vault]] - mentions ECR
 - [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM

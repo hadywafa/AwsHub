@@ -90,7 +90,7 @@ AWS OpsWorks was deprecated on **May 26, 2024**, as AWS shifted focus to more mo
 ---
 
 ## Related Notes
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions AWS CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions AWS CloudFormation
 - [[aws-services/5.compute/2.ebs/1.1.ebs|Amazon EBS Elastic Block Store Scalable Persistent Storage for EC2]] - mentions Ebs
 
 ---

@@ -86,6 +86,6 @@ AWS Device Farm simplifies app testing with its robust features and integrations
 ---
 
 ## Related Notes
-- [[aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline|AWS CodePipeline]] - mentions AWS CodePipeline
+-[[1.1.what-is-aws-code-pipeline|AWS CodePipeline]]] - mentions AWS CodePipeline
 
 ---

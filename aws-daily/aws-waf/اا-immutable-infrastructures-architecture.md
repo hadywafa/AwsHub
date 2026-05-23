@@ -54,6 +54,6 @@ This concept extends to security, storage, instances, data and other services.
 
 ## Related Notes
 - [[aws-daily/aws-waf/ا-best-practices|AWS Best Practices - Architecture For The Cloud]] - previous lesson
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions CloudFormation
 
 ---

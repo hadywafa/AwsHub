@@ -8,10 +8,7 @@ aliases:
 ---
 
 # Design
-
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](aws-services/11.analytics/_prequesite/images/image.png))![alt text](aws-services/11.analytics/_prequesite/images/image-1.png))![alt text](aws-services/11.analytics/_prequesite/images/image-2.png))
 ---
 
 ## Related Notes

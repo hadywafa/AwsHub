@@ -706,7 +706,6 @@
     },
     "aws-services/1.management-governance": {
       "children": [
-        "aws-services/1.management-governance/1.cloudformation",
         "aws-services/1.management-governance/2.1.organizations",
         "aws-services/1.management-governance/2.2.control-tower",
         "aws-services/1.management-governance/3.1.cloud-watch",
@@ -723,77 +722,6 @@
         "aws-services/1.management-governance/5.5.aws-prometheus-grafana",
         "aws-services/1.management-governance/5.6.proton",
         "aws-services/1.management-governance/xxxx-opsworks"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/1.management-governance/1.cloudformation": {
-      "children": [
-        "aws-services/1.management-governance/1.cloudformation/images",
-        "aws-services/1.management-governance/1.cloudformation/_notes.md",
-        "aws-services/1.management-governance/1.cloudformation/1.1.cfn.md",
-        "aws-services/1.management-governance/1.cloudformation/1.2.cfn-template-structure.md",
-        "aws-services/1.management-governance/1.cloudformation/1.3.cfn-dependencies.md",
-        "aws-services/1.management-governance/1.cloudformation/1.4.cfn-resources-replacement.md",
-        "aws-services/1.management-governance/1.cloudformation/1.5.cfn-parameters.md",
-        "aws-services/1.management-governance/1.cloudformation/1.6.cfn-metadata.md",
-        "aws-services/1.management-governance/1.cloudformation/1.7.cfn-mapping.md",
-        "aws-services/1.management-governance/1.cloudformation/1.8.cfn-conditions.md",
-        "aws-services/1.management-governance/1.cloudformation/1.9.cfn-outputs.md",
-        "aws-services/1.management-governance/1.cloudformation/1.10.change-set.md",
-        "aws-services/1.management-governance/1.cloudformation/1.11.cfn-rollbacks.md",
-        "aws-services/1.management-governance/1.cloudformation/1.12.cfn-cli.md",
-        "aws-services/1.management-governance/1.cloudformation/2.1.cfn-nested-stacks.md",
-        "aws-services/1.management-governance/1.cloudformation/2.2.cfn-nested-stacks-parameters.md",
-        "aws-services/1.management-governance/1.cloudformation/2.3.cfn-cross-stack-reference.md",
-        "aws-services/1.management-governance/1.cloudformation/3.cfn-stack-set.md",
-        "aws-services/1.management-governance/1.cloudformation/4.1.cfn-stack-role.md",
-        "aws-services/1.management-governance/1.cloudformation/4.2.cfn-capabilities.md",
-        "aws-services/1.management-governance/1.cloudformation/4.3.cfn-resource-policy.md",
-        "aws-services/1.management-governance/1.cloudformation/4.4.cfn-stack-policy.md",
-        "aws-services/1.management-governance/1.cloudformation/4.5.cfn-termination-protection.md",
-        "aws-services/1.management-governance/1.cloudformation/5.1.cfn-ec2-user-data.md",
-        "aws-services/1.management-governance/1.cloudformation/5.2.cfn-helper-scripts.md",
-        "aws-services/1.management-governance/1.cloudformation/5.3.cfn-wait-stratigies.md",
-        "aws-services/1.management-governance/1.cloudformation/5.4.cfn-signal-creation-policy-vs-wait-condition.md",
-        "aws-services/1.management-governance/1.cloudformation/5.5.cfn-wait-stratigies-examples.md",
-        "aws-services/1.management-governance/1.cloudformation/6.1.cfn-custom-resources.md",
-        "aws-services/1.management-governance/1.cloudformation/6.2.cfn-custom-resources-internals.md",
-        "aws-services/1.management-governance/1.cloudformation/6.3.cfn-custom-resource-example-1.md",
-        "aws-services/1.management-governance/1.cloudformation/6.4.cfn-custom-resource-example-2.md",
-        "aws-services/1.management-governance/1.cloudformation/7.1.cfn-guard.md",
-        "aws-services/1.management-governance/1.cloudformation/7.2.cfn-hooks.md",
-        "aws-services/1.management-governance/1.cloudformation/8.1.stack-drifts.md",
-        "aws-services/1.management-governance/1.cloudformation/8.2.cfn-codedeply.md",
-        "aws-services/1.management-governance/1.cloudformation/9.1.cfn-sam.md",
-        "aws-services/1.management-governance/1.cloudformation/10.1.cfn-demos.md",
-        "aws-services/1.management-governance/1.cloudformation/10.2.cfn-demo-cross-stack-reference.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/1.management-governance/1.cloudformation/images": {
-      "children": [
-        "aws-services/1.management-governance/1.cloudformation/images/access-control-and-permissions-in-cf.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cf.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cf-stack-set.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-custom-resource-empty-s3-example.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-custom-resource-example-1.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-custom-resource-example-2.gif",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-custom-resources.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-hub.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-init.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-nested-stack.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-parameters.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-stack-role.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-stack-role-diagram.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-stack-set.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-stack-set-diagram.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-wait-condition-with-create-policy.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-wait-condition-with-wait-condition-handle.png",
-        "aws-services/1.management-governance/1.cloudformation/images/cfn-workflow.png",
-        "aws-services/1.management-governance/1.cloudformation/images/sam-1.png",
-        "aws-services/1.management-governance/1.cloudformation/images/sam-2.png",
-        "aws-services/1.management-governance/1.cloudformation/images/stack-advanced-policies.png",
-        "aws-services/1.management-governance/1.cloudformation/images/stack-failure-options.png"
       ],
       "sortOrder": "custom"
     },
@@ -3430,47 +3358,20 @@
     },
     "aws-services/10.developer": {
       "children": [
-        "aws-services/10.developer/0.1.cloud-shell",
-        "aws-services/10.developer/0.2.cloud9",
         "aws-services/10.developer/1.1.aws-cli",
         "aws-services/10.developer/1.2.aws-sdk",
-        "aws-services/10.developer/1.3.aws-cdk",
-        "aws-services/10.developer/1.4.aws-sam",
-        "aws-services/10.developer/2.1.code-pipeline",
-        "aws-services/10.developer/2.2.code-build",
-        "aws-services/10.developer/2.3.code-deploy",
-        "aws-services/10.developer/2.4.code-artifact",
-        "aws-services/10.developer/2.5.code-guru",
-        "aws-services/10.developer/2.6.code-catalyst",
-        "aws-services/10.developer/3.1.x-ray"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/0.1.cloud-shell": {
-      "children": [
-        "aws-services/10.developer/0.1.cloud-shell/images",
-        "aws-services/10.developer/0.1.cloud-shell/cloud-shell.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/0.1.cloud-shell/images": {
-      "children": [
-        "aws-services/10.developer/0.1.cloud-shell/images/cloud-shell.png",
-        "aws-services/10.developer/0.1.cloud-shell/images/cloud-shell-screenshot.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/0.2.cloud9": {
-      "children": [
-        "aws-services/10.developer/0.2.cloud9/images",
-        "aws-services/10.developer/0.2.cloud9/cloud9.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/0.2.cloud9/images": {
-      "children": [
-        "aws-services/10.developer/0.2.cloud9/images/cloud9.png",
-        "aws-services/10.developer/0.2.cloud9/images/live-collaboration.png"
+        "aws-services/10.developer/2.1.cloudformation",
+        "aws-services/10.developer/2.2.aws-cdk",
+        "aws-services/10.developer/2.3.aws-sam",
+        "aws-services/10.developer/3.1.code-build",
+        "aws-services/10.developer/3.2.code-artifact",
+        "aws-services/10.developer/3.3.code-deploy",
+        "aws-services/10.developer/3.4.code-pipeline",
+        "aws-services/10.developer/3.5.code-guru",
+        "aws-services/10.developer/3.6.code-catalyst",
+        "aws-services/10.developer/4.x-ray",
+        "aws-services/10.developer/5.1.cloud-shell",
+        "aws-services/10.developer/5.2.cloud9"
       ],
       "sortOrder": "custom"
     },
@@ -3502,236 +3403,261 @@
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/1.3.aws-cdk": {
+    "aws-services/10.developer/2.1.cloudformation": {
       "children": [
-        "aws-services/10.developer/1.3.aws-cdk/images",
-        "aws-services/10.developer/1.3.aws-cdk/_references.md",
-        "aws-services/10.developer/1.3.aws-cdk/1.aws-cdk.md",
-        "aws-services/10.developer/1.3.aws-cdk/2.cdk-construct.md",
-        "aws-services/10.developer/1.3.aws-cdk/3.cdk-bootstrapping.md",
-        "aws-services/10.developer/1.3.aws-cdk/4.cdk-demo.md",
-        "aws-services/10.developer/1.3.aws-cdk/5.cdk-testing.md",
-        "aws-services/10.developer/1.3.aws-cdk/6.cdk-vs-sam.md"
+        "aws-services/10.developer/2.1.cloudformation/images",
+        "aws-services/10.developer/2.1.cloudformation/_notes.md",
+        "aws-services/10.developer/2.1.cloudformation/1.1.cfn.md",
+        "aws-services/10.developer/2.1.cloudformation/1.2.cfn-template-structure.md",
+        "aws-services/10.developer/2.1.cloudformation/1.3.cfn-dependencies.md",
+        "aws-services/10.developer/2.1.cloudformation/1.4.cfn-resources-replacement.md",
+        "aws-services/10.developer/2.1.cloudformation/1.5.cfn-parameters.md",
+        "aws-services/10.developer/2.1.cloudformation/1.6.cfn-metadata.md",
+        "aws-services/10.developer/2.1.cloudformation/1.7.cfn-mapping.md",
+        "aws-services/10.developer/2.1.cloudformation/1.8.cfn-conditions.md",
+        "aws-services/10.developer/2.1.cloudformation/1.9.cfn-outputs.md",
+        "aws-services/10.developer/2.1.cloudformation/1.10.change-set.md",
+        "aws-services/10.developer/2.1.cloudformation/1.11.cfn-rollbacks.md",
+        "aws-services/10.developer/2.1.cloudformation/1.12.cfn-cli.md",
+        "aws-services/10.developer/2.1.cloudformation/2.1.cfn-nested-stacks.md",
+        "aws-services/10.developer/2.1.cloudformation/2.2.cfn-nested-stacks-parameters.md",
+        "aws-services/10.developer/2.1.cloudformation/2.3.cfn-cross-stack-reference.md",
+        "aws-services/10.developer/2.1.cloudformation/3.cfn-stack-set.md",
+        "aws-services/10.developer/2.1.cloudformation/4.1.cfn-stack-role.md",
+        "aws-services/10.developer/2.1.cloudformation/4.2.cfn-capabilities.md",
+        "aws-services/10.developer/2.1.cloudformation/4.3.cfn-resource-policy.md",
+        "aws-services/10.developer/2.1.cloudformation/4.4.cfn-stack-policy.md",
+        "aws-services/10.developer/2.1.cloudformation/4.5.cfn-termination-protection.md",
+        "aws-services/10.developer/2.1.cloudformation/5.1.cfn-ec2-user-data.md",
+        "aws-services/10.developer/2.1.cloudformation/5.2.cfn-helper-scripts.md",
+        "aws-services/10.developer/2.1.cloudformation/5.3.cfn-wait-stratigies.md",
+        "aws-services/10.developer/2.1.cloudformation/5.4.cfn-signal-creation-policy-vs-wait-condition.md",
+        "aws-services/10.developer/2.1.cloudformation/5.5.cfn-wait-stratigies-examples.md",
+        "aws-services/10.developer/2.1.cloudformation/6.1.cfn-custom-resources.md",
+        "aws-services/10.developer/2.1.cloudformation/6.2.cfn-custom-resources-internals.md",
+        "aws-services/10.developer/2.1.cloudformation/6.3.cfn-custom-resource-example-1.md",
+        "aws-services/10.developer/2.1.cloudformation/6.4.cfn-custom-resource-example-2.md",
+        "aws-services/10.developer/2.1.cloudformation/7.1.cfn-guard.md",
+        "aws-services/10.developer/2.1.cloudformation/7.2.cfn-hooks.md",
+        "aws-services/10.developer/2.1.cloudformation/8.1.stack-drifts.md",
+        "aws-services/10.developer/2.1.cloudformation/8.2.cfn-codedeply.md",
+        "aws-services/10.developer/2.1.cloudformation/9.1.cfn-sam.md",
+        "aws-services/10.developer/2.1.cloudformation/10.1.cfn-demos.md",
+        "aws-services/10.developer/2.1.cloudformation/10.2.cfn-demo-cross-stack-reference.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/1.3.aws-cdk/images": {
+    "aws-services/10.developer/2.1.cloudformation/images": {
       "children": [
-        "aws-services/10.developer/1.3.aws-cdk/images/aws-cdk.png",
-        "aws-services/10.developer/1.3.aws-cdk/images/aws-cdk-code.png",
-        "aws-services/10.developer/1.3.aws-cdk/images/cdk-bootstrapping.png",
-        "aws-services/10.developer/1.3.aws-cdk/images/cdk-demo.png",
-        "aws-services/10.developer/1.3.aws-cdk/images/cdk-with-sam.png"
+        "aws-services/10.developer/2.1.cloudformation/images/access-control-and-permissions-in-cf.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cf.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cf-stack-set.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-custom-resource-empty-s3-example.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-custom-resource-example-1.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-custom-resource-example-2.gif",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-custom-resources.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-hub.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-init.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-nested-stack.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-parameters.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-stack-role.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-stack-role-diagram.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-stack-set.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-stack-set-diagram.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-wait-condition-with-create-policy.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-wait-condition-with-wait-condition-handle.png",
+        "aws-services/10.developer/2.1.cloudformation/images/cfn-workflow.png",
+        "aws-services/10.developer/2.1.cloudformation/images/sam-1.png",
+        "aws-services/10.developer/2.1.cloudformation/images/sam-2.png",
+        "aws-services/10.developer/2.1.cloudformation/images/stack-advanced-policies.png",
+        "aws-services/10.developer/2.1.cloudformation/images/stack-failure-options.png"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/1.4.aws-sam": {
+    "aws-services/10.developer/2.2.aws-cdk": {
       "children": [
-        "aws-services/10.developer/1.4.aws-sam/images",
-        "aws-services/10.developer/1.4.aws-sam/1.serverless.md",
-        "aws-services/10.developer/1.4.aws-sam/2.1.aws-sam.md",
-        "aws-services/10.developer/1.4.aws-sam/2.2.template.json.md",
-        "aws-services/10.developer/1.4.aws-sam/2.3.sam-policy-templates.md",
-        "aws-services/10.developer/1.4.aws-sam/2.4.sam.cli.md",
-        "aws-services/10.developer/1.4.aws-sam/3.1.sam-local-capabilities.md",
-        "aws-services/10.developer/1.4.aws-sam/3.2.sam-event.json.md",
-        "aws-services/10.developer/1.4.aws-sam/3.3.sam-debugging.md",
-        "aws-services/10.developer/1.4.aws-sam/3.4.sam-debugging-in-details.md",
-        "aws-services/10.developer/1.4.aws-sam/3.5.sam-debugger-examples.md",
-        "aws-services/10.developer/1.4.aws-sam/4.1.sam-deployment.md",
-        "aws-services/10.developer/1.4.aws-sam/4.2.sam-and-codedeploy.md",
-        "aws-services/10.developer/1.4.aws-sam/4.3.sam-environments.md",
-        "aws-services/10.developer/1.4.aws-sam/4.4.samconfig.toml.md"
+        "aws-services/10.developer/2.2.aws-cdk/images",
+        "aws-services/10.developer/2.2.aws-cdk/_references.md",
+        "aws-services/10.developer/2.2.aws-cdk/1.aws-cdk.md",
+        "aws-services/10.developer/2.2.aws-cdk/2.cdk-construct.md",
+        "aws-services/10.developer/2.2.aws-cdk/3.cdk-bootstrapping.md",
+        "aws-services/10.developer/2.2.aws-cdk/4.cdk-demo.md",
+        "aws-services/10.developer/2.2.aws-cdk/5.cdk-testing.md",
+        "aws-services/10.developer/2.2.aws-cdk/6.1.cdk-vs-sdk.md",
+        "aws-services/10.developer/2.2.aws-cdk/6.2.cdk-vs-sam.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/1.4.aws-sam/images": {
+    "aws-services/10.developer/2.2.aws-cdk/images": {
       "children": [
-        "aws-services/10.developer/1.4.aws-sam/images/pre-post-traffic-hooks.png",
-        "aws-services/10.developer/1.4.aws-sam/images/sam-codedeploy.png",
-        "aws-services/10.developer/1.4.aws-sam/images/sam-deployment.png",
-        "aws-services/10.developer/1.4.aws-sam/images/sam-environments.png",
-        "aws-services/10.developer/1.4.aws-sam/images/sam-sync.png"
+        "aws-services/10.developer/2.2.aws-cdk/images/aws-cdk.png",
+        "aws-services/10.developer/2.2.aws-cdk/images/aws-cdk-code.png",
+        "aws-services/10.developer/2.2.aws-cdk/images/cdk-bootstrapping.png",
+        "aws-services/10.developer/2.2.aws-cdk/images/cdk-demo.png",
+        "aws-services/10.developer/2.2.aws-cdk/images/cdk-with-sam.png"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.1.code-pipeline": {
+    "aws-services/10.developer/2.3.aws-sam": {
       "children": [
-        "aws-services/10.developer/2.1.code-pipeline/images",
-        "aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline.md",
-        "aws-services/10.developer/2.1.code-pipeline/1.2.code-pipeline-supported-deploy-providers.md",
-        "aws-services/10.developer/2.1.code-pipeline/2.1.aws-code-pipeline-creation.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.1.source-stage.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.2.1.first-party-source-providers.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.2.2.s3-bucket-connection.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.2.3.aws-ecr-connection.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.3.1.third-party-source-providers.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.3.2.github-connection.md",
-        "aws-services/10.developer/2.1.code-pipeline/3.3.3.git-triggers-and-filtering.md",
-        "aws-services/10.developer/2.1.code-pipeline/4.1.cfn-as-target.md",
-        "aws-services/10.developer/2.1.code-pipeline/4.2.demo.md",
-        "aws-services/10.developer/2.1.code-pipeline/5.multi-region.md",
-        "aws-services/10.developer/2.1.code-pipeline/6.1.notification-rule-in-codepipeline.md",
-        "aws-services/10.developer/2.1.code-pipeline/6.2.manual-approval-stage.md"
+        "aws-services/10.developer/2.3.aws-sam/images",
+        "aws-services/10.developer/2.3.aws-sam/1.serverless.md",
+        "aws-services/10.developer/2.3.aws-sam/2.1.aws-sam.md",
+        "aws-services/10.developer/2.3.aws-sam/2.2.template.json.md",
+        "aws-services/10.developer/2.3.aws-sam/2.3.sam-policy-templates.md",
+        "aws-services/10.developer/2.3.aws-sam/2.4.sam.cli.md",
+        "aws-services/10.developer/2.3.aws-sam/3.1.sam-local-capabilities.md",
+        "aws-services/10.developer/2.3.aws-sam/3.2.sam-event.json.md",
+        "aws-services/10.developer/2.3.aws-sam/3.3.sam-debugging.md",
+        "aws-services/10.developer/2.3.aws-sam/3.4.sam-debugging-in-details.md",
+        "aws-services/10.developer/2.3.aws-sam/3.5.sam-debugger-examples.md",
+        "aws-services/10.developer/2.3.aws-sam/4.1.sam-deployment.md",
+        "aws-services/10.developer/2.3.aws-sam/4.2.sam-and-codedeploy.md",
+        "aws-services/10.developer/2.3.aws-sam/4.3.sam-environments.md",
+        "aws-services/10.developer/2.3.aws-sam/4.4.samconfig.toml.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.1.code-pipeline/images": {
+    "aws-services/10.developer/2.3.aws-sam/images": {
       "children": [
-        "aws-services/10.developer/2.1.code-pipeline/images/aws-code-pipeline.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/aws-code-pipeline-artifacts.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/aws-code-pipeline-ci-cd.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/aws-code-pipeline-key-concepts.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/basics-aws-code-pipeline-example.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/cfn-as-target.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/cfn-integration-with-code-pipeline.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/code-pipeline-templates-1.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/code-pipeline-templates-2.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/code-pipeline-templates-3.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/continuous-delivery.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/continuous-deployment.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/github-connection-configurations.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/manual-approval.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/multi-region-deployment.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/multi-region-deployment-result.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/s3-source-stage-configuration.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/source-detection-types.png",
-        "aws-services/10.developer/2.1.code-pipeline/images/supported-sources.png"
+        "aws-services/10.developer/2.3.aws-sam/images/pre-post-traffic-hooks.png",
+        "aws-services/10.developer/2.3.aws-sam/images/sam-codedeploy.png",
+        "aws-services/10.developer/2.3.aws-sam/images/sam-deployment.png",
+        "aws-services/10.developer/2.3.aws-sam/images/sam-environments.png",
+        "aws-services/10.developer/2.3.aws-sam/images/sam-sync.png"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.2.code-build": {
+    "aws-services/10.developer/3.1.code-build": {
       "children": [
-        "aws-services/10.developer/2.2.code-build/images",
-        "aws-services/10.developer/2.2.code-build/1.1.codebuild.md",
-        "aws-services/10.developer/2.2.code-build/1.2.build-project.md",
-        "aws-services/10.developer/2.2.code-build/2.1.buildspec.yml.md",
-        "aws-services/10.developer/2.2.code-build/2.2.build-stage-demo.md",
-        "aws-services/10.developer/2.2.code-build/2.3.artifacts-extra.md",
-        "aws-services/10.developer/2.2.code-build/3.1.build-caching.md",
-        "aws-services/10.developer/2.2.code-build/3.2.build-caching-questions.md",
-        "aws-services/10.developer/2.2.code-build/4.1.run-code-build-locally.md",
-        "aws-services/10.developer/2.2.code-build/4.2.run-code-build-in-your-vpc.md",
-        "aws-services/10.developer/2.2.code-build/5.ai-agent-as-pull-request-reviewer.md"
+        "aws-services/10.developer/3.1.code-build/images",
+        "aws-services/10.developer/3.1.code-build/1.1.codebuild.md",
+        "aws-services/10.developer/3.1.code-build/1.2.build-project.md",
+        "aws-services/10.developer/3.1.code-build/2.1.buildspec.yml.md",
+        "aws-services/10.developer/3.1.code-build/2.2.build-stage-demo.md",
+        "aws-services/10.developer/3.1.code-build/2.3.artifacts-extra.md",
+        "aws-services/10.developer/3.1.code-build/3.1.build-caching.md",
+        "aws-services/10.developer/3.1.code-build/3.2.build-caching-questions.md",
+        "aws-services/10.developer/3.1.code-build/4.1.run-code-build-locally.md",
+        "aws-services/10.developer/3.1.code-build/4.2.run-code-build-in-your-vpc.md",
+        "aws-services/10.developer/3.1.code-build/5.ai-agent-as-pull-request-reviewer.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.2.code-build/images": {
+    "aws-services/10.developer/3.1.code-build/images": {
       "children": [
-        "aws-services/10.developer/2.2.code-build/images/ai-agent-as-pull-request-reviewer.png",
-        "aws-services/10.developer/2.2.code-build/images/aws-codebuild.png",
-        "aws-services/10.developer/2.2.code-build/images/code-build-service-role.png",
-        "aws-services/10.developer/2.2.code-build/images/codebuild-inside-vpc.png",
-        "aws-services/10.developer/2.2.code-build/images/test-report.png"
+        "aws-services/10.developer/3.1.code-build/images/ai-agent-as-pull-request-reviewer.png",
+        "aws-services/10.developer/3.1.code-build/images/aws-codebuild.png",
+        "aws-services/10.developer/3.1.code-build/images/code-build-service-role.png",
+        "aws-services/10.developer/3.1.code-build/images/codebuild-inside-vpc.png",
+        "aws-services/10.developer/3.1.code-build/images/test-report.png"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.3.code-deploy": {
+    "aws-services/10.developer/3.2.code-artifact": {
       "children": [
-        "aws-services/10.developer/2.3.code-deploy/images",
-        "aws-services/10.developer/2.3.code-deploy/1.1.codedeploy.md",
-        "aws-services/10.developer/2.3.code-deploy/1.2.code-deploy-deployments-strategies.md",
-        "aws-services/10.developer/2.3.code-deploy/1.3.ec2-deployment-hooks.md",
-        "aws-services/10.developer/2.3.code-deploy/1.4.code-deploy-agent.md",
-        "aws-services/10.developer/2.3.code-deploy/4.1.1.ec2-deployments.md",
-        "aws-services/10.developer/2.3.code-deploy/4.2.1.ec2-in-place-deployment.md",
-        "aws-services/10.developer/2.3.code-deploy/4.2.2.streaming-logs-for-ec2-deployment.md",
-        "aws-services/10.developer/2.3.code-deploy/4.2.3.ec2-deployments-with-alb.md",
-        "aws-services/10.developer/2.3.code-deploy/4.4.1.blue-green-deployment.md",
-        "aws-services/10.developer/2.3.code-deploy/5.lambda-deployment.md",
-        "aws-services/10.developer/2.3.code-deploy/6.ecs-deployments.md",
-        "aws-services/10.developer/2.3.code-deploy/7.integration-with-cfn.md",
-        "aws-services/10.developer/2.3.code-deploy/image.png",
-        "aws-services/10.developer/2.3.code-deploy/image-1.png",
-        "aws-services/10.developer/2.3.code-deploy/image-2.png",
-        "aws-services/10.developer/2.3.code-deploy/image-3.png",
-        "aws-services/10.developer/2.3.code-deploy/image-4.png",
-        "aws-services/10.developer/2.3.code-deploy/image-5.png",
-        "aws-services/10.developer/2.3.code-deploy/image-6.png",
-        "aws-services/10.developer/2.3.code-deploy/x.2.1.appspec.md",
-        "aws-services/10.developer/2.3.code-deploy/x.2.2.codedeploy-examples.md",
-        "aws-services/10.developer/2.3.code-deploy/x.3.1.monorepo-deployment.md",
-        "aws-services/10.developer/2.3.code-deploy/x.3.2.multi-environment-deployment.md"
+        "aws-services/10.developer/3.2.code-artifact/images",
+        "aws-services/10.developer/3.2.code-artifact/1.what-is-code-artificat.md",
+        "aws-services/10.developer/3.2.code-artifact/2.code-artifact.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.3.code-deploy/images": {
+    "aws-services/10.developer/3.2.code-artifact/images": {
       "children": [
-        "aws-services/10.developer/2.3.code-deploy/images/aws-codedeploy.png",
-        "aws-services/10.developer/2.3.code-deploy/images/aws-codedeploy-ec2-blue-green-deployment.png",
-        "aws-services/10.developer/2.3.code-deploy/images/aws-codedeploy-ec2-in-place-deployment-workflow.png",
-        "aws-services/10.developer/2.3.code-deploy/images/aws-codedeploy-ecs-deployment.png",
-        "aws-services/10.developer/2.3.code-deploy/images/aws-codedeploy-lambda-deployment.png",
-        "aws-services/10.developer/2.3.code-deploy/images/aws-codedeploy-supported-deployment-targets.png",
-        "aws-services/10.developer/2.3.code-deploy/images/cfn-with-codepipeline.png",
-        "aws-services/10.developer/2.3.code-deploy/images/code-deploy-agent.png",
-        "aws-services/10.developer/2.3.code-deploy/images/ecs-deployments.png",
-        "aws-services/10.developer/2.3.code-deploy/images/ecs-standard-deploy-action.gif",
-        "aws-services/10.developer/2.3.code-deploy/images/how-ec2-deployment-works-1.png",
-        "aws-services/10.developer/2.3.code-deploy/images/how-ec2-deployment-works-2.png"
+        "aws-services/10.developer/3.2.code-artifact/images/aws-codeartifact.png",
+        "aws-services/10.developer/3.2.code-artifact/images/event-bridge-codeartifact.png",
+        "aws-services/10.developer/3.2.code-artifact/images/resource-policies-codeartifact.png"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.4.code-artifact": {
+    "aws-services/10.developer/3.3.code-deploy": {
       "children": [
-        "aws-services/10.developer/2.4.code-artifact/images",
-        "aws-services/10.developer/2.4.code-artifact/1.what-is-code-artificat.md",
-        "aws-services/10.developer/2.4.code-artifact/2.code-artifact.md"
+        "aws-services/10.developer/3.3.code-deploy/images",
+        "aws-services/10.developer/3.3.code-deploy/1.1.codedeploy.md",
+        "aws-services/10.developer/3.3.code-deploy/1.2.code-deploy-deployments-strategies.md",
+        "aws-services/10.developer/3.3.code-deploy/1.3.ec2-deployment-hooks.md",
+        "aws-services/10.developer/3.3.code-deploy/1.4.code-deploy-agent.md",
+        "aws-services/10.developer/3.3.code-deploy/4.1.1.ec2-deployments.md",
+        "aws-services/10.developer/3.3.code-deploy/4.2.1.ec2-in-place-deployment.md",
+        "aws-services/10.developer/3.3.code-deploy/4.2.2.streaming-logs-for-ec2-deployment.md",
+        "aws-services/10.developer/3.3.code-deploy/4.2.3.ec2-deployments-with-alb.md",
+        "aws-services/10.developer/3.3.code-deploy/4.4.1.blue-green-deployment.md",
+        "aws-services/10.developer/3.3.code-deploy/5.lambda-deployment.md",
+        "aws-services/10.developer/3.3.code-deploy/6.ecs-deployments.md",
+        "aws-services/10.developer/3.3.code-deploy/7.integration-with-cfn.md",
+        "aws-services/10.developer/3.3.code-deploy/image.png",
+        "aws-services/10.developer/3.3.code-deploy/image-1.png",
+        "aws-services/10.developer/3.3.code-deploy/image-2.png",
+        "aws-services/10.developer/3.3.code-deploy/image-3.png",
+        "aws-services/10.developer/3.3.code-deploy/image-4.png",
+        "aws-services/10.developer/3.3.code-deploy/image-5.png",
+        "aws-services/10.developer/3.3.code-deploy/image-6.png",
+        "aws-services/10.developer/3.3.code-deploy/x.2.1.appspec.md",
+        "aws-services/10.developer/3.3.code-deploy/x.2.2.codedeploy-examples.md",
+        "aws-services/10.developer/3.3.code-deploy/x.3.1.monorepo-deployment.md",
+        "aws-services/10.developer/3.3.code-deploy/x.3.2.multi-environment-deployment.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.4.code-artifact/images": {
+    "aws-services/10.developer/3.3.code-deploy/images": {
       "children": [
-        "aws-services/10.developer/2.4.code-artifact/images/aws-codeartifact.png",
-        "aws-services/10.developer/2.4.code-artifact/images/event-bridge-codeartifact.png",
-        "aws-services/10.developer/2.4.code-artifact/images/resource-policies-codeartifact.png"
+        "aws-services/10.developer/3.3.code-deploy/images/aws-codedeploy.png",
+        "aws-services/10.developer/3.3.code-deploy/images/aws-codedeploy-ec2-blue-green-deployment.png",
+        "aws-services/10.developer/3.3.code-deploy/images/aws-codedeploy-ec2-in-place-deployment-workflow.png",
+        "aws-services/10.developer/3.3.code-deploy/images/aws-codedeploy-ecs-deployment.png",
+        "aws-services/10.developer/3.3.code-deploy/images/aws-codedeploy-lambda-deployment.png",
+        "aws-services/10.developer/3.3.code-deploy/images/aws-codedeploy-supported-deployment-targets.png",
+        "aws-services/10.developer/3.3.code-deploy/images/cfn-with-codepipeline.png",
+        "aws-services/10.developer/3.3.code-deploy/images/code-deploy-agent.png",
+        "aws-services/10.developer/3.3.code-deploy/images/ecs-deployments.png",
+        "aws-services/10.developer/3.3.code-deploy/images/ecs-standard-deploy-action.gif",
+        "aws-services/10.developer/3.3.code-deploy/images/how-ec2-deployment-works-1.png",
+        "aws-services/10.developer/3.3.code-deploy/images/how-ec2-deployment-works-2.png"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.5.code-guru": {
+    "aws-services/10.developer/3.4.code-pipeline": {
       "children": [
-        "aws-services/10.developer/2.5.code-guru/images",
-        "aws-services/10.developer/2.5.code-guru/codeGuru.md"
+        "aws-services/10.developer/3.4.code-pipeline/images",
+        "aws-services/10.developer/3.4.code-pipeline/1.1.what-is-aws-code-pipeline.md",
+        "aws-services/10.developer/3.4.code-pipeline/1.2.code-pipeline-supported-deploy-providers.md",
+        "aws-services/10.developer/3.4.code-pipeline/2.1.aws-code-pipeline-creation.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.1.source-stage.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.2.1.first-party-source-providers.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.2.2.s3-bucket-connection.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.2.3.aws-ecr-connection.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.3.1.third-party-source-providers.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.3.2.github-connection.md",
+        "aws-services/10.developer/3.4.code-pipeline/3.3.3.git-triggers-and-filtering.md",
+        "aws-services/10.developer/3.4.code-pipeline/4.1.cfn-as-target.md",
+        "aws-services/10.developer/3.4.code-pipeline/4.2.demo.md",
+        "aws-services/10.developer/3.4.code-pipeline/5.multi-region.md",
+        "aws-services/10.developer/3.4.code-pipeline/6.1.notification-rule-in-codepipeline.md",
+        "aws-services/10.developer/3.4.code-pipeline/6.2.manual-approval-stage.md"
       ],
       "sortOrder": "custom"
     },
-    "aws-services/10.developer/2.5.code-guru/images": {
+    "aws-services/10.developer/3.4.code-pipeline/images": {
       "children": [
-        "aws-services/10.developer/2.5.code-guru/images/aws-codeGuru.png",
-        "aws-services/10.developer/2.5.code-guru/images/codeGuru-profiler.png",
-        "aws-services/10.developer/2.5.code-guru/images/codeGuru-reviewer.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/2.6.code-catalyst": {
-      "children": [
-        "aws-services/10.developer/2.6.code-catalyst/code-catalyst.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/3.1.x-ray": {
-      "children": [
-        "aws-services/10.developer/3.1.x-ray/images",
-        "aws-services/10.developer/3.1.x-ray/1.x-ray.md",
-        "aws-services/10.developer/3.1.x-ray/2.1.x-ray-how-to-enable-it.md",
-        "aws-services/10.developer/3.1.x-ray/2.2.x-ray-sampling-rules.md",
-        "aws-services/10.developer/3.1.x-ray/2.3.x-ray-apis.md",
-        "aws-services/10.developer/3.1.x-ray/3.x-ray-integrations.md",
-        "aws-services/10.developer/3.1.x-ray/4.aws-distro-for-open-telemetry.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "aws-services/10.developer/3.1.x-ray/images": {
-      "children": [
-        "aws-services/10.developer/3.1.x-ray/images/aws-distro.png",
-        "aws-services/10.developer/3.1.x-ray/images/aws-x-ray.png",
-        "aws-services/10.developer/3.1.x-ray/images/aws-x-ray-overview.png",
-        "aws-services/10.developer/3.1.x-ray/images/ecs-integration-with-xray.png",
-        "aws-services/10.developer/3.1.x-ray/images/service-graph-of-aws-x-ray.png",
-        "aws-services/10.developer/3.1.x-ray/images/x-ray-apis-read.png",
-        "aws-services/10.developer/3.1.x-ray/images/x-ray-apis-write.png",
-        "aws-services/10.developer/3.1.x-ray/images/x-ray-instrumentation.png",
-        "aws-services/10.developer/3.1.x-ray/images/x-ray-sampling-rules.png"
+        "aws-services/10.developer/3.4.code-pipeline/images/aws-code-pipeline.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/aws-code-pipeline-artifacts.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/aws-code-pipeline-ci-cd.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/aws-code-pipeline-key-concepts.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/basics-aws-code-pipeline-example.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/cfn-as-target.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/cfn-integration-with-code-pipeline.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/code-pipeline-templates-1.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/code-pipeline-templates-2.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/code-pipeline-templates-3.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/continuous-delivery.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/continuous-deployment.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/github-connection-configurations.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/manual-approval.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/multi-region-deployment.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/multi-region-deployment-result.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/s3-source-stage-configuration.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/source-detection-types.png",
+        "aws-services/10.developer/3.4.code-pipeline/images/supported-sources.png"
       ],
       "sortOrder": "custom"
     },
@@ -4808,6 +4734,81 @@
         "x/images/understanding-ip-in-aws.png",
         "x/images/vpc-classification.png",
         "x/images/zone-master-file.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/3.5.code-guru": {
+      "children": [
+        "aws-services/10.developer/3.5.code-guru/images",
+        "aws-services/10.developer/3.5.code-guru/codeGuru.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/3.5.code-guru/images": {
+      "children": [
+        "aws-services/10.developer/3.5.code-guru/images/aws-codeGuru.png",
+        "aws-services/10.developer/3.5.code-guru/images/codeGuru-profiler.png",
+        "aws-services/10.developer/3.5.code-guru/images/codeGuru-reviewer.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/3.6.code-catalyst": {
+      "children": [
+        "aws-services/10.developer/3.6.code-catalyst/code-catalyst.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/4.x-ray": {
+      "children": [
+        "aws-services/10.developer/4.x-ray/images",
+        "aws-services/10.developer/4.x-ray/1.x-ray.md",
+        "aws-services/10.developer/4.x-ray/2.1.x-ray-how-to-enable-it.md",
+        "aws-services/10.developer/4.x-ray/2.2.x-ray-sampling-rules.md",
+        "aws-services/10.developer/4.x-ray/2.3.x-ray-apis.md",
+        "aws-services/10.developer/4.x-ray/3.x-ray-integrations.md",
+        "aws-services/10.developer/4.x-ray/4.aws-distro-for-open-telemetry.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/4.x-ray/images": {
+      "children": [
+        "aws-services/10.developer/4.x-ray/images/aws-distro.png",
+        "aws-services/10.developer/4.x-ray/images/aws-x-ray.png",
+        "aws-services/10.developer/4.x-ray/images/aws-x-ray-overview.png",
+        "aws-services/10.developer/4.x-ray/images/ecs-integration-with-xray.png",
+        "aws-services/10.developer/4.x-ray/images/service-graph-of-aws-x-ray.png",
+        "aws-services/10.developer/4.x-ray/images/x-ray-apis-read.png",
+        "aws-services/10.developer/4.x-ray/images/x-ray-apis-write.png",
+        "aws-services/10.developer/4.x-ray/images/x-ray-instrumentation.png",
+        "aws-services/10.developer/4.x-ray/images/x-ray-sampling-rules.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/5.1.cloud-shell": {
+      "children": [
+        "aws-services/10.developer/5.1.cloud-shell/images",
+        "aws-services/10.developer/5.1.cloud-shell/cloud-shell.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/5.1.cloud-shell/images": {
+      "children": [
+        "aws-services/10.developer/5.1.cloud-shell/images/cloud-shell.png",
+        "aws-services/10.developer/5.1.cloud-shell/images/cloud-shell-screenshot.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/5.2.cloud9": {
+      "children": [
+        "aws-services/10.developer/5.2.cloud9/images",
+        "aws-services/10.developer/5.2.cloud9/cloud9.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "aws-services/10.developer/5.2.cloud9/images": {
+      "children": [
+        "aws-services/10.developer/5.2.cloud9/images/cloud9.png",
+        "aws-services/10.developer/5.2.cloud9/images/live-collaboration.png"
       ],
       "sortOrder": "custom"
     }

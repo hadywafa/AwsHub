@@ -215,10 +215,10 @@ Would you like next a full practical guide like:
 ---
 
 ## Related Notes
-- [[aws-services/10.developer/2.1.code-pipeline/1.1.what-is-aws-code-pipeline|AWS CodePipeline]] - mentions AWS CodePipeline
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+-[[1.1.what-is-aws-code-pipeline|AWS CodePipeline]]] - mentions AWS CodePipeline
+-[[1.1.cfn|AWS CloudFormation]]] - mentions CloudFormation
 - [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
-- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+-[[1.serverless|The Ultimate Guide to Serverless Computing & Tools]]] - mentions Serverless
 - [[aws-services/6.containers/3.eks/1.1.eks|Amazon EKS Simplifying Kubernetes on AWS]] - mentions EKS
 - [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
 - [[aws-services/6.containers/2.ecs/1.1.ecs|Amazon ECS Elastic Container Service]] - mentions ECS

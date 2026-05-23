@@ -206,7 +206,7 @@ flowchart TD
 
 ## Related Notes
 - [[aws-services/1.management-governance/5.2.service-catalog/|Index]] - folder map
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions CloudFormation
 - [[aws-services/5.compute/1.1.ec2/2.3.instance-types|Amazon EC2 Instance Types Explained Clearly]] - mentions Instance Types
 - [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
 - [[aws-services/1.management-governance/4.3.config/x.config|AWS Config Track Manage and Secure Your AWS Resources]] - mentions Config

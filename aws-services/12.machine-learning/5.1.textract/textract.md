@@ -148,6 +148,6 @@ flowchart LR
 - [[aws-services/12.machine-learning/4.2.comprehend/comprehend|Amazon Comprehend Unlock Insights from Text]] - mentions Comprehend
 - [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
 - [[aws-services/11.analytics/quicksight/1.1.quicksight|Amazon QuickSight A Serverless BI Tool for Scalable and Interactive Dashboards]] - mentions Quicksight
-- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+-[[1.serverless|The Ultimate Guide to Serverless Computing & Tools]]] - mentions Serverless
 
 ---

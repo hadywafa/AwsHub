@@ -140,7 +140,7 @@ Amazon API Gateway provides a robust, scalable, and secure platform for managing
 ## Related Notes
 - [[aws-services/3.network/4.api-gateway/x.api-access-management|API Gateway API Access Management Securing Your APIs]] - previous lesson
 - [[aws-services/3.network/4.api-gateway/x.api-monitoring|API Gateway Monitoring Ensuring Optimal Performance and Security]] - next lesson
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions AWS CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions AWS CloudFormation
 - [[aws-services/3.network/4.api-gateway/1.1.api-gateway|AWS API Gateway The Front Door for Your APIs]] - mentions API Gateway
 - [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
 - [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb

@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
-  "search": "tag:#aws/domain/compute  ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.19450022690615698,
+  "scale": 1.0534979423868167,
   "close": false
 }

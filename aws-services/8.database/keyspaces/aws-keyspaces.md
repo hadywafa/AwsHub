@@ -126,7 +126,7 @@ Amazon KeySpaces makes it simple to run **Cassandra-compatible workloads** on AW
 - [[aws-daily/aws-waf/3.1.reliability|Reliability]] - mentions Reliability
 - [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
 - [[aws-daily/aws-architectures/3.1.serverless|Server-Based Architectures vs. Serverless Computing]] - mentions Serverless
-- [[aws-services/10.developer/1.4.aws-sam/1.serverless|The Ultimate Guide to Serverless Computing & Tools]] - mentions Serverless
+-[[1.serverless|The Ultimate Guide to Serverless Computing & Tools]]] - mentions Serverless
 - [[aws-services/8.database/dynamodb/ddb-in-depth/1.1.ddb|Deep Dive into AWS DynamoDB]] - mentions DynamoDB
 - [[aws-services/8.database/dynamodb/1.1.dynamodb|AWS DynamoDB]] - mentions Dynamodb
 - [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM

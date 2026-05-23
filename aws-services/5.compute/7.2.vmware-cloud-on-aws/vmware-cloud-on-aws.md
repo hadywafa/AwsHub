@@ -135,7 +135,7 @@ Let your VMs talk to AWS services like **RDS**, **S3**, **Lambda**, **CloudWatch
 
 ## Related Notes
 - [[aws-daily/aws-cloud-Concepts/6.disaster-recovery|Disaster Recovery DR in AWS]] - mentions Disaster Recovery
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions CloudFormation
 - [[aws-services/2.security/1.1.iam/1.fundmmentals/1.2.iam|AWS Identity and Access Management IAM]] - mentions IAM
 
 ---

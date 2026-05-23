@@ -68,7 +68,7 @@ Perfect for:
 
 ## Related Notes
 - [[aws-exams/aws-soa/1.ex1|Exam 1]] - next lesson
-- [[aws-services/1.management-governance/1.cloudformation/1.1.cfn|AWS CloudFormation]] - mentions CloudFormation
+-[[1.1.cfn|AWS CloudFormation]]] - mentions CloudFormation
 - [[aws-services/3.network/1.vpc/1.fundmentals/4.1.vpc-peering|VPC Peering]] - mentions VPC Peering
 - [[aws-services/4.storage/1.s3/2.5.encryption|Amazon S3 Encryption]] - mentions Encryption
 - [[aws-services/5.compute/2.ebs/4.1.snapshot|Amazon EBS Snapshots Efficient Scalable Backup for Your Volumes]] - mentions Snapshot
