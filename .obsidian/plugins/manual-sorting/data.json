@@ -581,7 +581,6 @@
     "aws-exams/aws-saa": {
       "children": [
         "aws-exams/aws-saa/1-stephane-mareek",
-        "aws-exams/aws-saa/stephan-notes",
         "aws-exams/aws-saa/references.md"
       ],
       "sortOrder": "custom"
@@ -639,10 +638,6 @@
         "aws-exams/aws-saa/1-stephane-mareek/images/exam_3_q64.png",
         "aws-exams/aws-saa/1-stephane-mareek/images/exam_3_q65.png"
       ],
-      "sortOrder": "custom"
-    },
-    "aws-exams/aws-saa/stephan-notes": {
-      "children": [],
       "sortOrder": "custom"
     },
     "aws-exams/aws-sap": {
